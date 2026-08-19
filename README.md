@@ -13,9 +13,9 @@ A structured Chinese-to-English book translation project supporting source prese
 
 ## Project status
 
-Current phase: Source Ingestion Pilot / MinerU Source QA.
+Current phase: Stage 2B — Pilot Manual Validation.
 
-The current work validates the PDF to MinerU to clean Markdown workflow, including page mapping, block structure, footnotes, image localization, OCR uncertainty, and manual review requirements. The project has not entered full-book translation.
+The first MinerU Source QA pass is complete. The current work provides a page-by-page human review checklist for the project lead to compare with the authorized PDF before any Proposed cleaning rule can be approved. The project has not entered a second pilot, full-book parsing, or translation.
 
 ## Repository structure
 
