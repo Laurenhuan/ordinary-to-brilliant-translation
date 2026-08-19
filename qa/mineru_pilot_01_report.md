@@ -18,7 +18,7 @@ All three inputs were renamed to stable names without byte changes. SHA-256 hash
 
 The original copyrighted PDF is not in the repository. The repository visibility setting was not changed.
 
-Pre-push safety finding: on 2026-08-19, GitHub's unauthenticated public API returned private=false and visibility=public for the remote repository. Therefore this pilot commit must remain local and no raw text, DOCX, extracted image, or cleaned sample may be pushed until the owner confirms that the remote has been changed to Private.
+Authorization update: on 2026-08-19, the pilot push was paused because the remote was public. On 2026-08-20, the project lead confirmed that this academically supervised translation project has the required authorization for the project materials to remain in a public repository. The pilot may therefore be pushed without removing raw text, JSON, DOCX, extracted images, or the cleaned sample. This distribution decision does not change any conservative Source QA rule or permit unverified text correction.
 
 ## MinerU strengths
 

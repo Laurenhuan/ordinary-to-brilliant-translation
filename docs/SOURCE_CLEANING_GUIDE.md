@@ -12,7 +12,7 @@ The purpose of source cleaning is to produce readable, traceable Markdown withou
 - Proposed: Store the Markdown, JSON, and DOCX under a pilot-specific directory with stable names.
 - Proposed: Record SHA-256 hashes before any derived file is created.
 - Proposed: Never overwrite source.md with text re-parsed from source.docx.
-- Proposed: Keep the repository private and do not add the original copyrighted PDF.
+- Proposed: Store only project-authorized source artifacts. The repository may be public under the confirmed project authorization, but public visibility grants no additional license or reuse rights.
 - Proposed: Put every cleaning result outside source/raw/.
 
 ## 2. Page, header, and footer handling

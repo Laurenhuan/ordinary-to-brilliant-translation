@@ -1,39 +1,45 @@
-# From Ordinary to Brilliant — English Translation
+# Authorized Chinese-to-English Book Translation Project
 
-A structured Chinese-to-English translation project for 《从平凡走向辉煌》. The repository supports chapter preparation, translation, terminology management, quality assurance, and reproducible publishing.
+A structured Chinese-to-English book translation project supporting source preservation, document parsing, terminology management, translation consistency, quality assurance, version control, and a reproducible publishing workflow.
 
-The English title From Ordinary to Brilliant is provisional and may be revised before publication.
+## Project purpose
 
-## Project goals
+- Preserve authorized source artifacts and their provenance.
+- Convert parsed source material into traceable, structurally cleaned Chinese Markdown.
+- Manage terminology, people, organizations, and unresolved questions consistently.
+- Separate draft, reviewed, and final English translations.
+- Keep source preparation, translation, review, and publishing changes traceable with Git.
+- Build a reproducible workflow without silently changing source text.
 
-- Produce an accurate, natural, and consistent American English translation.
-- Preserve the author's meaning, argument, tone, and historical context.
-- Record terminology, names, organizations, and unresolved questions in shared files.
-- Keep source preparation, translation, review, and publication outputs traceable with Git.
+## Project status
+
+Current phase: Source Ingestion Pilot / MinerU Source QA.
+
+The current work validates the PDF to MinerU to clean Markdown workflow, including page mapping, block structure, footnotes, image localization, OCR uncertainty, and manual review requirements. The project has not entered full-book translation.
 
 ## Repository structure
 
-    docs/
-      TRANSLATION_GUIDE.md   Translation workflow and principles
-      STYLE_GUIDE.md         English style and consistency rules
-      SOURCE_CLEANING_GUIDE.md  Proposed source-ingestion and cleaning rules
-    source/
-      raw/                   Authorized intermediate source material only
-      chapters/              Cleaned, chapter-level Chinese source text
-    translation/             English chapter drafts and reviewed translations
-    glossary/
-      glossary.csv           General terms and recurring expressions
-      people.csv             Personal names and titles
-      organizations.csv      Organization names and abbreviations
-    qa/
-      questions.csv          Ambiguities and issues requiring resolution
-    scripts/                 Reusable processing and QA scripts
-    output/                  Generated review and publication files
+| Path | Purpose |
+|---|---|
+| docs/ | Translation, style, and proposed source-cleaning guidance |
+| source/raw/ | Immutable MinerU output and associated source artifacts |
+| source/chapters/ | Structurally cleaned Chinese source; no translation or rewriting |
+| translation/drafts/ | First English drafts produced with AI assistance and human work |
+| translation/reviewed/ | Drafts that have completed meaning, terminology, name, number, omission, and English review |
+| translation/final/ | Approved chapter files used for book assembly and publishing output |
+| glossary/ | General terminology, people, and organization records |
+| qa/ | Pilot reports, unresolved questions, and verification records |
+| scripts/ | Reproducible source-processing and QA tools |
+| output/ | Generated review and publishing artifacts |
 
-## Current stage
+Raw source is never overwritten. Changes to structure, page artifacts, image paths, footnotes, or OCR uncertainty markers are written to a separate cleaned source file. Suspected OCR errors, proper nouns, dates, numbers, amounts, and factual claims must be marked and manually verified before correction.
 
-Source Ingestion Pilot / MinerU Source QA. The current work validates a traceable PDF-to-MinerU-to-clean-Markdown workflow before chapter-level translation begins. No translation is being performed during this stage.
+Translation versions are represented by Git history and the drafts, reviewed, and final directories. Do not create filenames such as final2, final_final, 最新版, or 最终修改版.
 
-## Copyright and access
+## Rights and authorization
 
-This repository is intended to be a private working repository. Do not upload the original copyrighted PDF or any other source file that the project is not authorized to store or redistribute. Only authorized, minimum-necessary working text should be added under source/. Generated files must not be published or shared outside the authorized project team until rights and permissions have been confirmed.
+This repository contains materials used in an authorized Chinese-to-English book translation project conducted under academic supervision.
+
+Public availability of this repository does not by itself grant additional rights to reproduce, redistribute, adapt, or commercially use the original work or its translation.
+
+No public-domain status, open-source book license, Creative Commons license, or other third-party copyright permission is asserted by this repository. Any license or more detailed rights statement must come from the project lead or supervising teacher.

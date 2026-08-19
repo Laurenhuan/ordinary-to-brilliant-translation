@@ -31,6 +31,6 @@ Images use stable document-order names. No image was resized, recompressed, crop
 
 ## Copyright and access
 
-These files are pilot working materials intended only for a private repository. They must not be treated as permission to publish or redistribute the source text or images. The original copyrighted PDF is not stored here.
+These files are project-authorized pilot working materials in a public, academically supervised translation repository. Their presence in this repository must not be treated as an additional license or permission for third parties to reproduce, redistribute, adapt, or commercially use the original work, images, or translation. The original PDF is not stored here.
 
-Pre-push safety status on 2026-08-19: GitHub's unauthenticated public API reported the remote repository as public. These pilot assets must remain local and must not be pushed until the repository owner confirms that the remote is Private.
+Authorization status: the project lead confirmed on 2026-08-20 that the MinerU raw output, JSON, DOCX fallback, extracted images, cleaned source, and later translation materials may be tracked in this public repository. This authorization update changes repository distribution policy only; raw-preservation and Source QA rules remain unchanged.
