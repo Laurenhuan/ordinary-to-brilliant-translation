@@ -1,10 +1,10 @@
 # Pilot 01 Manual Review
 
-Stage: Stage 2B — Pilot Manual Validation
+Stage: Stage 2C — Pilot Rule Approval
 
-Status: Awaiting project-lead review
+Status: Partially approved — R011–R014 remain open pending visual-layout review
 
-Purpose: provide a concise checklist for comparing MinerU raw output, JSON structure, DOCX layout evidence, and the current cleaned Markdown against the authorized PDF. This file records proposed human decisions; it does not approve any cleaning rule.
+Purpose: preserve the Stage 2B review record and the project lead's Stage 2C decisions while keeping unresolved visual-layout questions explicit and traceable.
 
 Evidence priority:
 
@@ -14,7 +14,7 @@ Evidence priority:
 4. source/raw/pilot_01/source.docx for embedded images and layout fallback only
 5. source/chapters/pilot_01_cleaned.md as the current non-destructive cleaned proposal
 
-DOCX-derived text must not overwrite source.md. The current DOCX footnotes.xml contains no usable footnote body, so the three restored footnote bodies rely on JSON evidence and still require PDF confirmation.
+DOCX-derived text must not overwrite source.md. The current DOCX footnotes.xml contains no usable footnote body. The three JSON-derived footnote mappings were approved in R007–R009 as one validation class, while the long-term rule still requires human review of every footnote.
 
 ## Review summary
 
@@ -25,7 +25,13 @@ DOCX-derived text must not overwrite source.md. The current DOCX footnotes.xml c
 | High | 12 |
 | Total | 25 |
 
-For every item, select exactly one decision and add a note when rejecting or requesting discussion.
+| Decision status | Count |
+|---|---:|
+| Approved | 21 |
+| Needs discussion / Awaiting visual review | 4 |
+| Total | 25 |
+
+R001–R010 and R015–R025 are approved. R011–R014 remain open; their current image paths and mappings are preserved without asserting a final publication layout.
 
 ## Page Mapping
 
@@ -59,6 +65,17 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 | image_004.jpg | block 2; bbox 161,322,199,381; CDN tail de41be…6420.jpg | 8 | line 161 | rId25.jpg; image paragraph 92; 4th | line 175 | Chapter 2 left portrait; position and completeness |
 | image_005.jpg | block 4; bbox 400,321,442,383; CDN tail 09fa20…20c4.jpg | 8 | line 166 | rId28.jpg; image paragraph 94; 5th | line 180 | Chapter 2 right portrait; position and completeness |
 
+## Human-supplied visual evidence
+
+The project lead supplied two book-page screenshots for Stage 2C. They were inspected as visual QA evidence but are not committed to the repository because they contain copyrighted page content and repository visibility must not be expanded by this review. The observations below are review records, not replacements for raw source images.
+
+| Supplied visual | Related items | Observation and scope |
+|---|---|---|
+| Chapter 1 opener screenshot (not committed) | R005, R011, R012, R015, R016 | Chapter number and title are visually separate lines but form one heading unit. The two character cartoons are integrated at the left and right of the prose and have no visible independent captions. This supports the approved heading and preserve-repeated-prose decisions, but final image-layout treatment remains open. |
+| Contents-page screenshot (not committed) | R010, R023 | The first image is a decorative letterform integrated with the 目录 / Contents heading. The screenshot also provides visual evidence for the first contents page and its printed page number 9. |
+
+Only a Chapter 1 opener screenshot was supplied. R013–R014 still require the matching Chapter 2 opener visual. Per the project lead's decision, R011–R014 remain Needs discussion even where preliminary evidence is now available.
+
 ## Review Items
 
 ### Running headers
@@ -74,8 +91,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: top-edge placement and repetition on later body pages suggest a running header.
 - Codex recommendation: Approve only if the PDF visually confirms it is not a body or section heading.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Running-header removal approved under the reliable layout / JSON evidence conditions recorded in the cleaning guide.
 
 #### R002
 
@@ -88,8 +106,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: top-left placement matches the repeating book header rather than the Chapter 1 body.
 - Codex recommendation: Approve only after PDF visual confirmation.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Running-header removal approved under the reliable layout / JSON evidence conditions recorded in the cleaning guide.
 
 #### R003
 
@@ -102,8 +121,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: top-edge repetition and interruption of a grammatically continuous sentence suggest a running header.
 - Codex recommendation: Review together with R006 and approve only after checking the PDF line break.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Header removal is approved together with the structurally evidenced cross-page reconstruction in R006.
 
 #### R004
 
@@ -116,8 +136,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: the block sits at the same top-left position as other running headers, although JSON typed it as ordinary text.
 - Codex recommendation: PDF visual verification is required because the JSON type is not header or title.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved based on the recurring top-edge layout evidence; JSON type alone is not treated as sufficient evidence.
 
 ### Chapter heading
 
@@ -133,8 +154,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: same-page adjacency and title hierarchy suggest a single chapter heading.
 - Codex recommendation: Approve the merge only if the PDF visually presents the number and title as one chapter-heading unit.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: The number and title are visually two lines with the same font and size and form one chapter-title structure. Markdown may represent them as one logical heading without changing the title text.
 
 ### Cross-page paragraph
 
@@ -150,10 +172,13 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: the two text fragments form one grammatical sentence when the repeated top-edge text is treated as a header.
 - Codex recommendation: Approve only after visually confirming the end of printed page 3 and beginning of printed page 4.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: The current reconstruction is accepted. Automation requires explicit JSON block order, the page boundary, and running-header evidence; semantic inference alone is insufficient.
 
 ### Footnotes
+
+R007–R009 are retained as separate IDs for history but were approved together as one footnote-validation class. Detection and proposed recovery may be automated; every recovered footnote must still enter QA and receive human approval before inclusion in an authoritative cleaned or reviewed source.
 
 #### R007
 
@@ -167,8 +192,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: one marker and one discarded footnote body occur on the same page.
 - Codex recommendation: Mapping appears one-to-one, but approve only after confirming the printed marker and footnote body. DOCX supplies no usable footnote body.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved as part of the R007–R009 footnote-validation class. Every future footnote remains subject to individual human QA.
 
 #### R008
 
@@ -182,8 +208,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: one marker and one discarded footnote body occur on the same page.
 - Codex recommendation: Mapping appears one-to-one, but approve only after PDF confirmation. DOCX supplies no usable footnote body.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved as part of the R007–R009 footnote-validation class. Every future footnote remains subject to individual human QA.
 
 #### R009
 
@@ -197,8 +224,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: one marker and one discarded footnote body occur on the same page.
 - Codex recommendation: Mapping appears one-to-one, but approve only after PDF confirmation. DOCX supplies no usable footnote body.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved as part of the R007–R009 footnote-validation class. Every future footnote remains subject to individual human QA.
 
 ### Images
 
@@ -213,8 +241,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: first DOCX image rId10 matches the first Markdown and JSON image order.
 - Codex recommendation: Confirm image count, decorative position near 目录, and absence of a caption.
 - Risk level: Low
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Image localization and cross-source mapping are approved. The contents screenshot confirms that this is a decorative element integrated with the heading, with no visible independent caption.
 
 #### R011
 
@@ -227,8 +256,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: DOCX rId15 is the second embedded image and occurs before the first lead-text fragment.
 - Codex recommendation: Confirm left-side position, completeness, and whether any visible caption exists.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Open — Awaiting visual review
+- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
+- Human note: The Chapter 1 screenshot confirms an integrated left-side character cartoon with no visible independent caption. Do not force it to a fixed paragraph position or infer final layout from Markdown order; final representation remains under discussion.
 
 #### R012
 
@@ -241,8 +271,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: DOCX rId18 is the third embedded image and occurs between the two lead-text fragments.
 - Codex recommendation: Confirm right-side position, completeness, and whether any visible caption exists.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Open — Awaiting visual review
+- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
+- Human note: The Chapter 1 screenshot confirms an integrated right-side character cartoon with no visible independent caption. Do not force it to a fixed paragraph position or infer final layout from Markdown order; final representation remains under discussion.
 
 #### R013
 
@@ -255,8 +286,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: DOCX rId25 is the fourth embedded image and precedes the first Chapter 2 lead paragraph.
 - Codex recommendation: Confirm left-side position, completeness, and absence or presence of a caption.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Open — Awaiting visual review
+- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
+- Human note: Awaiting the matching Chapter 2 opener screenshot. Preserve the current mapping and do not generate captions or impose a final layout.
 
 #### R014
 
@@ -269,8 +301,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: DOCX rId28 is the fifth embedded image and occurs between the two Chapter 2 lead paragraphs.
 - Codex recommendation: Confirm right-side position, completeness, and absence or presence of a caption.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Open — Awaiting visual review
+- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
+- Human note: Awaiting the matching Chapter 2 opener screenshot. Preserve the current mapping and do not generate captions or impose a final layout.
 
 ### Suspected duplicate
 
@@ -284,10 +317,11 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - DOCX evidence: both sequences are preserved; the first is interleaved with image paragraphs 58 and 60, while the later sequence appears as ordinary body paragraphs.
 - Cleaned state: both occurrences remain unchanged.
 - Reason for change: no deletion was made because the opener may be intentional design content, while duplicate recognition is also possible.
-- Codex recommendation: Keep unresolved. Compare the PDF layout to decide whether the first sequence is a standfirst/design repeat or a MinerU duplication.
+- Codex recommendation: Preserve both occurrences. Never delete repeated prose automatically; deletion requires explicit PDF evidence of duplicate extraction and human approval.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Human review confirms this is an authorial / layout design repeat rather than MinerU duplicate extraction. Both occurrences remain preserved.
 
 ### OCR uncertainty
 
@@ -302,8 +336,9 @@ All five local files exist and match the byte-for-byte DOCX extraction recorded 
 - Reason for change: no character correction was made because the printed glyph has not been checked.
 - Codex recommendation: PDF visual verification required. Do not use common knowledge or web sources to change the name.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: The conservative treatment is approved. The supplied Chapter 1 screenshot shows the same glyph sequence; source text remains unchanged and any correction still requires human review.
 
 ### Numbers and dates
 
@@ -330,8 +365,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; included for required numeric visual review.
 - Codex recommendation: Compare every digit and dash glyph with the PDF; do not fact-check.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values remain unchanged and no external fact-check was performed.
 
 #### R018
 
@@ -344,8 +380,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; dates are selected for visual transcription checking.
 - Codex recommendation: Verify digits, month/day order, and spacing against the PDF only.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values remain unchanged and no external fact-check was performed.
 
 #### R019
 
@@ -358,8 +395,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; the dense sequence is vulnerable to OCR digit or unit errors.
 - Codex recommendation: Compare each digit, unit, and sign with the PDF; do not assess factual accuracy.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values remain unchanged and no external fact-check was performed.
 
 #### R020
 
@@ -372,8 +410,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; percentage digits, signs, and wording require visual checking.
 - Codex recommendation: Compare the three values and their units with the PDF only.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values remain unchanged and no external fact-check was performed.
 
 #### R021
 
@@ -386,8 +425,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; large counts are selected for visual checking.
 - Codex recommendation: Verify digits, Chinese-number wording, and units against the PDF only.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values remain unchanged and no external fact-check was performed.
 
 #### R022
 
@@ -400,8 +440,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no change; the values and unit glyph require visual checking.
 - Codex recommendation: Compare digits and 石 with the PDF; do not convert or normalize.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Visual transcription check approved; values and the unit glyph remain unchanged.
 
 #### R023
 
@@ -414,8 +455,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no numeric change; the table is included because dense page references are OCR-sensitive.
 - Codex recommendation: Visually sample every entry and page reference. Do not infer PDF physical pages from the TOC.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved. The supplied contents screenshot supports the first contents page and printed page 9; physical PDF page indices remain Unknown where not evidenced.
 
 ### Truncated ending
 
@@ -430,8 +472,9 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: no completion was invented because available data cannot show whether the pilot selection ended or MinerU omitted text.
 - Codex recommendation: Compare the authorized PDF and the selected page range. Keep unresolved until the cause is known.
 - Risk level: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: The conservative treatment is approved: preserve the incomplete ending and its TODO until the pilot range or a later authorized page establishes the cause.
 
 ### Page reference uncertainty
 
@@ -446,9 +489,10 @@ The following are transcription checks only. They do not ask whether a statement
 - Reason for change: unknown values were preserved rather than inferred.
 - Codex recommendation: Reviewer should record visually confirmed PDF physical pages and printed pages. Do not guess from TOC sequence.
 - Risk level: Medium
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Human note:
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved. Unknown physical or printed page values remain explicit and must not be inferred.
 
 ## Completion gate
 
-Stage 2B is complete only when every R001–R025 item has one human decision and any Reject or Needs discussion item has a note. Decisions must then be reviewed in the later Pilot Rule Approval stage. Completing this checklist does not by itself change any Proposed rule to Approved.
+Stage 2C records 21 approved items and four open visual-layout items. Pilot 01 final acceptance is blocked only by R011–R014. Closing those items requires the remaining visual evidence and a human decision about how integrated character cartoons should be represented; it does not authorize Pilot 02, full-book parsing, translation, or bulk cleaning.

@@ -1,115 +1,155 @@
 # Source Cleaning Guide
 
-Status: Proposed v0.1
-
-Every rule in this document is a candidate rule for review. Nothing here is a final full-book standard. The pilot may apply a rule only when the evidence is explicit and the action is recorded in qa/mineru_pilot_01_report.md.
+Version: v0.2 — Stage 2C Pilot Rule Approval
 
 The purpose of source cleaning is to produce readable, traceable Markdown without rewriting, translating, fact-correcting, or silently repairing the source text.
 
+## Rule status vocabulary
+
+- Proposed — not yet approved for project use
+- Approved — may be applied when its stated evidence conditions are satisfied
+- Approved — Manual Review Required — the procedure is accepted, but every affected item must receive human QA before it enters authoritative cleaned or reviewed source
+- Rejected — must not be applied
+
+Approval is always limited by the conditions written below. Approved never means that an OCR correction, factual change, ambiguous layout decision, or uncertain mapping may run unattended.
+
 ## 1. Raw source preservation
 
-- Proposed: Treat every MinerU input as immutable raw evidence.
-- Proposed: Store the Markdown, JSON, and DOCX under a pilot-specific directory with stable names.
-- Proposed: Record SHA-256 hashes before any derived file is created.
-- Proposed: Never overwrite source.md with text re-parsed from source.docx.
-- Proposed: Store only project-authorized source artifacts. The repository may be public under the confirmed project authorization, but public visibility grants no additional license or reuse rights.
-- Proposed: Put every cleaning result outside source/raw/.
+- Approved: Treat every MinerU input as immutable raw evidence.
+- Approved: Store Markdown, JSON, DOCX, and extracted images under a source-specific directory with stable names.
+- Approved: Record hashes for raw inputs and extracted media.
+- Approved: Never overwrite source.md with text re-parsed from source.docx.
+- Approved: Put every cleaned result outside source/raw/.
+- Approved: Store only project-authorized source artifacts. Public repository visibility grants no additional license or reuse rights.
 
 ## 2. Page, header, and footer handling
 
-- Proposed: Use JSON block type, bounding box, repetition, and page position together to identify running headers, footers, and page numbers.
-- Proposed: Remove a running header from cleaned Markdown only when it is high-confidence and record the removal in the pilot report.
-- Proposed: Do not delete repeated text solely because it appears near a page edge.
-- Proposed: Preserve page numbers as mapping metadata even when they are removed from readable text.
-- Proposed: If JSON and Markdown disagree, preserve the Markdown text and open a QA item unless the element is an unambiguous page artifact.
+- Approved: Identify a running header or footer using reliable layout evidence such as repeated text, page-edge position, JSON block type, bounding box, and neighboring block order.
+- Approved: Remove a running header from cleaned Markdown only when the evidence is consistent and the removal is recorded in QA.
+- Approved: Preserve printed page numbers as mapping metadata even when they are removed from readable body text.
+- Approved — Manual Review Required: If Markdown, JSON, DOCX, and visual layout disagree, preserve the raw text and open a QA item instead of choosing silently.
+- Approved: Do not classify text as a running header from semantic intuition alone.
+
+Pilot approval basis: R001–R004.
 
 ## 3. Heading normalization
 
-- Proposed: Treat MinerU heading levels as evidence, not as final document hierarchy.
-- Proposed: Combine a chapter number and chapter title only when they are adjacent, on the same page, and clearly form one heading.
-- Proposed: Normalize chapter headings to one level in cleaned Markdown.
-- Proposed: Do not infer a missing title or rename a chapter from outside knowledge.
-- Proposed: Record every structural merge that changes Markdown heading syntax.
+- Approved: Treat MinerU heading levels as structural evidence rather than final Markdown hierarchy.
+- Approved: A chapter number and chapter name may remain on separate visual lines in the original book while forming one logical chapter heading.
+- Approved: When the number and name are adjacent, share the same visual role, and JSON/DOCX order supports one heading, cleaned Markdown may combine them into one logical heading.
+- Approved: Combining the logical heading must not change, translate, correct, or otherwise rewrite the chapter-number or chapter-title text.
+- Approved: Record every structural heading merge in QA.
+- Approved: Do not infer missing headings or rename chapters from outside knowledge.
+
+Pilot approval basis: R005.
 
 ## 4. Paragraph handling
 
-- Proposed: Preserve source paragraph order and wording.
-- Proposed: Join a page-boundary split only when syntax and JSON ordering show a continuous paragraph with high confidence.
-- Proposed: Do not reflow paragraphs for style or readability.
-- Proposed: Do not automatically remove repeated passages; a repeated passage may be an intentional chapter opener, standfirst, caption, or design element.
-- Proposed: Keep incomplete text when the pilot ends mid-sentence and add a minimal QA marker.
+- Approved: Preserve source paragraph order and wording.
+- Approved: Reconstruct a cross-page paragraph only when JSON block order, the page boundary, adjacent fragments, and reliable running-header evidence support the join.
+- Approved: Semantic plausibility alone is insufficient evidence for an automatic join.
+- Approved: Preserve an inline page marker at the exact boundary when a paragraph is joined across pages.
+- Approved: Do not reflow or rewrite Chinese paragraphs for style or readability.
+- Approved — Manual Review Required: Keep incomplete text and add a QA marker until the source boundary is visually confirmed.
 
-## 5. Image handling
+Pilot approval basis: R006 and R024.
 
-- Proposed: Prefer images embedded in the MinerU DOCX over downloading the same images from a temporary CDN.
-- Proposed: Extract word/media entries byte-for-byte without resizing, recompression, cropping, or format conversion.
-- Proposed: Map images using three signals where available: DOCX relationship order, Markdown image order, and JSON page/bounding-box order.
-- Proposed: Use stable local names such as image_001.jpg in document order.
-- Proposed: Replace a CDN URL in cleaned Markdown only after a unique local image mapping is verified.
-- Proposed: Preserve an unresolved remote URL and report it rather than substituting a screenshot or guessed image.
-- Proposed: Do not invent captions. Preserve a caption only when its relationship to the image is supported by layout or source evidence.
+## 5. Repeated prose
 
-## 6. Footnote handling
+- Approved — Manual Review Required: Do not automatically deduplicate repeated prose.
+- Approved — Manual Review Required: If identical or highly similar prose occurs in different layout positions and the PDF or DOCX shows both occurrences, preserve both.
+- Approved — Manual Review Required: Repeated prose may be deleted only when all three conditions are satisfied:
+  1. visual PDF evidence shows that the original contains only one occurrence;
+  2. JSON or MinerU evidence shows duplicate extraction; and
+  3. a human reviewer approves the deletion.
+- Approved — Manual Review Required: Default to preserve when evidence is incomplete or conflicting.
 
-- Proposed: Preserve both the footnote marker and footnote body.
-- Proposed: Use JSON discarded page-footnote blocks to recover note bodies omitted from Markdown only when the page-level marker-to-note relationship is unambiguous.
-- Proposed: Normalize unambiguous markers to stable Markdown footnote IDs that include the MinerU page index.
-- Proposed: Do not attach a note to a sentence when multiple markers or multiple note bodies make the relationship uncertain.
-- Proposed: Record every restored note and its source page in the QA report.
+Risk: High.
 
-## 7. OCR uncertainty policy
+Pilot approval basis: R015. The Chapter 1 repetition is confirmed as original authorial/layout design and remains in cleaned source.
 
-- Proposed: Never silently correct a suspected OCR error.
-- Proposed: Preserve the extracted characters and add a minimal TODO or QA marker when the uncertainty could affect meaning.
-- Proposed: Give special review priority to visually similar characters, dates, percentages, decimal points, negative signs, and large-number units.
-- Proposed: Separate OCR verification from factual verification. A statement may be faithfully extracted even if it appears surprising.
+## 6. Image localization and layout
 
-## 8. Proper noun uncertainty policy
+- Approved: Prefer images embedded in the MinerU DOCX over temporary CDN copies when the embedded media is complete.
+- Approved: Extract word/media entries byte-for-byte without resizing, recompression, cropping, or format conversion.
+- Approved: Cross-map images through JSON page/bbox order, Markdown image order, and DOCX relationship/media order.
+- Approved: Use stable document-order local names and relative paths in cleaned Markdown.
+- Approved: Replace a CDN URL only after a unique local mapping is verified.
+- Approved — Manual Review Required: Preserve an unresolved URL or mapping and open QA rather than substituting a screenshot or guessed image.
+- Approved — Manual Review Required: Do not invent captions.
+- Proposed: Final handling of character cartoons integrated into page layout remains open under R011–R014. Do not force these cartoons to a fixed paragraph position, treat them automatically as independent figures, or infer final publishing layout from Markdown order.
 
-- Proposed: Do not normalize people, places, companies, institutions, book titles, or historical names from memory or external knowledge during source cleaning.
-- Proposed: Flag suspicious glyphs and inconsistent forms for comparison with the authorized PDF image.
-- Proposed: Keep the raw form in cleaned Markdown until a human verifies the printed source.
-- Proposed: Defer terminology approval and translation naming decisions to later project stages.
+Pilot approval basis: R010 for localization. R011–R014 remain open for visual-layout treatment.
 
-## 9. Page-reference preservation
+## 7. Footnote handling
 
-- Proposed: Insert machine-readable HTML comments at page boundaries in cleaned Markdown.
-- Proposed: Use MinerU page_idx as the stable pilot identifier and state clearly that it is zero-based.
-- Proposed: Add printed_page only when JSON explicitly records it; otherwise use unresolved.
-- Proposed: For a paragraph that continues across a page boundary, place the page marker inline at the exact break rather than splitting or reordering the text.
-- Proposed: Keep a separate mapping table in the QA report with page_idx, printed page, first content, and detected artifacts.
+- Approved: Programs may detect footnote markers and JSON page_footnote blocks.
+- Approved: Programs may propose marker-to-body mappings, restore Markdown footnote structure, and recommend insertion positions.
+- Approved — Manual Review Required: Every footnote must enter QA and receive human confirmation before it becomes authoritative cleaned or reviewed source.
+- Approved — Manual Review Required: Do not attach a note when multiple markers, multiple bodies, missing visual evidence, or conflicting order makes the mapping ambiguous.
+- Approved — Manual Review Required: Record the marker, body, page, block, proposed insertion point, and human decision for every footnote.
 
-## 10. Manual review requirements
+Pilot approval basis: R007–R009, approved as one footnote-validation class while retaining all three IDs for traceability.
 
-- Proposed: Compare every cleaned pilot page against the authorized PDF before approving rules for broader use.
-- Proposed: Review all proper nouns, numbers, dates, percentages, footnotes, image placements, and page-boundary joins.
-- Proposed: Confirm whether apparent duplicates are intentional layout content.
-- Proposed: Confirm that every image and caption relationship is correct.
-- Proposed: Resolve every TODO or explicitly accept it before a cleaned chapter can become an authoritative source.
+## 8. OCR and proper-noun uncertainty
 
-## 11. Rules that may be automated
+- Approved: Detect and flag suspected OCR characters without altering raw text.
+- Approved: Preserve the extracted form and add a minimal QA marker when uncertainty may affect meaning.
+- Approved — Manual Review Required: Never automatically correct OCR characters.
+- Approved — Manual Review Required: People, places, companies, institutions, book titles, and historical names require visual source confirmation before correction or normalization.
+- Approved — Manual Review Required: Do not use memory, common knowledge, or web fact checking to replace source-cleaning evidence.
+- Approved: Defer English terminology and translated-name decisions to the translation and terminology stages.
 
-The following are Proposed for automation only after pilot approval:
+Pilot approval basis: R016.
+
+## 9. Numbers, dates, and facts
+
+- Approved: Automatically detect and queue dates, years, amounts, percentages, counts, page references, and unusual numeric units for QA.
+- Approved — Manual Review Required: Verify digits, signs, punctuation, units, and source glyphs against the visual source.
+- Approved — Manual Review Required: Do not automatically change a number, date, amount, percentage, name, or factual claim.
+- Approved — Manual Review Required: Keep visual transcription verification separate from historical or factual verification.
+
+Pilot approval basis: R017–R023.
+
+## 10. Page-reference preservation
+
+- Approved: Insert machine-readable page-boundary comments in cleaned Markdown.
+- Approved: Use MinerU page_idx as a stable zero-based source identifier.
+- Approved: Add printed_page only when source evidence records it; otherwise use unresolved.
+- Approved: For cross-page paragraphs, place the page marker inline at the exact original boundary.
+- Approved — Manual Review Required: PDF physical page references and missing printed page numbers must be supplied from visual evidence, not inferred from the table of contents.
+
+Pilot approval basis: R025.
+
+## 11. Approved automation boundary
+
+The following may be automated when their evidence conditions are satisfied:
 
 - hash and inventory raw inputs;
-- extract DOCX word/media entries without changing bytes;
+- extract DOCX word/media without changing bytes;
 - enumerate Markdown image URLs;
-- enumerate JSON pages, block order, block types, bounding boxes, and discarded blocks;
-- replace a CDN URL when a verified one-to-one DOCX/Markdown/JSON mapping exists;
-- insert page mapping comments from JSON;
-- remove confirmed running headers using exact pilot-specific matches;
-- combine an adjacent chapter number and title when the same-page relationship is unambiguous;
-- remove line-end whitespace when it changes no source characters or layout meaning; and
-- report empty blocks and incomplete final paragraphs without deleting text.
+- enumerate JSON pages, block order, block types, bounding boxes, discarded blocks, and footnote candidates;
+- localize a verified one-to-one image mapping;
+- insert page mapping comments;
+- remove running headers supported by reliable layout and JSON evidence;
+- combine a verified two-line chapter number and title into one logical Markdown heading;
+- join a cross-page paragraph supported by explicit block order, boundary, and running-header evidence;
+- remove non-semantic line-end whitespace; and
+- report suspected OCR, numbers, footnotes, duplicates, missing pages, and incomplete endings.
 
-## 12. Rules that must remain manual
+The following always require human review:
 
-- correcting OCR characters;
-- changing proper nouns, dates, figures, percentages, or factual claims;
-- deciding whether repeated prose is intentional;
-- resolving ambiguous paragraph joins or reading order;
-- identifying a caption when layout evidence is unclear;
-- restoring a footnote when marker-to-body mapping is ambiguous;
-- inferring printed page numbers not explicitly recorded in JSON;
-- deciding whether a surprising statement is a source error, translation error, or factual error; and
-- approving any rule for full-book use.
+- every restored footnote;
+- every OCR or proper-noun correction;
+- every numeric, date, amount, percentage, or factual change;
+- every proposed duplicate deletion;
+- every ambiguous paragraph join;
+- every inferred caption or integrated-image layout decision;
+- every PDF physical page or missing printed-page assignment; and
+- every rule approval beyond the conditions recorded here.
+
+## 12. Approval record
+
+Stage 2C human decisions approve R001–R010 and R015–R025. R007–R009 are approved as one footnote-validation class but remain separate records. R011–R014 remain open as Needs discussion / Awaiting visual review.
+
+No rule in this guide authorizes translation, full-book parsing, bulk cleaning, unattended OCR correction, or factual correction.
