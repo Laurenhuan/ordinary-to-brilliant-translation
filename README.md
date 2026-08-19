@@ -16,6 +16,7 @@ The English title From Ordinary to Brilliant is provisional and may be revised b
     docs/
       TRANSLATION_GUIDE.md   Translation workflow and principles
       STYLE_GUIDE.md         English style and consistency rules
+      SOURCE_CLEANING_GUIDE.md  Proposed source-ingestion and cleaning rules
     source/
       raw/                   Authorized intermediate source material only
       chapters/              Cleaned, chapter-level Chinese source text
@@ -31,8 +32,8 @@ The English title From Ordinary to Brilliant is provisional and may be revised b
 
 ## Current stage
 
-Initial setup. The repository structure, workflow, style guide, terminology tables, and QA log are being established before chapter-level translation begins.
+Source Ingestion Pilot / MinerU Source QA. The current work validates a traceable PDF-to-MinerU-to-clean-Markdown workflow before chapter-level translation begins. No translation is being performed during this stage.
 
 ## Copyright and access
 
-This is a private working repository. Do not upload the original copyrighted PDF or any other source file that the project is not authorized to store or redistribute. Only authorized, minimum-necessary working text should be added under source/. Generated files must not be published or shared outside the authorized project team until rights and permissions have been confirmed.
+This repository is intended to be a private working repository. Do not upload the original copyrighted PDF or any other source file that the project is not authorized to store or redistribute. Only authorized, minimum-necessary working text should be added under source/. Generated files must not be published or shared outside the authorized project team until rights and permissions have been confirmed.

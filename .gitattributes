@@ -1,0 +1,5 @@
+# Preserve raw MinerU artifacts byte-for-byte.
+source/raw/**/*.md -text
+source/raw/**/*.json -text
+source/raw/**/*.docx binary
+source/raw/**/images/* binary
