@@ -21,6 +21,7 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
 - Stage 5A.4 records provisional, non-locked contextual recommendations for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`; all remain subject to human approval.
+- Stage 5A.5 records provisional, non-locked cultural-concept recommendations for `私塾`, `仁、和、乐`, `一勤天下无难事`, `有志者事竟成`, and `致知在格物`, and confirms the context-sensitive proposals for `鸿儒` and `地主`.
 
 ## Workflow status
 
@@ -580,12 +581,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006; CH01-P007; CH01-P013; CH01-P015; CH01-P016; CH01-P024
 - **Page:** FB-P015; FB-P016; FB-P017
 - **Context:** 在私塾学过一阵汉学。
-- **Candidate English:** —
+- **Candidate English:** traditional Korean village school (seodang) on first use; seodang thereafter
 - **Verified English:** —
-- **Evidence/source:** contextual translation required; no external source recorded yet
-- **Codex recommendation:** Compare translation, transliteration, and brief-gloss options; human reviewer selects first-use and later-use treatment.
+- **Evidence/source:** project-directed cultural institution translation proposal: Stage 5A.5 project review instruction
+- **Codex recommendation:** Explain the cultural institution on first use as a traditional Korean village school (seodang), then retain seodang. Avoid private school because it suggests a modern institution.
 - **Human decision:** Pending
-- **Decision note:** A single English noun may erase institutional and historical nuance.
+- **Decision note:** Retained Korean cultural-institution term with a first-use explanation. Exact first-use syntax and later-use capitalization require human approval.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -595,12 +596,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P025; CH01-P026
 - **Page:** FB-P017
 - **Context:** ‘仁、和、乐’的精神境界。
-- **Candidate English:** —
+- **Candidate English:** humaneness (ren), harmony (he), and joy (le)
 - **Verified English:** —
-- **Evidence/source:** manual classical-source review required; no external source recorded yet
-- **Codex recommendation:** Research the classical concepts and preserve the three-part relationship; human reviewer chooses capitalization and gloss strategy.
+- **Evidence/source:** project-directed Confucian concept translation proposal: Stage 5A.5 project review instruction
+- **Codex recommendation:** Preserve the Confucian three-part structure as humaneness (ren), harmony (he), and joy (le); do not flatten the concepts into kindness, peace, and happiness.
 - **Human decision:** Pending
-- **Decision note:** Do not treat model-created glosses as established translations.
+- **Decision note:** Human review must approve transliteration, capitalization, punctuation, and whether all three parenthetical forms are needed at first mention.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -610,12 +611,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 他最喜欢的名句‘一勤天下无难事’。
-- **Candidate English:** —
+- **Candidate English:** With diligence, no task is impossible.
 - **Verified English:** —
-- **Evidence/source:** manual quotation-source review required; no external source recorded yet
-- **Codex recommendation:** Check attribution/source status and prepare translation strategy options for human decision.
+- **Evidence/source:** project proverb/quotation translation proposal: Stage 5A.5 project review instruction
+- **Codex recommendation:** Use the source-faithful project rendering With diligence, no task is impossible unless human review selects a more rhetorical alternative.
 - **Human decision:** Pending
-- **Decision note:** Do not label a project rendering as an established quotation.
+- **Decision note:** Treat as a proverb/quotation translation proposal, not as an independently verified established English quotation. Quotation style requires human approval.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -625,12 +626,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 引用‘有志者事竟成’。
-- **Candidate English:** —
+- **Candidate English:** Where there is a will, there is a way.
 - **Verified English:** —
-- **Evidence/source:** manual quotation-source review required; no external source recorded yet
-- **Codex recommendation:** Research established English renderings and present alternatives with sources; human reviewer selects the project form.
+- **Evidence/source:** project proverb/quotation translation proposal: Stage 5A.5 project review instruction
+- **Codex recommendation:** Consider the established English proverb Where there is a will, there is a way, but require human approval because adopting a target-language proverb may reduce source-specific wording.
 - **Human decision:** Pending
-- **Decision note:** Do not lock a familiar-looking proverb translation from model memory.
+- **Decision note:** Human review must decide between conventional English-proverb substitution and a more source-faithful rendering.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -640,12 +641,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 引用‘致知在格物’等格言。
-- **Candidate English:** —
+- **Candidate English:** the investigation of things and the extension of knowledge
 - **Verified English:** —
-- **Evidence/source:** manual classical-source review required; no external source recorded yet
-- **Codex recommendation:** Verify the classical source and terminology, then present sourced options for human decision.
+- **Evidence/source:** project Confucian philosophical-term translation proposal: Stage 5A.5 project review instruction
+- **Codex recommendation:** Use the investigation of things and the extension of knowledge as the provisional conceptual rendering; preserve the frozen source wording 致知在格物 and obtain human approval for sentence syntax.
 - **Human decision:** Pending
-- **Decision note:** Context may require more than a word-for-word gloss.
+- **Decision note:** The source phrase order is 致知在格物, while the conceptual label is often discussed as 格物致知. Do not rewrite the source or silently reverse the quotation.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 

@@ -139,4 +139,24 @@ This review contains eight records: six existing Chapter 1 candidates and two pr
 
 ## Gate for the next batch
 
-The remaining cultural-concept candidates can now be prepared in a separate batch because the historical-institution, title, and unit uncertainties are explicitly recorded. None of the eight records in this file is approved or locked; later use still requires a human decision.
+Stage 5A.5 has now prepared the cultural-concept candidates in `qa/chapter_01_cultural_concept_review.md`. Its recommendations for `鸿儒` and `地主` agree with CTX-CH01-004 and CTX-CH01-005 and do not change either item to `locked`.
+
+## Coverage of all 13 remaining Chapter 1 candidates
+
+| Candidate ID | Chinese term | Type | Decision-record coverage | Current state |
+|---|---|---|---|---|
+| C1-T011 | 东和旅馆 | organization | Stage 5A.4 CTX-CH01-003 | Provisional candidate; historical name mapping requires human decision |
+| C1-T013 | 文山亭书院 | school | Stage 5A.4 CTX-CH01-001 | Provisional candidate; institution romanization and first-use treatment require human decision |
+| C1-T014 | 松田小学 | school | Stage 5A.4 CTX-CH01-002 | Provisional candidate; historical school category requires human decision |
+| C1-T020 | 朝鲜 | place | Chapter 1 terminology review | Strategy recorded; no candidate selected because historical-geographic context remains unresolved |
+| C1-T033 | 鸿儒 | title_role | Stage 5A.4 CTX-CH01-004 and Stage 5A.5 CULT-CH01-002 | Provisional candidate; praise register requires human decision |
+| C1-T034 | 地主 | title_role | Stage 5A.4 CTX-CH01-005 and Stage 5A.5 CULT-CH01-003 | Context-sensitive pair prepared; human decision required |
+| C1-T035 | 石 | unit | Stage 5A.4 CTX-CH01-006 | Transliteration and first-use gloss prepared; human decision required |
+| C1-T036 | 私塾 | cultural_concept | Stage 5A.5 CULT-CH01-001 | Retained Korean institution term and first-use explanation prepared; human decision required |
+| C1-T037 | 仁、和、乐 | cultural_concept | Stage 5A.5 CULT-CH01-004 | Three-part Confucian rendering prepared; human decision required |
+| C1-T038 | 一勤天下无难事 | cultural_concept | Stage 5A.5 CULT-CH01-006 | Source-faithful project rendering prepared; human decision required |
+| C1-T039 | 有志者事竟成 | cultural_concept | Stage 5A.5 CULT-CH01-007 | Conventional-proverb option prepared; human decision required |
+| C1-T040 | 致知在格物 | cultural_concept | Stage 5A.5 CULT-CH01-005 | Philosophical rendering prepared; exact source phrasing remains preserved |
+| C1-T041 | 商界三大神话 | other | Chapter 1 terminology review | Strategy recorded; project rendering and quotation/explanation treatment remain unresolved |
+
+All 13 remain `needs_human_decision`. Eleven now have concrete provisional renderings; `朝鲜` and `商界三大神话` remain strategy-only because Stage 5A.5 does not authorize decisions outside the cultural-concept scope. None of the records in either review file is approved or locked.
