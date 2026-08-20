@@ -1,6 +1,6 @@
 # Source Cleaning Guide
 
-Version: v0.4 — Stage 3B Pilot 02 Closure & Rule Consolidation
+Version: v0.5 — Stage 4A Full-book Source IDs & Ingestion Application
 
 The purpose of source cleaning is to produce readable, traceable Markdown without rewriting, translating, fact-correcting, or silently repairing the source text.
 
@@ -197,6 +197,21 @@ Pilot approval basis: R017–R023 and P2-R006.
 
 Pilot approval basis: R025.
 
+### Stable source and segment IDs
+
+Status: Approved
+
+- Add stable IDs only to canonical/candidate cleaned source, never to immutable raw artifacts.
+- Global source-page IDs use `FB-P001`–`FB-P243` and map to the input PDF page ranges supplied by the project lead. The original part name and zero-based MinerU `page_idx` remain in `qa/full_book_page_map.csv`.
+- Logical正文 paragraph IDs use `FM-P###` for front matter, `CH01-P###`–`CH28-P###` for chapters, and `AW-P###` for the afterword. Numbering follows logical paragraph order within each file.
+- Heading IDs use `FB-H-CH##`; image IDs use `FB-I###`; footnote candidate IDs use `FB-F###`. Headings, images, page markers, and footnotes must not consume or masquerade as正文 paragraph IDs.
+- When an approved cross-page paragraph is reconstructed, place the next `FB-P###` marker inline at the exact source boundary while retaining one logical paragraph ID.
+- IDs are metadata, not book text. They must not be translated, quoted as source content, or included in正文 word counts.
+- After translation work begins, do not silently renumber stable IDs. A later source insertion, deletion, split, or merge requires a QA record and an explicit source/translation ID migration.
+- The intended downstream use is source-to-translation alignment and automated omission/duplication detection.
+
+Stage 4A project-lead authorization is the approval basis for this operational convention. It does not approve any new OCR, factual, footnote, duplicate-deletion, or layout-inference rule.
+
 ## 11. Approved automation boundary
 
 The following may be automated when their evidence conditions are satisfied:
@@ -271,4 +286,4 @@ Stage 2D closes Pilot 01 with R001–R025 approved. R007–R009 remain separate 
 
 Stage 3B closes Pilot 02 with P2-R001–P2-R008 approved. Pilot 02 validates the Pilot 01 rules on an 11-page holdout sample with 10 initial rule successes, 0 rule failures, 0 destructive false positives, and no silent prose or image loss. P2-A001–P2-A003 are resolved or classified under the evidence-bounded rules above.
 
-No rule in this guide authorizes translation, full-book parsing, bulk cleaning, unattended OCR correction, or factual correction.
+Stage 4A separately authorizes full-book raw ingestion and evidence-bounded application of the already approved rules. No rule in this guide independently authorizes translation, unattended OCR correction, factual correction, footnote approval, or unreviewed destructive cleaning.
