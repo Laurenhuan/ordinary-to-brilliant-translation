@@ -1,10 +1,10 @@
 # Pilot 01 Manual Review
 
-Stage: Stage 2C — Pilot Rule Approval
+Stage: Stage 2D — Pilot 01 Closure
 
-Status: Partially approved — R011–R014 remain open pending visual-layout review
+Status: Passed
 
-Purpose: preserve the Stage 2B review record and the project lead's Stage 2C decisions while keeping unresolved visual-layout questions explicit and traceable.
+Purpose: preserve the complete Pilot 01 review record, final human decisions, and approved source-cleaning boundaries.
 
 Evidence priority:
 
@@ -27,11 +27,11 @@ DOCX-derived text must not overwrite source.md. The current DOCX footnotes.xml c
 
 | Decision status | Count |
 |---|---:|
-| Approved | 21 |
-| Needs discussion / Awaiting visual review | 4 |
+| Approved | 25 |
+| Needs discussion / Awaiting visual review | 0 |
 | Total | 25 |
 
-R001–R010 and R015–R025 are approved. R011–R014 remain open; their current image paths and mappings are preserved without asserting a final publication layout.
+R001–R025 are approved. Rules marked Approved — Manual Review Required remain closed Pilot 01 decisions while requiring human QA whenever they apply in future work.
 
 ## Page Mapping
 
@@ -71,10 +71,10 @@ The project lead supplied two book-page screenshots for Stage 2C. They were insp
 
 | Supplied visual | Related items | Observation and scope |
 |---|---|---|
-| Chapter 1 opener screenshot (not committed) | R005, R011, R012, R015, R016 | Chapter number and title are visually separate lines but form one heading unit. The two character cartoons are integrated at the left and right of the prose and have no visible independent captions. This supports the approved heading and preserve-repeated-prose decisions, but final image-layout treatment remains open. |
+| Chapter 1 opener screenshot (not committed) | R005, R011, R012, R015, R016 | Chapter number and title are visually separate lines but form one heading unit. The two character cartoons are integrated at the left and right of the prose and have no visible independent captions. This supports the approved heading, image anchoring, and preserve-repeated-prose decisions. |
 | Contents-page screenshot (not committed) | R010, R023 | The first image is a decorative letterform integrated with the 目录 / Contents heading. The screenshot also provides visual evidence for the first contents page and its printed page number 9. |
 
-Only a Chapter 1 opener screenshot was supplied. R013–R014 still require the matching Chapter 2 opener visual. Per the project lead's decision, R011–R014 remain Needs discussion even where preliminary evidence is now available.
+The project lead additionally confirmed that every chapter-opening page uses the same fixed template: chapter heading, one introductory text block, and two uncaptioned character illustrations arranged to the left and right of the composition. This book-wide confirmation is the final human basis for R011–R014; exact two-dimensional layout remains metadata rather than semantic Markdown structure.
 
 ## Review Items
 
@@ -254,11 +254,11 @@ R007–R009 are retained as separate IDs for history but were approved together 
 - Raw state: line 91 uses CDN image tail 51879b…f75f.jpg.
 - Cleaned state: line 107 uses ../raw/pilot_01/images/image_002.jpg.
 - Reason for change: DOCX rId15 is the second embedded image and occurs before the first lead-text fragment.
-- Codex recommendation: Confirm left-side position, completeness, and whether any visible caption exists.
+- Codex recommendation: Preserve the verified logical image anchor and source metadata; do not encode exact left/right composition or invent a caption in Markdown.
 - Risk level: Medium
-- Status: Open — Awaiting visual review
-- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
-- Human note: The Chapter 1 screenshot confirms an integrated left-side character cartoon with no visible independent caption. Do not force it to a fixed paragraph position or infer final layout from Markdown order; final representation remains under discussion.
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved under the confirmed book-wide chapter-opening template. This is the first of two uncaptioned character illustrations logically associated with the Chapter 1 opening; exact left-side coordinates remain layout metadata.
 
 #### R012
 
@@ -269,11 +269,11 @@ R007–R009 are retained as separate IDs for history but were approved together 
 - Raw state: line 96 uses CDN image tail 42b4f8…0687.jpg.
 - Cleaned state: line 112 uses ../raw/pilot_01/images/image_003.jpg.
 - Reason for change: DOCX rId18 is the third embedded image and occurs between the two lead-text fragments.
-- Codex recommendation: Confirm right-side position, completeness, and whether any visible caption exists.
+- Codex recommendation: Preserve the verified logical image anchor and source metadata; do not encode exact left/right composition or invent a caption in Markdown.
 - Risk level: Medium
-- Status: Open — Awaiting visual review
-- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
-- Human note: The Chapter 1 screenshot confirms an integrated right-side character cartoon with no visible independent caption. Do not force it to a fixed paragraph position or infer final layout from Markdown order; final representation remains under discussion.
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved under the confirmed book-wide chapter-opening template. This is the second of two uncaptioned character illustrations logically associated with the Chapter 1 opening; exact right-side coordinates remain layout metadata.
 
 #### R013
 
@@ -284,11 +284,11 @@ R007–R009 are retained as separate IDs for history but were approved together 
 - Raw state: line 161 uses CDN image tail de41be…6420.jpg.
 - Cleaned state: line 175 uses ../raw/pilot_01/images/image_004.jpg.
 - Reason for change: DOCX rId25 is the fourth embedded image and precedes the first Chapter 2 lead paragraph.
-- Codex recommendation: Confirm left-side position, completeness, and absence or presence of a caption.
+- Codex recommendation: Preserve the verified logical image anchor and source metadata; do not encode exact left/right composition or invent a caption in Markdown.
 - Risk level: Medium
-- Status: Open — Awaiting visual review
-- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
-- Human note: Awaiting the matching Chapter 2 opener screenshot. Preserve the current mapping and do not generate captions or impose a final layout.
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved under the confirmed book-wide chapter-opening template. This is the first of two uncaptioned character illustrations logically associated with the Chapter 2 opening; exact left-side coordinates remain layout metadata.
 
 #### R014
 
@@ -299,11 +299,11 @@ R007–R009 are retained as separate IDs for history but were approved together 
 - Raw state: line 166 uses CDN image tail 09fa20…20c4.jpg.
 - Cleaned state: line 180 uses ../raw/pilot_01/images/image_005.jpg.
 - Reason for change: DOCX rId28 is the fifth embedded image and occurs between the two Chapter 2 lead paragraphs.
-- Codex recommendation: Confirm right-side position, completeness, and absence or presence of a caption.
+- Codex recommendation: Preserve the verified logical image anchor and source metadata; do not encode exact left/right composition or invent a caption in Markdown.
 - Risk level: Medium
-- Status: Open — Awaiting visual review
-- Human decision: [ ] Approve  [ ] Reject  [x] Needs discussion
-- Human note: Awaiting the matching Chapter 2 opener screenshot. Preserve the current mapping and do not generate captions or impose a final layout.
+- Status: Approved
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Human note: Approved under the confirmed book-wide chapter-opening template. This is the second of two uncaptioned character illustrations logically associated with the Chapter 2 opening; exact right-side coordinates remain layout metadata.
 
 ### Suspected duplicate
 
@@ -495,4 +495,21 @@ The following are transcription checks only. They do not ask whether a statement
 
 ## Completion gate
 
-Stage 2C records 21 approved items and four open visual-layout items. Pilot 01 final acceptance is blocked only by R011–R014. Closing those items requires the remaining visual evidence and a human decision about how integrated character cartoons should be represented; it does not authorize Pilot 02, full-book parsing, translation, or bulk cleaning.
+The Pilot 01 completion gate is satisfied: all 25 review items have final human decisions and are approved. This closure does not authorize Pilot 02, full-book parsing, translation, or bulk cleaning.
+
+## Pilot 01 Closure Summary
+
+- Status: Passed
+- Review items: 25
+- Approved: 25
+- Remaining unresolved review items: 0
+- MinerU suitability: Conditionally approved for continued use
+- Required evidence layers:
+  - Markdown
+  - JSON
+  - DOCX
+  - human PDF visual review
+- Automated cleaning is allowed only for Approved low-risk structural rules.
+- High-risk semantic or content changes remain human-reviewed.
+
+Pilot 01 demonstrates that MinerU can continue as this project's parsing layer. MinerU Markdown alone must not be treated as the final reliable source: JSON supplies page/block/layout evidence, DOCX supplies embedded-image and visual fallback evidence, and ambiguous or high-risk decisions require human PDF visual review.

@@ -1,6 +1,6 @@
 # Source Cleaning Guide
 
-Version: v0.2 — Stage 2C Pilot Rule Approval
+Version: v0.3 — Stage 2D Pilot 01 Closure
 
 The purpose of source cleaning is to produce readable, traceable Markdown without rewriting, translating, fact-correcting, or silently repairing the source text.
 
@@ -12,6 +12,13 @@ The purpose of source cleaning is to produce readable, traceable Markdown withou
 - Rejected — must not be applied
 
 Approval is always limited by the conditions written below. Approved never means that an OCR correction, factual change, ambiguous layout decision, or uncertain mapping may run unattended.
+
+## Evidence-layer roles
+
+- Approved: MinerU Markdown is the primary text layer for source cleaning.
+- Approved: JSON is the page, block, order, type, bounding-box, discarded-element, and layout-evidence layer.
+- Approved: DOCX is the embedded-image source and a visual/layout fallback; DOCX-derived text must never overwrite MinerU Markdown.
+- Approved — Manual Review Required: Human comparison with the authorized PDF is the final evidence layer for ambiguous visual, OCR, numeric, semantic, or content decisions.
 
 ## 1. Raw source preservation
 
@@ -51,6 +58,7 @@ Pilot approval basis: R005.
 - Approved: Preserve an inline page marker at the exact boundary when a paragraph is joined across pages.
 - Approved: Do not reflow or rewrite Chinese paragraphs for style or readability.
 - Approved — Manual Review Required: Keep incomplete text and add a QA marker until the source boundary is visually confirmed.
+- Approved — Manual Review Required: Any paragraph reconstruction that lacks explicit block-order, page-boundary, or artifact evidence is ambiguous and must not be applied without human approval.
 
 Pilot approval basis: R006 and R024.
 
@@ -76,10 +84,41 @@ Pilot approval basis: R015. The Chapter 1 repetition is confirmed as original au
 - Approved: Use stable document-order local names and relative paths in cleaned Markdown.
 - Approved: Replace a CDN URL only after a unique local mapping is verified.
 - Approved — Manual Review Required: Preserve an unresolved URL or mapping and open QA rather than substituting a screenshot or guessed image.
-- Approved — Manual Review Required: Do not invent captions.
-- Proposed: Final handling of character cartoons integrated into page layout remains open under R011–R014. Do not force these cartoons to a fixed paragraph position, treat them automatically as independent figures, or infer final publishing layout from Markdown order.
+- Approved: Do not invent figure captions. Neutral Markdown alt text may identify an internal resource, but a generated description must never be represented as an original caption.
 
-Pilot approval basis: R010 for localization. R011–R014 remain open for visual-layout treatment.
+### Chapter-opening layout rule
+
+Status: Approved
+
+The book uses a recurring chapter-opening template:
+
+1. one chapter number / chapter title structure;
+2. one introductory text block;
+3. two character illustrations;
+4. the illustrations are distributed on the left and right sides of the page composition; and
+5. the illustrations normally have no independent captions.
+
+Cleaned Markdown must preserve the correct chapter number, chapter title, introductory text, two correct images, logical reading order, and the logical association between the images and the chapter opening. It does not need to reproduce left/right placement, exact horizontal coordinates, text wrapping, or the original two-dimensional composition.
+
+### Logical image anchoring
+
+Status: Approved
+
+Cleaned Markdown records the chapter association, approximate nearby content, document order, and local file path for each image. This is required source structure.
+
+### Original layout metadata
+
+Status: Approved
+
+JSON page index, image block, bounding box, DOCX relationship/media order, and other visual evidence preserve original left/right position and page relationships. These details are layout metadata / publishing information and do not need to be encoded directly in Markdown. A later Publishing stage may reuse them to reconstruct a comparable DOCX or PDF layout.
+
+### Chapter-opening validation
+
+- Approved: Automatically check every parsed chapter opening for one chapter heading, one introductory text block, and two character illustrations.
+- Approved — Manual Review Required: Create a `chapter-opening-layout mismatch` QA warning when a heading or introduction is missing, the heading is split abnormally, image count is not two, or images are detached from the chapter opening.
+- Approved — Manual Review Required: Every mismatch must be confirmed by a human; the recurring template must not be used to silently repair or invent missing content.
+
+Pilot approval basis: R010–R014. The project lead confirmed that the Chapter 1 and Chapter 2 openers represent the recurring book-wide template.
 
 ## 7. Footnote handling
 
@@ -134,6 +173,7 @@ The following may be automated when their evidence conditions are satisfied:
 - remove running headers supported by reliable layout and JSON evidence;
 - combine a verified two-line chapter number and title into one logical Markdown heading;
 - join a cross-page paragraph supported by explicit block order, boundary, and running-header evidence;
+- validate the expected chapter-opening structure and create a `chapter-opening-layout mismatch` warning;
 - remove non-semantic line-end whitespace; and
 - report suspected OCR, numbers, footnotes, duplicates, missing pages, and incomplete endings.
 
@@ -144,12 +184,42 @@ The following always require human review:
 - every numeric, date, amount, percentage, or factual change;
 - every proposed duplicate deletion;
 - every ambiguous paragraph join;
-- every inferred caption or integrated-image layout decision;
+- every unexpected chapter-opening or image-layout anomaly;
+- every inferred caption;
 - every PDF physical page or missing printed-page assignment; and
 - every rule approval beyond the conditions recorded here.
 
-## 12. Approval record
+## 12. Pilot 01 final rule classification
 
-Stage 2C human decisions approve R001–R010 and R015–R025. R007–R009 are approved as one footnote-validation class but remain separate records. R011–R014 remain open as Needs discussion / Awaiting visual review.
+### Approved
+
+- raw source preservation;
+- MinerU Markdown as the primary text layer;
+- JSON as page, block, order, and layout evidence;
+- DOCX as embedded-image and visual fallback;
+- confirmed running-header removal;
+- chapter-number and chapter-title logical normalization;
+- structurally supported cross-page paragraph reconstruction;
+- image localization and logical image anchoring;
+- original layout metadata preservation;
+- recurring chapter-opening layout recognition;
+- expected chapter-opening image-count and structure validation;
+- incomplete-ending detection and preservation; and
+- page and block mapping.
+
+### Approved — Manual Review Required
+
+- every footnote;
+- OCR and proper-noun corrections;
+- dates, numbers, monetary values, percentages, and factual corrections;
+- suspected duplicate-text deletion, with default = preserve;
+- ambiguous paragraph reconstruction;
+- unexpected image-layout or chapter-opening anomalies;
+- unresolved image mappings or inferred captions; and
+- visually inferred physical or printed page references.
+
+## 13. Approval record
+
+Stage 2D closes Pilot 01 with R001–R025 approved. R007–R009 remain separate records within one approved footnote-validation class. Approval of a rule that requires future human review does not leave the Pilot 01 review item unresolved.
 
 No rule in this guide authorizes translation, full-book parsing, bulk cleaning, unattended OCR correction, or factual correction.
