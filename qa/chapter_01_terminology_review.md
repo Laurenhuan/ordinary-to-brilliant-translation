@@ -8,16 +8,16 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 
 - Candidate count: 41
 - Frozen-source segment binding: complete for all candidates
-- Locked after two approved terminology batches: 18
-- Remaining unlocked: 23
-- Conflict register: 6 retained IDs; 2 open
+- Locked after three approved terminology batches: 28
+- Remaining unlocked: 13
+- Conflict register: 6 retained IDs; 0 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
 ## Master glossary and duplicate audit
 
 - glossary/people.csv: 8 locked entries.
 - glossary/organizations.csv: 3 locked entries.
-- glossary/glossary.csv: 7 locked general/place entries.
+- glossary/glossary.csv: 17 locked general/place entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
 - `文山亭书院`, `松田小学`, and `东和旅馆` remain unresolved with status `needs_context`; no English form has been added for them.
@@ -25,11 +25,11 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 ## Workflow status
 
 - `pending`: 0
-- `researched`: 5
+- `researched`: 0
 - `verified`: 0
-- `locked`: 18
-- `needs_context`: 7
-- `needs_human_decision`: 11
+- `locked`: 28
+- `needs_context`: 3
+- `needs_human_decision`: 10
 
 ## Person (8)
 
@@ -377,14 +377,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P018
 - **Page:** FB-P016
 - **Context:** 被朝鲜时代的读书人列为必读书目。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Research authoritative historical period naming and choose a project convention with sentence-level context.
-- **Human decision:** Pending
-- **Decision note:** Period labels require a documented project decision.
-- **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Candidate English:** Joseon period
+- **Verified English:** Joseon period
+- **Evidence/source:** approved historical-cultural period terminology: Project-approved historical terminology review
+- **Codex recommendation:** Use Joseon period in this historical-cultural context; preferred Chapter 1 phrase: scholars of the Joseon period.
+- **Human decision:** Approved
+- **Decision note:** Do not automatically replace every future occurrence of 朝鲜 with Joseon; historical-geographic context remains separate.
+- **Conflict flag:** no — context-sensitive period term
+- **Status:** `locked`
 
 ### C1-T031 — 朝鲜末期
 
@@ -392,14 +392,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P019
 - **Page:** FB-P016
 - **Context:** 朝鲜末期的著名书法家。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Confirm what time span the source intends and choose a contextual English rendering after human review.
-- **Human decision:** Pending
-- **Decision note:** FB-F003 gives only a broad source explanation: 19世纪末20世纪初.
-- **Conflict flag:** no
-- **Status:** `needs_context`
+- **Candidate English:** late Joseon period
+- **Verified English:** late Joseon period
+- **Evidence/source:** approved historical period terminology: Project-approved historical terminology review
+- **Codex recommendation:** Use late Joseon period in the approved context. Preserve and faithfully translate frozen footnote FB-F003.
+- **Human decision:** Approved
+- **Decision note:** Terminology and factual-source policy remain separate. Do not silently fact-correct the source even if the broad footnote date range does not map perfectly onto formal dynasty chronology.
+- **Conflict flag:** no — source chronology preserved
+- **Status:** `locked`
 
 ### C1-T032 — 甲申政变
 
@@ -408,13 +408,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P016
 - **Context:** 发动了甲申政变。
 - **Candidate English:** Gapsin Coup
-- **Verified English:** —
-- **Evidence/source:** authoritative academic institution: https://dh.aks.ac.kr/Edu/wiki/index.php/GGHS_2019_Winter_-_Team_5
-- **Codex recommendation:** Record the Academy of Korean Studies form as evidence and obtain human approval before locking.
-- **Human decision:** Pending
-- **Decision note:** No fact-checking of the surrounding source claim was performed.
+- **Verified English:** Gapsin Coup
+- **Evidence/source:** established English-language Korean-history usage: https://dh.aks.ac.kr/Edu/wiki/index.php/GGHS_2019_Winter_-_Team_5
+- **Codex recommendation:** Use the locked historical-event name Gapsin Coup. Do not add 1884 unless the source or a later approved editorial decision supplies it.
+- **Human decision:** Approved
+- **Decision note:** Human approved established English-language Korean-history usage; no factual correction or date addition is authorized.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ## Classical text (7)
 
@@ -424,14 +424,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P014; CH01-P023; CH01-P024
 - **Page:** FB-P015; FB-P016; FB-P017
 - **Context:** 学习《千字文》。
-- **Candidate English:** Thousand Character Classic
-- **Verified English:** —
-- **Evidence/source:** authoritative English-language cultural source: https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/98/19/2020719819/2020719819.pdf
-- **Codex recommendation:** Record the established-looking English title as evidence; human reviewer decides title styling and first-use treatment.
-- **Human decision:** Pending
-- **Decision note:** Do not lock solely from one source.
+- **Candidate English:** The Thousand-Character Classic
+- **Verified English:** The Thousand-Character Classic
+- **Evidence/source:** established English title in major museum / academic sources: https://tile.loc.gov/storage-services/master/gdc/gdcebookspublic/20/20/71/98/19/2020719819/2020719819.pdf | project-approved research record
+- **Codex recommendation:** Use the locked title The Thousand-Character Classic and italicize it as a book title in English prose.
+- **Human decision:** Approved
+- **Decision note:** Human approved the established English title and the project book-title italicization rule.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ### C1-T024 — 《资治通鉴》
 
@@ -439,14 +439,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P014; CH01-P015; CH01-P016; CH01-P018; CH01-P019; CH01-P020; CH01-P023
 - **Page:** FB-P015; FB-P016
 - **Context:** 学了《资治通鉴》。
-- **Candidate English:** Comprehensive Mirror in Aid of Governance
-- **Verified English:** —
-- **Evidence/source:** authoritative academic source: https://afe.easia.columbia.edu/songdynasty-module/confucian-neo.html
-- **Codex recommendation:** Record the Columbia form and research title variants before a human selects the project title.
-- **Human decision:** Pending
-- **Decision note:** First-use gloss and italicization remain undecided.
+- **Candidate English:** Zizhi Tongjian
+- **Verified English:** Zizhi Tongjian
+- **Evidence/source:** established scholarly romanization plus established English rendering: https://afe.easia.columbia.edu/songdynasty-module/confucian-neo.html | project-approved research record
+- **Codex recommendation:** Use italicized Zizhi Tongjian as the master title. At first relevant occurrence add the approved gloss Comprehensive Mirror in Aid of Governance; subsequently use Zizhi Tongjian.
+- **Human decision:** Approved
+- **Decision note:** Master title: Zizhi Tongjian. Approved first-use gloss: Comprehensive Mirror in Aid of Governance. Do not force the long English rendering at every occurrence.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ### C1-T025 — 《论语》
 
@@ -454,14 +454,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P014; CH01-P024; CH01-P025
 - **Page:** FB-P015; FB-P017
 - **Context:** 五年间学了《论语》等书。
-- **Candidate English:** The Analects / The Analects of Confucius
-- **Verified English:** —
-- **Evidence/source:** authoritative academic source: https://afe.easia.columbia.edu/songdynasty-module/confucian-neo.html | https://afe.easia.columbia.edu/special/china_1000bce_confucius_say.htm
-- **Codex recommendation:** Preserve both documented title forms and let the human reviewer select one project form and styling rule.
-- **Human decision:** Pending
-- **Decision note:** Authoritative sources show more than one established English title.
-- **Conflict flag:** yes — established-title variation
-- **Status:** `researched`
+- **Candidate English:** The Analects
+- **Verified English:** The Analects
+- **Evidence/source:** established English academic title: https://afe.easia.columbia.edu/songdynasty-module/confucian-neo.html | https://afe.easia.columbia.edu/special/china_1000bce_confucius_say.htm
+- **Codex recommendation:** Use the locked project title The Analects and italicize it as a book title.
+- **Human decision:** Approved
+- **Decision note:** Human selected The Analects as the project form. The Analects of Confucius remains an external-source variant, not a competing glossary form unless needed for a quotation or bibliographic citation.
+- **Conflict flag:** no — title variation resolved
+- **Status:** `locked`
 
 ### C1-T026 — 《小学》
 
@@ -469,14 +469,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P015; CH01-P018; CH01-P023
 - **Page:** FB-P015; FB-P016
 - **Context:** 三年间学了《小学》、《大学》。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** First confirm the specific classical text intended; do not confuse it with the generic word primary school.
-- **Human decision:** Pending
-- **Decision note:** The same chapter also uses 小学 generically in other segments.
-- **Conflict flag:** yes — source-term sense ambiguity
-- **Status:** `needs_context`
+- **Candidate English:** Elementary Learning
+- **Verified English:** Elementary Learning
+- **Evidence/source:** approved established classical-text title: Project-approved classical-text research record
+- **Codex recommendation:** Use italicized Elementary Learning only for the marked classical work. Translate ordinary 小学 / 小学阶段 contextually as primary school / primary-school level.
+- **Human decision:** Approved
+- **Decision note:** Context-sensitive rule approved. Never perform blind string replacement; CH01-P015 contains both the classical title and ordinary educational-stage meaning.
+- **Conflict flag:** no — sense distinction resolved by context rule
+- **Status:** `locked`
 
 ### C1-T027 — 《大学》
 
@@ -485,13 +485,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P015; FB-P016
 - **Context:** 三年间学了《小学》、《大学》。
 - **Candidate English:** The Great Learning
-- **Verified English:** —
-- **Evidence/source:** authoritative academic source: https://afe.easia.columbia.edu/ps/cup/zhuxi_learning.pdf
-- **Codex recommendation:** Record the academic title as evidence; human reviewer decides styling and disambiguation before lock.
-- **Human decision:** Pending
-- **Decision note:** The title must remain distinct from generic university/college usage.
+- **Verified English:** The Great Learning
+- **Evidence/source:** established English philosophical / academic title: https://afe.easia.columbia.edu/ps/cup/zhuxi_learning.pdf
+- **Codex recommendation:** Use the locked title The Great Learning and italicize it as a book title.
+- **Human decision:** Approved
+- **Decision note:** Human approved the established English philosophical / academic title; keep it distinct from generic university/college usage.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ### C1-T028 — 《通鉴节要》
 
@@ -499,14 +499,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P018
 - **Page:** FB-P016
 - **Context:** 与《通鉴节要》、《通鉴纲目》。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Identify the exact work and research an established title; otherwise prepare verified romanization for human review.
-- **Human decision:** Pending
-- **Decision note:** Do not invent an English title from the Chinese wording.
+- **Candidate English:** Tongjian Jieyao
+- **Verified English:** Tongjian Jieyao
+- **Evidence/source:** established scholarly romanization: Project-approved scholarly-source review
+- **Codex recommendation:** Use the italicized master title Tongjian Jieyao. Do not claim or invent an authoritative English translated title.
+- **Human decision:** Approved
+- **Decision note:** English-language scholarship commonly retains the romanized title. Any later descriptive first-use gloss must be labelled as a project editorial gloss, not an established title.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ### C1-T029 — 《通鉴纲目》
 
@@ -514,14 +514,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P018
 - **Page:** FB-P016
 - **Context:** 与《通鉴节要》、《通鉴纲目》。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Identify the exact work and research an established title; otherwise prepare verified romanization for human review.
-- **Human decision:** Pending
-- **Decision note:** Do not invent an English title from the Chinese wording.
+- **Candidate English:** Zizhi Tongjian Gangmu
+- **Verified English:** Zizhi Tongjian Gangmu
+- **Evidence/source:** established scholarly romanization: Project-approved scholarly-source review
+- **Codex recommendation:** Use the italicized master title Zizhi Tongjian Gangmu. Do not lock a variable long descriptive rendering as a canonical English title.
+- **Human decision:** Approved
+- **Decision note:** English scholarship contains varying descriptive renderings; the stable master form is the established scholarly romanization.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ## Title or role (2)
 

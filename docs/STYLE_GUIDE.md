@@ -61,6 +61,8 @@ This is the initial house style for the English translation of 《从平凡走�
 - Italicize titles of books, periodicals, films, and other standalone works.
 - Put titles of chapters, articles, speeches, and other parts of larger works in double quotation marks.
 - Use the official English title of a work when available. Otherwise create a faithful provisional translation and record it in the glossary.
+- For classical texts, follow the locked master title and any separately recorded first-use gloss in `glossary/glossary.csv`. Established scholarly romanizations may remain the master title when approved; do not present a project-created explanatory gloss as an established English title.
+- Italicize locked classical book titles. Apply context-sensitive matching and never replace an ordinary word globally merely because the same characters occur inside a locked title, as with `《小学》` versus ordinary `小学`.
 - Keep heading levels parallel and concise. Do not end headings with periods.
 
 ## 8. Tone and voice

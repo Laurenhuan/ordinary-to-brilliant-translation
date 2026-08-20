@@ -38,6 +38,27 @@ Do not normalize these locked forms merely to make them look uniform. The correc
 
 Project romanization is an editorially approved controlled form, not evidence of a person's own English usage. The verified Korean source form, the project-generated English form, and the supporting evidence classification must remain separately traceable.
 
+## Approved rule: classical text title policy
+
+1. Use an established English title when a stable form exists. Chapter 1 examples include `The Analects`, `The Great Learning`, `Elementary Learning`, and `The Thousand-Character Classic`.
+2. Retain an established scholarly romanization when it is widely recognizable in scholarship or when no single authoritative translated English title exists. Chapter 1 examples include `Zizhi Tongjian`, `Tongjian Jieyao`, and `Zizhi Tongjian Gangmu`.
+3. A first-use English gloss may be approved separately from the master title. The locked master title `Zizhi Tongjian` has the first-use gloss `Comprehensive Mirror in Aid of Governance`; subsequent occurrences use only `Zizhi Tongjian`.
+4. A project-created explanatory gloss must never be described as an established title. For `Tongjian Jieyao` and `Zizhi Tongjian Gangmu`, no long translated English title is locked.
+5. Classical book titles follow the project's English book-title italicization rule. A parenthetical explanatory gloss is not automatically part of the italicized master title.
+
+Master title, first-use gloss, usage rule, and evidence classification must remain separately traceable in `glossary/glossary.csv`.
+
+## Approved rule: context-sensitive glossary matching
+
+Glossary locking does not authorize blind global string replacement. Matching must consider source punctuation, book-title marking, segment structure, syntax, and sentence context.
+
+The locked Chapter 1 distinction for `小学` is mandatory:
+
+- `《小学》`, when it identifies the classical work, becomes italicized `Elementary Learning`.
+- Ordinary `小学` or `小学阶段` becomes `primary school` or `primary-school level`, according to sentence context.
+
+CH01-P015 contains both the classical-title sense and ordinary educational-stage meaning. Later terminology QA must detect and reject erroneous global substitutions.
+
 ## Candidate record requirements
 
 Each candidate must retain:
