@@ -165,6 +165,30 @@ Conflicts are reported, not silently normalized. A locked master-glossary entry 
 
 Chapter candidate files are research queues, not competing master glossaries. Before adding a locked entry, search all three master files for identical Chinese terms, aliases, and English-form variants. Do not create different English spellings for the same person or entity across files.
 
+## Contextual translation decision records
+
+Historical institutions, social descriptions, corporate titles, traditional units, and cultural concepts may require a project translation decision even when no official English name exists. Researching a plausible rendering does not verify or lock it.
+
+Each contextual decision record must state:
+
+- the source term and, when present, its frozen-source segment ID;
+- the historical and sentence context;
+- a provisional candidate and material alternatives;
+- the evidence or translation rationale;
+- confidence in the recommendation;
+- the degree of context dependency;
+- whether human approval is required;
+- a status of `needs_human_decision` until the project reviewer decides.
+
+Terms prepared for later use but absent from the frozen Chapter 1 source must be labeled project-level preparation terms. They are not added to the 41-item Chapter 1 candidate inventory and may not be treated as source occurrences.
+
+A contextual recommendation must never become an automatic global replacement. In particular:
+
+- historical institution types must not be modernized solely because a modern English label is common;
+- a Korean corporate title must be interpreted as a corporate role, not by an unrelated literal sense, while its exact English title remains context-dependent;
+- traditional units may be transliterated and briefly glossed, but conversions require a period-specific approved policy;
+- an unresolved source-name versus historical-name mapping must remain visible and must not trigger a source correction.
+
 ## Review and locking workflow
 
 1. Identify the candidate and bind it to frozen-source segment IDs.

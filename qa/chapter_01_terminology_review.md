@@ -20,7 +20,7 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - glossary/glossary.csv: 17 locked general/place entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
-- `文山亭书院`, `松田小学`, and `东和旅馆` remain unresolved with status `needs_context`; no English form has been added for them.
+- Stage 5A.4 records provisional, non-locked contextual recommendations for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`; all remain subject to human approval.
 
 ## Workflow status
 
@@ -28,8 +28,8 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - `researched`: 0
 - `verified`: 0
 - `locked`: 28
-- `needs_context`: 3
-- `needs_human_decision`: 10
+- `needs_context`: 0
+- `needs_human_decision`: 13
 
 ## Person (8)
 
@@ -191,14 +191,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P019
 - **Page:** FB-P016
 - **Context:** 1894年上海东和旅馆。
-- **Candidate English:** —
+- **Candidate English:** Donghwa Inn (provisional)
 - **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Keep unresolved until reliable historical English-name evidence is available.
+- **Evidence/source:** historical source comparison: https://db.history.go.kr/diachronic/level.do?levelId=sa_026r_0020_0030_0120 ; https://anthony.sogang.ac.kr/transactions/VOL89/FullText.pdf
+- **Codex recommendation:** Prefer Donghwa Inn over Donghwa Hotel for a reader-facing historical rendering, but compare it with the historically attested Towa Yoko / 同和洋行 form and resolve the entity-name mapping before approval.
 - **Human decision:** Pending
-- **Decision note:** Human/project review confirmed that current evidence is insufficient to lock an English historical name.
-- **Conflict flag:** no
-- **Status:** `needs_context`
+- **Decision note:** Historical evidence supports an inn or Japanese ryokan rather than a modern hotel. The frozen Chinese form 东和旅馆 and the attested historical form 同和洋行 / Towa Yoko require human reconciliation; do not alter the source.
+- **Conflict flag:** no — contextual name mapping tracked in the Stage 5A.4 review
+- **Status:** `needs_human_decision`
 
 ## Place (8)
 
@@ -345,14 +345,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P014
 - **Page:** FB-P015
 - **Context:** 在祖父开设的文山亭书院学习。
-- **Candidate English:** —
+- **Candidate English:** Munsanjeong Seodang (provisional)
 - **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Keep unresolved and decide together with the project policy for 私塾 / seodang.
+- **Evidence/source:** retained Korean historical institution term: https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
+- **Codex recommendation:** Retain seodang as the historical institution term and provisionally use Munsanjeong Seodang; verify the underlying Korean name and approve the first-use explanation before locking.
 - **Human decision:** Pending
-- **Decision note:** Human/project review deferred this institution until the 私塾 / seodang translation policy is approved.
+- **Decision note:** Do not mechanically render 书院 as Academy. AKS English materials use seodang and explain it as a village school; exact institution romanization remains context-dependent.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `needs_human_decision`
 
 ### C1-T014 — 松田小学
 
@@ -360,14 +360,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P007
 - **Page:** FB-P015
 - **Context:** 在私塾和松田小学的学习。
-- **Candidate English:** —
+- **Candidate English:** Songjeon School (provisional)
 - **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Keep unresolved pending a historical institution naming convention and reliable school-name evidence.
+- **Evidence/source:** historical institution naming decision: https://www.asan-chungjuyung.com/mobile_eng/sub_02_01_2.html
+- **Codex recommendation:** Use Songjeon School as the conservative provisional form; human review must decide whether to adopt the official founder biography's Songjeon Elementary School wording for this historical-period institution.
 - **Human decision:** Pending
-- **Decision note:** Human/project review deferred this Japanese-colonial-period historical school name.
+- **Decision note:** Songjeon Primary School and Songjeon Elementary School remain alternatives. Do not assume that a modern school-level label exactly represents the colonial-period institution type.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `needs_human_decision`
 
 ## Historical term (3)
 
@@ -531,12 +531,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006
 - **Page:** FB-P015
 - **Context:** 是当时的一位鸿儒。
-- **Candidate English:** —
+- **Candidate English:** eminent Confucian scholar (provisional)
 - **Verified English:** —
-- **Evidence/source:** contextual translation required; no external source recorded yet
-- **Codex recommendation:** Translate in sentence context; do not register it as a formal office without evidence.
+- **Evidence/source:** contextual translation decision: source-context analysis
+- **Codex recommendation:** Prefer eminent Confucian scholar in this sentence; do not treat 鸿儒 as a formal office or force the same wording in every context.
 - **Human decision:** Pending
-- **Decision note:** A one-to-one glossary equivalent may be misleading.
+- **Decision note:** Distinguished Confucian scholar is a viable alternative. Human approval is required because the register and degree of praise are contextual.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -546,12 +546,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P005; CH01-P006
 - **Page:** FB-P015
 - **Context:** 可以收获……石的地主家庭。
-- **Candidate English:** —
+- **Candidate English:** landowner / landowning family (provisional)
 - **Verified English:** —
-- **Evidence/source:** contextual translation required; no external source recorded yet
-- **Codex recommendation:** Choose a historically and socioeconomically appropriate rendering; record a default only after human review.
+- **Evidence/source:** contextual translation decision: source-context analysis
+- **Codex recommendation:** Use landowner for an individual and landowning family in the Chapter 1 family-background context; avoid landlord unless a tenancy relationship is explicit.
 - **Human decision:** Pending
-- **Decision note:** Context may affect connotation and article use.
+- **Decision note:** Large landowner may be justified only where the source context supports scale. Human approval is required for the default and contextual variant.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -563,12 +563,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P005
 - **Page:** FB-P015
 - **Context:** 收获 2000 石……1500 石。
-- **Candidate English:** —
+- **Candidate English:** seok (provisional; first-use gloss required)
 - **Verified English:** —
-- **Evidence/source:** manual source and unit research required; no external source recorded yet
-- **Codex recommendation:** Verify the unit in this historical context; human reviewer chooses transliteration, conversion note, or brief gloss. Preserve all numbers.
+- **Evidence/source:** historical unit transliteration strategy: https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2018_eng.pdf ; https://www.oecd-ilibrary.org/a-new-rural-development-paradigm-for-developing-countries-in-the-21st-century_5jm23m8s3htj.pdf?itemId=%2Fcontent%2Fcomponent%2F9789264252271-12-en&mimeType=pdf
+- **Codex recommendation:** Retain seok and add a brief first-use gloss such as a traditional Korean unit of grain volume; do not translate it as stone or insert a numerical conversion without an approved period-specific policy.
 - **Human decision:** Pending
-- **Decision note:** Do not calculate or normalize quantities without an approved rule.
+- **Decision note:** The volume meaning is well supported, but first-use wording and any conversion remain human decisions. Preserve 2000 and 1500 exactly.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
