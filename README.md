@@ -13,11 +13,11 @@ A structured Chinese-to-English book translation project supporting source prese
 
 ## Project status
 
-Current phase: Stage 2D completed — MinerU Pilot 01 Passed.
+Current phase: Stage 3A — MinerU Pilot 02 Validation.
 
-All 25 Pilot 01 review items have human decisions and are approved. MinerU is conditionally approved for continued use when Markdown, JSON, DOCX, and human PDF visual review remain available as complementary evidence layers.
+Pilot 01 passed with all 25 review items approved. Pilot 02 is now testing those approved rules on an 11-page holdout sample using Markdown, JSON, DOCX, and human PDF visual review as complementary evidence layers.
 
-Next planned phase: Stage 3 — MinerU Pilot 02 Validation. Stage 3 has not started; the project has not entered full-book parsing or translation.
+Pilot 02 has not been passed or closed. The project has not entered full-book ingestion or translation.
 
 ## Repository structure
 
