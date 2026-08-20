@@ -1,5 +1,5 @@
 <!-- source-page: page_idx=0 printed_page=120 -->
-<!-- TODO(P2-R007): pilot begins mid-sentence; confirm the selected range against the authorized PDF. -->
+<!-- QA(P2-R007): human-confirmed pilot-boundary truncation at the sample start. -->
 
 首，晃动小国旗的经历。
 
@@ -28,14 +28,12 @@
 日本在 1868 年的时候有明治维新，之后在长崎修建制铁工厂的同时，在神户等地也修建了纤维纺织业，也就是同时发展轻重工业。以此为模板，韩国也是两边齐头并进。
 
 <!-- source-page: page_idx=2 printed_page=unresolved -->
-<!-- TODO(P2-R002): MinerU emitted the following English process message on a page represented as a stylistic separator. It is retained verbatim pending PDF visual review and is not accepted as book body text. -->
+<!-- blank page — confirmed; scan artifact and parser instruction leakage omitted after human PDF visual verification. -->
 
-> The OCR result should be empty, as the image contains only a stylistic horizontal line which must be ignored according to Rule 2. No text or placeholder characters should be output.
+<!-- source-page: page_idx=3 printed_page=unresolved chapter_number=15 -->
+<!-- QA(P2-R003): human-approved chapter-number recovery from JSON and chapter-opening structural evidence. -->
 
-<!-- source-page: page_idx=3 printed_page=unresolved chapter_number_candidate=15 -->
-<!-- TODO(P2-R003): JSON discarded centered text “15” as page_number; Markdown and DOCX omit it. Confirm whether it is the chapter number before merging it into the heading. -->
-
-# 郑周永的船和李秉哲的彩色电视
+# 15 郑周永的船和李秉哲的彩色电视
 
 ![pilot_02_image_001](../raw/pilot_02/images/image_001.jpg)
 
@@ -175,7 +173,7 @@
 
 世界经济陷入困境，已经签署好的很多订单出现了拒绝提货的事情。主要是希腊尼亚尔霍斯订购的26万吨级的7302号，香港的爱尔兰海运公司订购的26万吨级的7308号和7310号。
 
-尼亚尔霍斯订购的 7302 号于 1974 年 6 月举行了人水式和命名典礼，1974 年 11 月完全制成。可是尼亚尔霍斯由于石油危机的原因决心不收货。因为买回去也没有顾客租用。
+尼亚尔霍斯订购的 7302 号于 1974 年 6 月举行了入水式和命名典礼，1974 年 11 月完全制成。可是尼亚尔霍斯由于石油危机的原因决心不收货。因为买回去也没有顾客租用。
 
 尼亚尔霍斯开始指责油轮这里那里有问题以拖延工期。因为如果不能按照合同上定的日期交货，合同就可以取消，并且可以拿回定金和利息。
 
@@ -185,10 +183,10 @@
 
 尼亚尔霍斯订购的船已经造好停泊在了码头。青瓦台第二经济秘书官吴源哲认为，船都已经造好放在那里不动，是一个国家的损失。吴源哲把那艘船用于从海湾地区运输石油。就在那时，现代对尼亚尔霍斯的官司胜诉。30年过去了，郑周永邀请尼亚尔霍斯访韩。在现代集团的迎宾馆两个人重逢。尼亚尔霍斯已经由当年36岁的年轻人变成了年近70的老人，而郑
 
-<!-- TODO(P2-R008): pilot ends mid-sentence; confirm the selected range against the authorized PDF. -->
+<!-- QA(P2-R008): human-confirmed pilot-boundary truncation at the sample end. -->
 
-<!-- TODO(P2-R001): proposed JSON footnote recovery; manual review is required before authoritative use. -->
+<!-- QA(P2-R001): human-approved JSON footnote recovery after PDF visual review. -->
 [^p000-1]: KBS，韩国电视台。
 
-<!-- TODO(P2-R004): proposed JSON footnote recovery; manual review is required before authoritative use. -->
+<!-- QA(P2-R004): human-approved JSON footnote recovery after PDF visual review. -->
 [^p004-1]: 尼亚尔霍斯的妻子和奥纳西斯的妻子是一对姐妹。

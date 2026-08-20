@@ -1,6 +1,6 @@
 # Source Cleaning Guide
 
-Version: v0.3 — Stage 2D Pilot 01 Closure
+Version: v0.4 — Stage 3B Pilot 02 Closure & Rule Consolidation
 
 The purpose of source cleaning is to produce readable, traceable Markdown without rewriting, translating, fact-correcting, or silently repairing the source text.
 
@@ -39,6 +39,20 @@ Approval is always limited by the conditions written below. Approved never means
 
 Pilot approval basis: R001–R004.
 
+### Blank-page scan artifact handling
+
+- Approved: When PDF visual evidence confirms that a page is blank and detected lines, spots, scan edges, or similar marks have no semantic content, cleaned Markdown generates no body text, horizontal rule, image, or decorative element for them.
+- Approved: Preserve the page mapping and record `blank page — confirmed` in QA metadata.
+- Approved — Manual Review Required: If the machine cannot establish that the page is genuinely blank, preserve the raw evidence and route the page to visual review.
+
+### Parser / instruction leakage handling
+
+- Approved: Remove parser prompts, OCR instructions, model explanations, or other pipeline-generated text from cleaned body only when structural and PDF visual evidence confirm that the text does not exist in the source book.
+- Approved: Record the removed text, page/block evidence, and human disposition in QA; never alter raw artifacts.
+- Approved — Manual Review Required: Appearance or language alone is insufficient. Any ambiguous candidate remains preserved and enters human review.
+
+Pilot 02 approval basis: P2-A001 / P2-R002.
+
 ## 3. Heading normalization
 
 - Approved: Treat MinerU heading levels as structural evidence rather than final Markdown hierarchy.
@@ -48,7 +62,13 @@ Pilot approval basis: R001–R004.
 - Approved: Record every structural heading merge in QA.
 - Approved: Do not infer missing headings or rename chapters from outside knowledge.
 
-Pilot approval basis: R005.
+### Chapter-number recovery from structural evidence
+
+- Approved: Recover a chapter number omitted from Markdown only when multiple independent structural signals jointly identify it, such as a recognized chapter-opening page, title proximity, JSON content and block position, bounding box/page position, expected chapter sequence, and the confirmed fixed chapter-opening template.
+- Approved: Record the recovered number and its evidence in QA; raw Markdown, JSON, and DOCX remain unchanged.
+- Approved — Manual Review Required: Do not recover a number from semantic expectation or sequence guesswork alone. Conflicting or incomplete evidence requires human approval.
+
+Pilot approval basis: R005 and P2-A002 / P2-R003.
 
 ## 4. Paragraph handling
 
@@ -60,7 +80,13 @@ Pilot approval basis: R005.
 - Approved — Manual Review Required: Keep incomplete text and add a QA marker until the source boundary is visually confirmed.
 - Approved — Manual Review Required: Any paragraph reconstruction that lacks explicit block-order, page-boundary, or artifact evidence is ambiguous and must not be applied without human approval.
 
-Pilot approval basis: R006 and R024.
+### Empty parser block handling
+
+- Approved: A parser block may be skipped when it contains no text, image, footnote, or other semantic payload and ignoring it does not change meaningful block ordering.
+- Approved: Preserve the block's existence in page/block mapping or parser telemetry when available.
+- Approved — Manual Review Required: Any uncertainty about hidden, deleted, or visually present content requires source review before the block is ignored.
+
+Pilot approval basis: R006, R024, and P2-A003.
 
 ## 5. Repeated prose
 
@@ -139,16 +165,27 @@ Pilot approval basis: R007–R009, approved as one footnote-validation class whi
 - Approved — Manual Review Required: Do not use memory, common knowledge, or web fact checking to replace source-cleaning evidence.
 - Approved: Defer English terminology and translated-name decisions to the translation and terminology stages.
 
-Pilot approval basis: R016.
+Pilot approval basis: R016 and P2-R005. Pilot 02 includes the human-verified cleaned-source correction `人水式` → `入水式`; raw artifacts remain unchanged.
 
 ## 9. Numbers, dates, and facts
 
-- Approved: Automatically detect and queue dates, years, amounts, percentages, counts, page references, and unusual numeric units for QA.
-- Approved — Manual Review Required: Verify digits, signs, punctuation, units, and source glyphs against the visual source.
-- Approved — Manual Review Required: Do not automatically change a number, date, amount, percentage, name, or factual claim.
-- Approved — Manual Review Required: Keep visual transcription verification separate from historical or factual verification.
+- Approved: Normal numbers may pass from raw to cleaned source without individual approval when structural cleaning preserves them exactly.
+- Approved: Automatically compare raw and cleaned numeric tokens to detect disappearance, change, splitting, or incorrect merging.
+- Approved: Automatically flag abnormal number formats, suspicious OCR/block evidence, and values located in footnotes, tables, images, or complex layouts.
+- Approved — Manual Review Required: A raw/cleaned mismatch, abnormal format, suspicious evidence, complex-layout value, or suspected pipeline change requires targeted review.
+- Approved: Maintain a defined human sampling program during full-book ingestion rather than creating an item for every normal number.
 
-Pilot approval basis: R017–R023.
+### Transcription accuracy
+
+- Approved: Numeric source QA asks whether digits, signs, punctuation, units, and formatting were transcribed and structurally preserved from the source.
+- Approved: Automated consistency checks plus targeted review and sampling are sufficient for normal numeric transcription after Pilot 01 and Pilot 02 samples.
+
+### Factual accuracy
+
+- Approved — Manual Review Required: Transcription confidence does not authorize changing a historically or factually questionable number.
+- Approved — Manual Review Required: Default to preserving the original source. Any factual correction requires an explicit human decision and separate evidence.
+
+Pilot approval basis: R017–R023 and P2-R006.
 
 ## 10. Page-reference preservation
 
@@ -172,8 +209,11 @@ The following may be automated when their evidence conditions are satisfied:
 - insert page mapping comments;
 - remove running headers supported by reliable layout and JSON evidence;
 - combine a verified two-line chapter number and title into one logical Markdown heading;
+- recover a chapter number supported by multiple independent structural signals;
 - join a cross-page paragraph supported by explicit block order, boundary, and running-header evidence;
 - validate the expected chapter-opening structure and create a `chapter-opening-layout mismatch` warning;
+- skip a confirmed empty parser block while retaining mapping telemetry;
+- compare raw and cleaned numeric tokens and route only targeted anomalies plus samples to review;
 - remove non-semantic line-end whitespace; and
 - report suspected OCR, numbers, footnotes, duplicates, missing pages, and incomplete endings.
 
@@ -181,7 +221,8 @@ The following always require human review:
 
 - every restored footnote;
 - every OCR or proper-noun correction;
-- every numeric, date, amount, percentage, or factual change;
+- every suspicious or mismatched numeric transcription and every sampled numeric item selected for review;
+- every factual correction, including changes to numbers, dates, amounts, or percentages;
 - every proposed duplicate deletion;
 - every ambiguous paragraph join;
 - every unexpected chapter-opening or image-layout anomaly;
@@ -189,7 +230,7 @@ The following always require human review:
 - every PDF physical page or missing printed-page assignment; and
 - every rule approval beyond the conditions recorded here.
 
-## 12. Pilot 01 final rule classification
+## 12. Consolidated rule classification after Pilot 02
 
 ### Approved
 
@@ -204,14 +245,20 @@ The following always require human review:
 - original layout metadata preservation;
 - recurring chapter-opening layout recognition;
 - expected chapter-opening image-count and structure validation;
-- incomplete-ending detection and preservation; and
-- page and block mapping.
+- incomplete-ending detection and preservation;
+- page and block mapping;
+- blank-page scan artifact removal with confirmed visual evidence;
+- parser/instruction leakage removal with structural and visual evidence;
+- chapter-number recovery from multiple structural signals;
+- empty parser block handling; and
+- numeric raw/cleaned consistency checks with targeted review and sampling.
 
 ### Approved — Manual Review Required
 
 - every footnote;
 - OCR and proper-noun corrections;
-- dates, numbers, monetary values, percentages, and factual corrections;
+- suspicious or mismatched numeric transcriptions and numeric QA samples;
+- all factual corrections, including dates, numbers, monetary values, and percentages;
 - suspected duplicate-text deletion, with default = preserve;
 - ambiguous paragraph reconstruction;
 - unexpected image-layout or chapter-opening anomalies;
@@ -221,5 +268,7 @@ The following always require human review:
 ## 13. Approval record
 
 Stage 2D closes Pilot 01 with R001–R025 approved. R007–R009 remain separate records within one approved footnote-validation class. Approval of a rule that requires future human review does not leave the Pilot 01 review item unresolved.
+
+Stage 3B closes Pilot 02 with P2-R001–P2-R008 approved. Pilot 02 validates the Pilot 01 rules on an 11-page holdout sample with 10 initial rule successes, 0 rule failures, 0 destructive false positives, and no silent prose or image loss. P2-A001–P2-A003 are resolved or classified under the evidence-bounded rules above.
 
 No rule in this guide authorizes translation, full-book parsing, bulk cleaning, unattended OCR correction, or factual correction.

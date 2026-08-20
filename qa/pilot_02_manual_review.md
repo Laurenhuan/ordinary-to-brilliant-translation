@@ -1,8 +1,8 @@
 # Pilot 02 Manual Review
 
-Stage: Stage 3A — MinerU Pilot 02 Validation
+Stage: Stage 3B — MinerU Pilot 02 Closure & Rule Consolidation
 
-Status: Awaiting project-lead review
+Status: Passed — all eight manual review items resolved
 
 Only Manual Review Required cases, new anomalies, and uncertain boundaries are listed. Approved low-risk cases that behaved normally remain in the validation matrix.
 
@@ -17,6 +17,11 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 | Pilot-boundary truncation | 2 |
 | Total | 8 |
 
+| Decision status | Items |
+|---|---:|
+| Approved | 8 |
+| Open / Needs discussion | 0 |
+
 ## Review items
 
 ### P2-R001
@@ -27,13 +32,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: body block 3 marker after KBS; discarded block 9 `page_footnote`, bbox 131,780,254,795
 - Issue category: Footnote recovery
 - Raw state: Markdown contains `$^{①}$`; JSON body is `① KBS，韩国电视台。`; DOCX has no usable footnote body.
-- Cleaned state: proposed marker `[^p000-1]` and proposed JSON-derived definition are present with a TODO.
+- Cleaned state: marker `[^p000-1]` and the JSON-derived definition are retained with an approval record.
 - Existing rule involved: Footnote handling — Approved — Manual Review Required
 - Codex assessment: Same-page one-marker/one-body mapping is structurally strong but cannot become authoritative without visual confirmation.
 - Risk: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Status: approved
+- Human note: Same-page mapping confirmed by human PDF visual review. The long-term rule still requires manual review for every footnote.
 
 ### P2-R002
 
@@ -43,13 +48,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: sole para block 0, bbox 1,10,594,864
 - Issue category: New anomaly / process-message leakage
 - Raw state: Markdown, JSON, and DOCX contain the English sentence beginning `The OCR result should be empty...`.
-- Cleaned state: exact text is retained in a blockquote with a TODO and is not accepted as book body.
-- Existing rule involved: No approved rule directly covers VLM/OCR process-message leakage.
-- Codex assessment: The message describes a stylistic horizontal line rather than book content. Authorized PDF visual verification is required before exclusion.
+- Cleaned state: the leaked English instruction is removed; the page marker remains with `blank page — confirmed` metadata.
+- Existing rule involved: Blank-page scan artifact handling; parser / instruction leakage handling
+- Codex assessment: Human PDF review confirms the page is blank and the line is a scan artifact, not source text, an illustration, a divider, or authorial design.
 - Risk: High
-- Human decision: [ ] Approve exclusion from body  [ ] Preserve as body  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Approve exclusion from body  [ ] Preserve as body  [ ] Needs discussion
+- Status: approved
+- Human note: Exclusion approved after visual confirmation. Page mapping is preserved and no Markdown horizontal rule or image is generated.
 
 ### P2-R003
 
@@ -59,13 +64,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: discarded block 0 is centered text `15`, type `page_number`, bbox 277,105,322,137; title block 1 is `郑周永的船和李秉哲的彩色电视`, bbox 114,147,484,178
 - Issue category: Chapter heading / chapter-opening-layout mismatch
 - Raw state: JSON retains `15`, but Markdown and DOCX contain only the chapter title.
-- Cleaned state: the title remains without a number; a TODO records `15` as a candidate chapter number.
-- Existing rule involved: Chapter-number + chapter-title logical normalization; chapter-opening validation
-- Codex assessment: Placement and the known chapter-opening template strongly suggest a chapter number, but primary Markdown and DOCX do not supply it. Do not restore without visual confirmation.
+- Cleaned state: the heading is restored as `# 15 郑周永的船和李秉哲的彩色电视` with a human-approval record.
+- Existing rule involved: Chapter-number recovery from structural evidence; chapter-opening validation
+- Codex assessment: JSON content/position, title proximity, and the confirmed recurring chapter-opening template jointly establish `15` as the chapter number.
 - Risk: High
-- Human decision: [ ] Approve `15` as chapter number  [ ] Reject  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Approve `15` as chapter number  [ ] Reject  [ ] Needs discussion
+- Status: approved
+- Human note: Structural recovery approved. Raw Markdown, JSON, and DOCX remain unchanged.
 
 ### P2-R004
 
@@ -75,13 +80,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: body block 1 marker after `妹夫`; discarded block 9 `page_footnote`, bbox 128,779,405,794
 - Issue category: Footnote recovery
 - Raw state: Markdown contains plain marker `①`; JSON body is `① 尼亚尔霍斯的妻子和奥纳西斯的妻子是一对姐妹。`; DOCX has no usable footnote body.
-- Cleaned state: proposed marker `[^p004-1]` and proposed JSON-derived definition are present with a TODO.
+- Cleaned state: marker `[^p004-1]` and the JSON-derived definition are retained with an approval record.
 - Existing rule involved: Footnote handling — Approved — Manual Review Required
 - Codex assessment: Same-page one-marker/one-body mapping is structurally strong but requires visual approval.
 - Risk: High
-- Human decision: [ ] Approve  [ ] Reject  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Approve  [ ] Reject  [ ] Needs discussion
+- Status: approved
+- Human note: Same-page mapping confirmed by human PDF visual review. The long-term rule still requires manual review for every footnote.
 
 ### P2-R005
 
@@ -91,13 +96,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: page 0 block 5; page 9 block 9; page 10 block 3
 - Issue category: OCR / proper-noun uncertainty sampling
 - Raw state: suspicious sequences include `天擎或混频电视机`, `船舶号位40%`, and `人水式`.
-- Cleaned state: all sequences remain unchanged.
+- Cleaned state: the other sampled terms remain unchanged; human-verified `人水式` is corrected to `入水式`.
 - Existing rule involved: OCR and proper-noun uncertainty — Approved — Manual Review Required
 - Codex assessment: PDF visual verification required. No replacement characters or factual alternatives are proposed.
 - Risk: High
-- Human decision: [ ] Source glyphs confirmed  [ ] OCR issue found  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Human-verified correction applied  [ ] Reject  [ ] Needs discussion
+- Status: approved
+- Human note: The other sampled professional terms are confirmed correct. PDF visual verification confirms `入水式`; this is recorded as a human-verified OCR correction and raw artifacts remain unchanged.
 
 ### P2-R006
 
@@ -111,9 +116,9 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Existing rule involved: Numbers, dates, and facts — Approved — Manual Review Required
 - Codex assessment: Compare digits, punctuation, units, and percent signs with the authorized PDF only; do not perform historical fact checking.
 - Risk: High
-- Human decision: [ ] Sample confirmed  [ ] Transcription issue found  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Sample confirmed  [ ] Transcription issue found  [ ] Needs discussion
+- Status: approved
+- Human note: Sample accepted. Future numeric transcription QA uses automated consistency checks, targeted review triggers, and sampling; factual correction remains manual.
 
 ### P2-R007
 
@@ -123,13 +128,13 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: first body block 1 begins `首，晃动小国旗的经历。`
 - Issue category: Pilot-boundary truncation — beginning
 - Raw state: the sample begins with an apparent sentence fragment.
-- Cleaned state: text is preserved unchanged with a boundary TODO.
+- Cleaned state: text is preserved unchanged with a human-confirmed boundary record.
 - Existing rule involved: Incomplete-boundary detection
 - Codex assessment: Likely caused by holdout sampling rather than MinerU extraction, but the selected PDF range must confirm this.
 - Risk: Medium
-- Human decision: [ ] Pilot boundary confirmed  [ ] Extraction failure  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Pilot boundary confirmed  [ ] Extraction failure  [ ] Needs discussion
+- Status: approved
+- Human note: The apparent fragment is caused by the selected holdout range, not a MinerU extraction failure.
 
 ### P2-R008
 
@@ -139,14 +144,14 @@ Only Manual Review Required cases, new anomalies, and uncertain boundaries are l
 - Block evidence: final body block 7 ends `而郑`
 - Issue category: Pilot-boundary truncation — ending
 - Raw state: the sample ends mid-sentence.
-- Cleaned state: incomplete text is preserved unchanged with a boundary TODO.
+- Cleaned state: incomplete text is preserved unchanged with a human-confirmed boundary record.
 - Existing rule involved: Incomplete-boundary detection
 - Codex assessment: Likely caused by holdout sampling rather than MinerU extraction, but the selected PDF range must confirm this.
 - Risk: Medium
-- Human decision: [ ] Pilot boundary confirmed  [ ] Extraction failure  [ ] Needs discussion
-- Status: open
-- Human note:
+- Human decision: [x] Pilot boundary confirmed  [ ] Extraction failure  [ ] Needs discussion
+- Status: approved
+- Human note: The incomplete ending is caused by the selected holdout range, not a MinerU extraction failure.
 
 ## Completion gate
 
-Pilot 02 remains open. Its final Pass/Conditional Pass/Fail decision requires human decisions for P2-R001–P2-R008. Closing these items does not authorize full-book ingestion or translation.
+Pilot 02 is closed with P2-R001–P2-R008 approved and no unresolved review item. This closure supports proceeding to the separately authorized Full-book Source Ingestion stage but does not start ingestion or translation.
