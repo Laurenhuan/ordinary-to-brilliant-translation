@@ -8,27 +8,28 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 
 - Candidate count: 41
 - Frozen-source segment binding: complete for all candidates
-- Locked after the first approved terminology batch: 7
-- Remaining unlocked: 34
-- Conflict register: 5 retained IDs; 2 open
+- Locked after two approved terminology batches: 18
+- Remaining unlocked: 23
+- Conflict register: 6 retained IDs; 2 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
 ## Master glossary and duplicate audit
 
-- glossary/people.csv: 4 locked entries.
+- glossary/people.csv: 8 locked entries.
 - glossary/organizations.csv: 3 locked entries.
-- glossary/glossary.csv: 0 entries; no item in this approved batch belongs there.
+- glossary/glossary.csv: 7 locked general/place entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
+- `文山亭书院`, `松田小学`, and `东和旅馆` remain unresolved with status `needs_context`; no English form has been added for them.
 
 ## Workflow status
 
 - `pending`: 0
-- `researched`: 7
+- `researched`: 5
 - `verified`: 0
-- `locked`: 7
-- `needs_context`: 13
-- `needs_human_decision`: 14
+- `locked`: 18
+- `needs_context`: 7
+- `needs_human_decision`: 11
 
 ## Person (8)
 
@@ -98,14 +99,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006
 - **Page:** FB-P015
 - **Context:** 他出生于……宜宁的地主李缵宇家。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the PDF glyph and identify an authoritative biographical or institutional source before proposing romanization.
-- **Human decision:** Pending
-- **Decision note:** Do not infer a Korean name spelling from Chinese characters alone.
-- **Conflict flag:** no
-- **Status:** `needs_context`
+- **Candidate English:** Lee Chan-woo
+- **Verified English:** Lee Chan-woo
+- **Evidence/source:** project romanization based on verified Korean name: Korean authoritative biographical sources identify 이찬우 (李纘雨); project-approved research record
+- **Codex recommendation:** Use the locked project romanization Lee Chan-woo. Do not describe it as an official English name.
+- **Human decision:** Approved
+- **Decision note:** Verified Korean: 이찬우. The English form is a project romanization, not an established official English form. Common surname usage Lee is retained under the approved Korean-name rule.
+- **Conflict flag:** documented — frozen source/entity-form discrepancy
+- **Status:** `locked`
 
 ### C1-T006 — 李洪锡
 
@@ -113,14 +114,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006
 - **Page:** FB-P015
 - **Context:** 李秉哲的祖父李洪锡是当时的一位鸿儒。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the PDF glyph and identify an authoritative biographical or institutional source before proposing romanization.
-- **Human decision:** Pending
-- **Decision note:** Do not infer a Korean name spelling from Chinese characters alone.
+- **Candidate English:** Lee Hong-seok
+- **Verified English:** Lee Hong-seok
+- **Evidence/source:** project romanization based on verified Korean name: Verified Korean source name 이홍석; project-approved research record
+- **Codex recommendation:** Use the locked project romanization Lee Hong-seok. Do not describe it as an official English name.
+- **Human decision:** Approved
+- **Decision note:** Verified Korean: 이홍석. The English form is a project romanization, not an established official English form. Common surname usage Lee is retained under the approved Korean-name rule.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ### C1-T007 — 金玉均
 
@@ -129,13 +130,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P016
 - **Context:** 发动了甲申政变的才俊金玉均。
 - **Candidate English:** Kim Ok-gyun
-- **Verified English:** —
-- **Evidence/source:** authoritative academic institution: https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/UKS6_Korea_Religious_Places_eng.pdf
-- **Codex recommendation:** Record the Academy of Korean Studies form as evidence and obtain human approval before locking.
-- **Human decision:** Pending
-- **Decision note:** Historical-person romanization requires project-level consistency.
+- **Verified English:** Kim Ok-gyun
+- **Evidence/source:** authoritative Korean academic English usage: https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/UKS6_Korea_Religious_Places_eng.pdf
+- **Codex recommendation:** Apply the locked form Kim Ok-gyun throughout the translation.
+- **Human decision:** Approved
+- **Decision note:** Human approved authoritative Korean academic / Korea studies English usage.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ### C1-T008 — 李鸿章
 
@@ -143,14 +144,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P019
 - **Page:** FB-P016
 - **Context:** 在……和李鸿章谈判之前。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Research authoritative historical/academic usage and let the reviewer select the project form.
-- **Human decision:** Pending
-- **Decision note:** A familiar-looking romanization is not verification evidence.
+- **Candidate English:** Li Hongzhang
+- **Verified English:** Li Hongzhang
+- **Evidence/source:** established English form: U.S. Department of State historical usage; project-approved research record
+- **Codex recommendation:** Apply the locked established English form Li Hongzhang throughout the translation.
+- **Human decision:** Approved
+- **Decision note:** Human approved the established English form, including U.S. Department of State historical usage.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ## Organization (3)
 
@@ -193,9 +194,9 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Candidate English:** —
 - **Verified English:** —
 - **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Confirm entity type, source glyph, and historically attested English/romanized name before proposing a form.
+- **Codex recommendation:** Keep unresolved until reliable historical English-name evidence is available.
 - **Human decision:** Pending
-- **Decision note:** The source may name a hotel, but this must not be assumed without evidence.
+- **Decision note:** Human/project review confirmed that current evidence is insufficient to lock an English historical name.
 - **Conflict flag:** no
 - **Status:** `needs_context`
 
@@ -208,13 +209,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P014; FB-P015
 - **Context:** 在日本也有这类的例子。
 - **Candidate English:** Japan
-- **Verified English:** —
-- **Evidence/source:** widely established conventional English; no external source recorded yet
-- **Codex recommendation:** Confirm that the project will use conventional English country names; then lock consistently.
-- **Human decision:** Pending
-- **Decision note:** Conventional form is clear, but project locking remains a human action.
+- **Verified English:** Japan
+- **Evidence/source:** widely established conventional English: Project-approved conventional English usage
+- **Codex recommendation:** Apply the locked conventional English place name Japan.
+- **Human decision:** Approved
+- **Decision note:** Human approved the conventional English country name.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T016 — 庆尚南道
 
@@ -222,14 +223,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006
 - **Page:** FB-P015
 - **Context:** 他出生于庆尚南道宜宁。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify official romanization and decide how the historical administrative level will be expressed.
-- **Human decision:** Pending
-- **Decision note:** Footnote FB-F002 explains 道; current and historical naming may differ.
+- **Candidate English:** Gyeongsangnam-do
+- **Verified English:** Gyeongsangnam-do
+- **Evidence/source:** official government English usage: Republic of Korea Ministry of the Interior and Safety official English usage; project-approved research record
+- **Codex recommendation:** Apply the locked official form Gyeongsangnam-do. Preserve source footnote FB-F002 unchanged.
+- **Human decision:** Approved
+- **Decision note:** Human approved Republic of Korea official English usage. The source footnote explaining that 道 corresponds roughly to a province-level administrative division remains unchanged.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ### C1-T017 — 宜宁
 
@@ -238,13 +239,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P015
 - **Context:** 庆尚南道宜宁。
 - **Candidate English:** Uiryeong
-- **Verified English:** —
-- **Evidence/source:** official municipal source: https://www.uiryeong.go.kr/index.uiryeong?menuCd=DOM_000000306001002000
-- **Codex recommendation:** Record the municipal English form as evidence; confirm historical-context treatment before locking.
-- **Human decision:** Pending
-- **Decision note:** Official municipal usage supports the candidate spelling.
+- **Verified English:** Uiryeong
+- **Evidence/source:** official local government English usage: https://www.uiryeong.go.kr/index.uiryeong?menuCd=DOM_000000306001002000
+- **Codex recommendation:** Apply the locked official local-government form Uiryeong.
+- **Human decision:** Approved
+- **Decision note:** Human approved Uiryeong County official government usage.
 - **Conflict flag:** no
-- **Status:** `researched`
+- **Status:** `locked`
 
 ### C1-T018 — 江原道
 
@@ -252,14 +253,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P007
 - **Page:** FB-P015
 - **Context:** 生于江原道通川郡。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the historical place name and administrative context; do not substitute a current jurisdiction automatically.
-- **Human decision:** Pending
-- **Decision note:** The source describes an early-twentieth-century birthplace.
-- **Conflict flag:** no
-- **Status:** `needs_context`
+- **Candidate English:** Gangwon Province
+- **Verified English:** Gangwon Province
+- **Evidence/source:** official corporate historical-biographical usage: HD Hyundai official founder materials; project-approved research record
+- **Codex recommendation:** Use Gangwon Province in this historical-biographical context. Do not generalize it to every occurrence of Gangwon-do.
+- **Human decision:** Approved
+- **Decision note:** Human approved a context-sensitive historical-biographical rendering for CH01-P007; this is not a project-wide replacement rule.
+- **Conflict flag:** no — context-sensitive locked rendering
+- **Status:** `locked`
 
 ### C1-T019 — 通川郡
 
@@ -267,14 +268,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P007
 - **Page:** FB-P015
 - **Context:** 生于江原道通川郡。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify historical jurisdiction and authoritative romanization before proposing a form.
-- **Human decision:** Pending
-- **Decision note:** Modern geography must not silently overwrite historical context.
+- **Candidate English:** Tongcheon County
+- **Verified English:** Tongcheon County
+- **Evidence/source:** project historical geographic rendering: Verified Korean source form 통천군 / 通川郡 and established Tongcheon romanization in Hyundai founder materials; project-approved research record
+- **Codex recommendation:** Use the locked project historical geographic rendering Tongcheon County in the approved context.
+- **Human decision:** Approved
+- **Decision note:** Human approved a project historical geographic rendering. Do not describe it as the official present-day English administrative name.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ### C1-T020 — 朝鲜
 
@@ -298,13 +299,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P016
 - **Context:** 1894年上海东和旅馆。
 - **Candidate English:** Shanghai
-- **Verified English:** —
-- **Evidence/source:** widely established conventional English; no external source recorded yet
-- **Codex recommendation:** Confirm the project rule for conventional English place names and then lock.
-- **Human decision:** Pending
-- **Decision note:** No factual verification of the source event is part of this stage.
+- **Verified English:** Shanghai
+- **Evidence/source:** widely established conventional English: Project-approved conventional English usage
+- **Codex recommendation:** Apply the locked conventional English place name Shanghai.
+- **Human decision:** Approved
+- **Decision note:** Human approved the conventional English place name; no factual verification of the surrounding source event was performed.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T022 — 清云洞
 
@@ -312,14 +313,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 在清云洞家中的一层。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the Korean place name and official romanization; retain contextual flexibility for the administrative suffix.
-- **Human decision:** Pending
-- **Decision note:** Do not derive a final spelling from Chinese characters alone.
+- **Candidate English:** Cheongun-dong
+- **Verified English:** Cheongun-dong
+- **Evidence/source:** official municipal English usage: Seoul Metropolitan Government English usage; project-approved research record
+- **Codex recommendation:** Apply the locked Seoul Metropolitan Government form Cheongun-dong.
+- **Human decision:** Approved
+- **Decision note:** Human approved Seoul Metropolitan Government English usage.
 - **Conflict flag:** no
-- **Status:** `needs_context`
+- **Status:** `locked`
 
 ## School (3)
 
@@ -347,9 +348,9 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Candidate English:** —
 - **Verified English:** —
 - **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the institution type and Korean name before choosing transliteration or a descriptive rendering.
+- **Codex recommendation:** Keep unresolved and decide together with the project policy for 私塾 / seodang.
 - **Human decision:** Pending
-- **Decision note:** Do not translate 书院 mechanically without historical context.
+- **Decision note:** Human/project review deferred this institution until the 私塾 / seodang translation policy is approved.
 - **Conflict flag:** no
 - **Status:** `needs_context`
 
@@ -362,9 +363,9 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Candidate English:** —
 - **Verified English:** —
 - **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Verify the school and locality in an authoritative Korean or biographical source before proposing a name.
+- **Codex recommendation:** Keep unresolved pending a historical institution naming convention and reliable school-name evidence.
 - **Human decision:** Pending
-- **Decision note:** A character-based reading would be insufficient evidence.
+- **Decision note:** Human/project review deferred this Japanese-colonial-period historical school name.
 - **Conflict flag:** no
 - **Status:** `needs_context`
 

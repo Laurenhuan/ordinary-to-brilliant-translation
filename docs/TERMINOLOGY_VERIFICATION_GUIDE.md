@@ -25,6 +25,19 @@ For personal names, an established official or conventional English form takes p
 
 Do not normalize these locked forms merely to make them look uniform. The correct project form is the evidence-backed form recorded in `glossary/people.csv`.
 
+## Approved rule: Korean names without established English forms
+
+1. If a person has an established official or conventional English form, use that form under the established-English-form priority rule.
+2. If reasonable research finds no stable established English form:
+   - first verify the Korean name;
+   - then generate the English form using the project-approved Korean romanization convention;
+   - retain a project-established common surname form where applicable, such as `Lee`;
+   - mark the glossary `evidence_type` explicitly as `project romanization based on verified Korean name`;
+   - never describe the resulting project form as the person's official English name.
+3. If an authoritative established English form is found later, it may replace the project romanization only after QA review and synchronized glossary updates.
+
+Project romanization is an editorially approved controlled form, not evidence of a person's own English usage. The verified Korean source form, the project-generated English form, and the supporting evidence classification must remain separately traceable.
+
 ## Candidate record requirements
 
 Each candidate must retain:
