@@ -46,6 +46,14 @@ Translation versions are represented by Git history and the drafts, reviewed, an
 
 This repository contains materials used in an authorized Chinese-to-English book translation project conducted under academic supervision.
 
-Repository access or visibility does not by itself grant additional rights to reproduce, redistribute, adapt, or commercially use the original work or its translation. The repository must not be made public merely because source ingestion is complete.
+### Repository visibility policy
 
-No public-domain status, open-source book license, Creative Commons license, or other third-party copyright permission is asserted by this repository. Any license or more detailed rights statement must come from the project lead or supervising teacher.
+- The repository remains Public.
+- The project lead has confirmed that authorized original text, images, MinerU output, cleaned source, QA material, and subsequent project translations may be committed and pushed to this Public repository as part of the formal translation project.
+- Public accessibility is an approved project condition and must not, by itself, stop later Codex stages or trigger another request to convert the repository to Private.
+- Reconsider repository visibility only if new, explicit information conflicts with this recorded authorization.
+- Do not change repository visibility as part of normal source, translation, QA, or publishing work.
+
+Public repository visibility does not place the original work, project materials, or translations in the public domain and does not automatically grant third parties permission to reproduce, redistribute, adapt, or commercially use them.
+
+No public-domain status, open-source book license, Creative Commons license, MIT license, or other reuse license is asserted by this repository. Do not add a CC, MIT, or other copyright/software license unless the project lead or supervising teacher explicitly requests it.
