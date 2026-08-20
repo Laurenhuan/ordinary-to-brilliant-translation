@@ -54,6 +54,18 @@ This is the initial house style for the English translation of 《从平凡走�
 - Use an en dash for ranges and certain compound relationships.
 - Preserve quotation status accurately. Do not turn paraphrase into direct quotation.
 
+### Proverbs, quotations, and cultural concepts
+
+- For Chinese and Korean traditional sayings, prioritize natural English readability while preserving the intended cultural meaning.
+- Use an established English equivalent when appropriate, but record every intentional substitution decision in terminology QA.
+- Do not present a project-created rendering as an independently established English quotation.
+- Apply the approved Chapter 1 proverb decisions exactly: `一勤天下无难事` → `With diligence, no task is impossible.`; `有志者事竟成` → `Where there is a will, there is a way.` The latter is an intentional conventional-proverb substitution.
+- `一勤天下无难事` is controlled by C1-T038 and CULT-CH01-006 as a quotation decision, not as a master-glossary entity.
+- Apply the approved first-use/later-use form for `私塾`: first `a traditional Korean village school known as a seodang`, then `seodang`. Never use `private school` for these Chapter 1 occurrences.
+- Apply `鸿儒` as `eminent Confucian scholar` and the context-sensitive pair `landowner / landowning family` for `地主`; do not use `landlord` for the approved Chapter 1 contexts.
+- For `仁、和、乐`, use `humaneness (ren), harmony (he), and joy (le)` on first occurrence and `humaneness`, `harmony`, and `joy` later. Do not substitute `kindness / peace / happiness` mechanically.
+- Use `the investigation of things and the extension of knowledge` for `致知在格物`; do not reorder or simplify the approved English wording.
+
 ## 7. Titles and headings
 
 - Use title case for English chapter and major section titles.

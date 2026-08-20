@@ -189,6 +189,29 @@ A contextual recommendation must never become an automatic global replacement. I
 - traditional units may be transliterated and briefly glossed, but conversions require a period-specific approved policy;
 - an unresolved source-name versus historical-name mapping must remain visible and must not trigger a source correction.
 
+## Approved Chapter 1 cultural-concept decisions
+
+The following Stage 5A.6 decisions are approved and authoritative for Chapter 1:
+
+- `私塾`: first occurrence `a traditional Korean village school known as a seodang`; later occurrences `seodang`. Classification: Korean historical education institution. Do not use `private school`.
+- `鸿儒`: `eminent Confucian scholar`. Classification: cultural concept; do not reduce it to ordinary `scholar`.
+- `地主`: use `landowner` for a person and `landowning family` for a family. `Landlord` is prohibited for these occurrences.
+- `仁、和、乐`: first occurrence `humaneness (ren), harmony (he), and joy (le)`; later occurrences `humaneness`, `harmony`, and `joy`. Do not substitute `kindness / peace / happiness` mechanically.
+- `致知在格物`: `the investigation of things and the extension of knowledge`. Do not reorder or simplify the approved English, and do not alter the frozen Chinese source.
+- `一勤天下无难事`: `With diligence, no task is impossible.` Classification: approved proverb/quotation translation. It is intentionally not a master-glossary entity; C1-T038 and CULT-CH01-006 are the authoritative records.
+- `有志者事竟成`: `Where there is a will, there is a way.` Classification: approved conventional proverb substitution. The intentional English-idiom substitution must remain recorded.
+
+## Proverb Translation Policy
+
+For Chinese and Korean traditional sayings:
+
+- prioritize natural English readability;
+- preserve the intended cultural meaning;
+- use established English equivalents when appropriate;
+- record every substitution decision;
+- do not describe a project-created rendering as an established quotation;
+- preserve the distinction between a recurring glossary-controlled term and a quotation decision that has been explicitly excluded from the master glossary.
+
 ## Review and locking workflow
 
 1. Identify the candidate and bind it to frozen-source segment IDs.
@@ -200,6 +223,6 @@ A contextual recommendation must never become an automatic global replacement. I
 7. Add or update the correct master glossary entry without duplication.
 8. After a separate consistency check, set the authoritative entry to `locked`.
 
-Locked terminology must not be silently changed in translation or editing. Any later change requires a recorded QA decision and synchronized updates to every affected glossary and translation occurrence.
+Locked terminology and approved quotation decisions must not be silently changed in translation or editing. Any later change requires a recorded QA decision and synchronized updates to every affected glossary, candidate, QA, and translation occurrence.
 
-General first-mention and later-mention treatment remains undecided and must be approved separately. Item-specific note decisions already recorded in a locked glossary entry, including the Chapter 1 `Namihei Odaira` discrepancy note, remain binding. This Stage 5A guide does not otherwise establish English prose style.
+General first-mention and later-mention treatment remains undecided unless an item-specific human approval records a binding rule. Approved Chapter 1 rules for `seodang` and `仁、和、乐`, and the `Namihei Odaira` discrepancy note, are binding exceptions. This Stage 5A guide does not otherwise establish English prose style.

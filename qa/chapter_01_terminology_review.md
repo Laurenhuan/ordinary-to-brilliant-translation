@@ -8,8 +8,8 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 
 - Candidate count: 41
 - Frozen-source segment binding: complete for all candidates
-- Locked after three approved terminology batches: 28
-- Remaining unlocked: 13
+- Locked after Stage 5A.6 human-approval consolidation: 35
+- Remaining unlocked: 6
 - Conflict register: 6 retained IDs; 0 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
@@ -17,20 +17,21 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 
 - glossary/people.csv: 8 locked entries.
 - glossary/organizations.csv: 3 locked entries.
-- glossary/glossary.csv: 17 locked general/place entries.
+- glossary/glossary.csv: 23 locked general/place/cultural entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
 - Stage 5A.4 records provisional, non-locked contextual recommendations for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`; all remain subject to human approval.
-- Stage 5A.5 records provisional, non-locked cultural-concept recommendations for `私塾`, `仁、和、乐`, `一勤天下无难事`, `有志者事竟成`, and `致知在格物`, and confirms the context-sensitive proposals for `鸿儒` and `地主`.
+- Stage 5A.6 locks the seven human-approved decisions for `私塾`, `鸿儒`, `地主`, `仁、和、乐`, `致知在格物`, `一勤天下无难事`, and `有志者事竟成`.
+- Six approved items enter `glossary/glossary.csv`. `一勤天下无难事` is intentionally retained as a locked candidate and QA quotation decision rather than a glossary entity.
 
 ## Workflow status
 
 - `pending`: 0
 - `researched`: 0
 - `verified`: 0
-- `locked`: 28
+- `locked`: 35
 - `needs_context`: 0
-- `needs_human_decision`: 13
+- `needs_human_decision`: 6
 
 ## Person (8)
 
@@ -524,22 +525,22 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Conflict flag:** no
 - **Status:** `locked`
 
-## Title or role (2)
+## Cultural and socioeconomic context (2)
 
 ### C1-T033 — 鸿儒
 
-- **Type:** `title_role`
+- **Type:** `cultural_concept`
 - **Segment:** CH01-P006
 - **Page:** FB-P015
 - **Context:** 是当时的一位鸿儒。
-- **Candidate English:** eminent Confucian scholar (provisional)
-- **Verified English:** —
-- **Evidence/source:** contextual translation decision: source-context analysis
-- **Codex recommendation:** Prefer eminent Confucian scholar in this sentence; do not treat 鸿儒 as a formal office or force the same wording in every context.
-- **Human decision:** Pending
-- **Decision note:** Distinguished Confucian scholar is a viable alternative. Human approval is required because the register and degree of praise are contextual.
+- **Candidate English:** eminent Confucian scholar
+- **Verified English:** eminent Confucian scholar
+- **Evidence/source:** human-approved cultural concept translation decision: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** Apply the locked form eminent Confucian scholar in Chapter 1.
+- **Human decision:** Approved
+- **Decision note:** Classified as a cultural concept. 鸿儒 is not an ordinary scholar and the approved English preserves the Confucian context.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T034 — 地主
 
@@ -547,14 +548,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P005; CH01-P006
 - **Page:** FB-P015
 - **Context:** 可以收获……石的地主家庭。
-- **Candidate English:** landowner / landowning family (provisional)
-- **Verified English:** —
-- **Evidence/source:** contextual translation decision: source-context analysis
-- **Codex recommendation:** Use landowner for an individual and landowning family in the Chapter 1 family-background context; avoid landlord unless a tenancy relationship is explicit.
-- **Human decision:** Pending
-- **Decision note:** Large landowner may be justified only where the source context supports scale. Human approval is required for the default and contextual variant.
+- **Candidate English:** landowner / landowning family
+- **Verified English:** landowner / landowning family
+- **Evidence/source:** human-approved context-sensitive translation decision: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** Use landowner for a person and landowning family for 地主家庭 or 地主之家.
+- **Human decision:** Approved
+- **Decision note:** Context-sensitive pair approved. Landlord is forbidden because it normally suggests a rental-property relationship in modern English.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ## Unit (1)
 
@@ -573,7 +574,7 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
-## Cultural concept (5)
+## Cultural concept and proverb/quotation (5)
 
 ### C1-T036 — 私塾
 
@@ -581,14 +582,14 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P006; CH01-P007; CH01-P013; CH01-P015; CH01-P016; CH01-P024
 - **Page:** FB-P015; FB-P016; FB-P017
 - **Context:** 在私塾学过一阵汉学。
-- **Candidate English:** traditional Korean village school (seodang) on first use; seodang thereafter
-- **Verified English:** —
-- **Evidence/source:** project-directed cultural institution translation proposal: Stage 5A.5 project review instruction
-- **Codex recommendation:** Explain the cultural institution on first use as a traditional Korean village school (seodang), then retain seodang. Avoid private school because it suggests a modern institution.
-- **Human decision:** Pending
-- **Decision note:** Retained Korean cultural-institution term with a first-use explanation. Exact first-use syntax and later-use capitalization require human approval.
+- **Candidate English:** seodang
+- **Verified English:** seodang
+- **Evidence/source:** human-approved Korean historical institution translation decision: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** First occurrence: a traditional Korean village school known as a seodang. Later occurrences: seodang.
+- **Human decision:** Approved
+- **Decision note:** Classified as a Korean historical education institution. Do not use private school.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T037 — 仁、和、乐
 
@@ -597,43 +598,43 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P017
 - **Context:** ‘仁、和、乐’的精神境界。
 - **Candidate English:** humaneness (ren), harmony (he), and joy (le)
-- **Verified English:** —
-- **Evidence/source:** project-directed Confucian concept translation proposal: Stage 5A.5 project review instruction
-- **Codex recommendation:** Preserve the Confucian three-part structure as humaneness (ren), harmony (he), and joy (le); do not flatten the concepts into kindness, peace, and happiness.
-- **Human decision:** Pending
-- **Decision note:** Human review must approve transliteration, capitalization, punctuation, and whether all three parenthetical forms are needed at first mention.
+- **Verified English:** humaneness (ren), harmony (he), and joy (le)
+- **Evidence/source:** human-approved Confucian concept translation decision: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** First occurrence: humaneness (ren), harmony (he), and joy (le). Later: humaneness, harmony, and joy.
+- **Human decision:** Approved
+- **Decision note:** Do not translate mechanically as kindness, peace, and happiness.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T038 — 一勤天下无难事
 
-- **Type:** `cultural_concept`
+- **Type:** `proverb_quotation`
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 他最喜欢的名句‘一勤天下无难事’。
 - **Candidate English:** With diligence, no task is impossible.
-- **Verified English:** —
-- **Evidence/source:** project proverb/quotation translation proposal: Stage 5A.5 project review instruction
-- **Codex recommendation:** Use the source-faithful project rendering With diligence, no task is impossible unless human review selects a more rhetorical alternative.
-- **Human decision:** Pending
-- **Decision note:** Treat as a proverb/quotation translation proposal, not as an independently verified established English quotation. Quotation style requires human approval.
+- **Verified English:** With diligence, no task is impossible.
+- **Evidence/source:** human-approved proverb/quotation translation: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** Use the approved quotation translation exactly: With diligence, no task is impossible.
+- **Human decision:** Approved
+- **Decision note:** Do not treat this approved proverb/quotation translation as a glossary entity; C1-T038 and CULT-CH01-006 remain authoritative.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T039 — 有志者事竟成
 
-- **Type:** `cultural_concept`
+- **Type:** `proverb_quotation`
 - **Segment:** CH01-P022
 - **Page:** FB-P016
 - **Context:** 引用‘有志者事竟成’。
 - **Candidate English:** Where there is a will, there is a way.
-- **Verified English:** —
-- **Evidence/source:** project proverb/quotation translation proposal: Stage 5A.5 project review instruction
-- **Codex recommendation:** Consider the established English proverb Where there is a will, there is a way, but require human approval because adopting a target-language proverb may reduce source-specific wording.
-- **Human decision:** Pending
-- **Decision note:** Human review must decide between conventional English-proverb substitution and a more source-faithful rendering.
+- **Verified English:** Where there is a will, there is a way.
+- **Evidence/source:** human-approved conventional proverb substitution: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** Use the established English equivalent Where there is a will, there is a way.
+- **Human decision:** Approved
+- **Decision note:** The idiomatic English proverb is an intentional conventional substitution and must remain recorded as such.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ### C1-T040 — 致知在格物
 
@@ -642,13 +643,13 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Page:** FB-P016
 - **Context:** 引用‘致知在格物’等格言。
 - **Candidate English:** the investigation of things and the extension of knowledge
-- **Verified English:** —
-- **Evidence/source:** project Confucian philosophical-term translation proposal: Stage 5A.5 project review instruction
-- **Codex recommendation:** Use the investigation of things and the extension of knowledge as the provisional conceptual rendering; preserve the frozen source wording 致知在格物 and obtain human approval for sentence syntax.
-- **Human decision:** Pending
-- **Decision note:** The source phrase order is 致知在格物, while the conceptual label is often discussed as 格物致知. Do not rewrite the source or silently reverse the quotation.
+- **Verified English:** the investigation of things and the extension of knowledge
+- **Evidence/source:** human-approved Confucian philosophical-term translation: Stage 5A.6 human approval consolidation
+- **Codex recommendation:** Use the approved form the investigation of things and the extension of knowledge without reordering or simplifying it.
+- **Human decision:** Approved
+- **Decision note:** The frozen Chinese source remains 致知在格物. The approved English wording must not be reordered or simplified.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ## Other (1)
 
