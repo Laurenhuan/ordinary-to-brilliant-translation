@@ -13,11 +13,11 @@ A structured Chinese-to-English book translation project supporting source prese
 
 ## Project status
 
-Current phase: Stage 4A — Full-book Source Ingestion completed; targeted manual review remains open.
+Current phase: Stage 5A — Chapter 1 Translation Preparation completed; formal human terminology verification is pending. Targeted full-book source review also remains open.
 
 Pilot 01 and Pilot 02 have both passed. The full-book MinerU source was supplied in two batches covering input PDF pages 1–200 and 201–243. All 243 JSON pages, 59 images, front matter, Chapters 1–28, and the afterword are mapped. The raw batches remain separate and immutable.
 
-Chapter 1 Fast Track: **Canonical Source — Frozen for Translation v1**. Pilot 01 and the full-book parse match exactly after normalization, and the two chapter-opening images are byte-identical. Chapter 1 Translation Preparation may begin next; English正文 translation has not started.
+Chapter 1 Fast Track: **Canonical Source — Frozen for Translation v1**. Pilot 01 and the full-book parse match exactly after normalization, and the two chapter-opening images are byte-identical. Its 41 terminology candidates are now bound to frozen-source segments and prepared for sourced human verification; English正文 translation has not started.
 
 The rest of the book is structurally split but is not frozen. Open human decisions are concentrated in `qa/full_book_manual_review.md`, primarily footnotes, blank-page candidates, parser-leakage candidates, and afterword/rear-matter scope.
 

@@ -1,6 +1,6 @@
 # Style Guide
 
-This is the initial house style for the English translation of 《从平凡走向辉煌》. Use it together with the glossary files. When a documented project-specific decision conflicts with a general rule below, follow the project-specific decision and update this guide.
+This is the initial house style for the English translation of 《从平凡走向辉煌》. Use it together with the glossary files and `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`. When a documented project-specific decision conflicts with a general rule below, follow the project-specific decision and update this guide.
 
 ## 1. Language and spelling
 
@@ -12,10 +12,11 @@ This is the initial house style for the English translation of 《从平凡走�
 ## 2. Proper nouns
 
 - Use an established official English name when one exists and can be verified.
+- A researched candidate is not yet an approved form. Use a proper name as project-authoritative only after it is recorded as `locked` in the appropriate master glossary.
 - For Chinese personal names without an established English form, use Hanyu Pinyin without tone marks, normally with family name first when discussing a Chinese historical or institutional context. Record the approved order and spelling in glossary/people.csv.
 - Capitalize formal titles only when they directly precede a person's name or form part of an official name; otherwise use lowercase.
 - Record every recurring person and organization in the appropriate glossary file. Do not create competing variants in the translation.
-- At first mention, add a short identifier or the Chinese name only when it materially helps the intended reader and the editorial plan permits it.
+- First-mention and later-mention treatment remains a separate editorial decision. Do not infer it from a candidate record or settle it silently during translation.
 
 ## 3. Dates
 
@@ -72,7 +73,8 @@ This is the initial house style for the English translation of 《从平凡走�
 
 ## 9. Consistency and exceptions
 
-- Treat glossary entries marked approved as authoritative.
+- Treat master-glossary entries marked `locked` as authoritative. `pending`, `researched`, `needs_context`, and `needs_human_decision` entries remain non-authoritative.
+- Locked terminology must not be silently changed. A later change requires a recorded QA decision and synchronized updates to every affected glossary and translation occurrence.
 - Use one English form for the same person, organization, place, event, concept, and recurring phrase throughout the project.
 - Verify names, dates, figures, quotations, titles, and cross-references during every review.
 - Record unresolved choices in qa/questions.csv with enough context for another reviewer to decide.
