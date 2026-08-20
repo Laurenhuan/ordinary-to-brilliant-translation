@@ -1,1 +1,5 @@
-chinese_name,english_name,pinyin,role_or_title,first_appearance,status,notes
+"chinese_name","english_name","pinyin","role_or_title","first_appearance","status","verification_source","notes"
+"李秉哲","Lee Byung-chull","","Samsung founder","CH01-P003","locked","https://www.samsung.com/us/about-us/leadership-and-mission/heritage/","Established official English form takes priority over mechanical romanization."
+"郑周永","Chung Ju-yung","","Hyundai founder","CH01-P003","locked","https://www1.hyundai.com/eu/about-hyundai/brand/heritage.html","Established official English form approved; retain its documented ordering and hyphenation."
+"盛田昭夫","Akio Morita","","Sony founder","CH01-P002","locked","https://www.sony.com/en/SonyInfo/IR/library/ar/qfhh7c000000g753-att/ar_sony_2000.pdf","Established official English form approved; do not mechanically reorder the name."
+"小源浪平","Namihei Odaira","","Hitachi founder","CH01-P002","locked","https://www.hitachi.com/en/about/history/comic/namihei-odaira/","Chinese edition printed form: 小源浪平. Human-verified entity form: 小平浪平. English正文 uses Namihei Odaira. Add a neutral translator/editor note at the first relevant occurrence; do not attribute the discrepancy to the author."

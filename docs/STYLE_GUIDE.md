@@ -12,11 +12,12 @@ This is the initial house style for the English translation of 《从平凡走�
 ## 2. Proper nouns
 
 - Use an established official English name when one exists and can be verified.
+- For personal names, the locked established official or conventional English form takes priority over mechanical romanization and any universal name-order rule. Different people may therefore legitimately use different ordering, capitalization, spacing, or hyphenation conventions; do not silently normalize forms such as `Lee Byung-chull`, `Chung Ju-yung`, `Akio Morita`, and `Namihei Odaira`.
 - A researched candidate is not yet an approved form. Use a proper name as project-authoritative only after it is recorded as `locked` in the appropriate master glossary.
 - For Chinese personal names without an established English form, use Hanyu Pinyin without tone marks, normally with family name first when discussing a Chinese historical or institutional context. Record the approved order and spelling in glossary/people.csv.
 - Capitalize formal titles only when they directly precede a person's name or form part of an official name; otherwise use lowercase.
 - Record every recurring person and organization in the appropriate glossary file. Do not create competing variants in the translation.
-- First-mention and later-mention treatment remains a separate editorial decision. Do not infer it from a candidate record or settle it silently during translation.
+- First-mention and later-mention treatment remains a separate editorial decision unless a locked glossary entry records a specific approved note requirement. Do not infer such treatment from an unlocked candidate record or settle it silently during translation.
 
 ## 3. Dates
 

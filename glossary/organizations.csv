@@ -1,1 +1,4 @@
-chinese_name,official_english_name,abbreviation,organization_type,first_appearance,status,notes
+"chinese_name","official_english_name","abbreviation","organization_type","first_appearance","status","verification_source","notes"
+"索尼","Sony","","company","CH01-P001","locked","https://www.sony.com/en/SonyInfo/CorporateInfo/History/","Official English usage approved."
+"日立集团","Hitachi Group","","corporate group","CH01-P002","locked","https://www.hitachi.com/en/about/history/comic/namihei-odaira/","Master glossary form is Hitachi Group. In CH01-P002/P010, Hitachi founder Namihei Odaira is an approved natural contextual rendering and is not a glossary conflict."
+"早稻田大学","Waseda University","","university","CH01-P006","locked","https://www.waseda.jp/top/en/","Official institutional English name approved."

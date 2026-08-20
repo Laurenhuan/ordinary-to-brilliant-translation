@@ -19,6 +19,12 @@ Use the strongest source reasonably available, in this order:
 
 One source is not automatically sufficient. Record material variants, historical-name scope, and conflicts instead of silently selecting the first form found.
 
+## Approved rule: established English form priority
+
+For personal names, an established official or conventional English form takes priority over mechanical romanization and over any universal East-Asian name-order rule. Locked forms may therefore legitimately follow different ordering, capitalization, spacing, and hyphenation conventions. Examples already approved by the project include `Lee Byung-chull`, `Chung Ju-yung`, `Akio Morita`, and `Namihei Odaira`.
+
+Do not normalize these locked forms merely to make them look uniform. The correct project form is the evidence-backed form recorded in `glossary/people.csv`.
+
 ## Candidate record requirements
 
 Each candidate must retain:
@@ -54,6 +60,19 @@ Only a human reviewer may assign `verified` or `locked`.
 ### Person
 
 Prefer stable English usage from the person, company, foundation, memorial institution, or an authoritative biography. Record surname order, capitalization, hyphenation, and spacing variants. Do not mechanically replace an established English name with a new romanization. If the Chinese source glyph may be wrong, verify the authorized visual source before mapping the name to an English entity.
+
+### Verified source-text proper-name discrepancy
+
+When human visual review confirms that the authorized Chinese edition prints a form different from the name used in authoritative entity records:
+
+- treat the printed Chinese form as verified source text, not as an OCR error;
+- do not alter the frozen Chinese source;
+- record both the Chinese edition's printed form and the verified entity form;
+- use the approved locked English entity name in translation;
+- add a neutral translator/editor note at the first relevant occurrence when the discrepancy materially affects identification;
+- do not claim that the author made the error when the stage at which the discrepancy arose is unknown.
+
+Chapter 1 application: the Chinese edition prints `小源浪平`; Hitachi records identify the founder as `小平浪平` (`Namihei Odaira`). The English translation uses `Namihei Odaira`, with the approved neutral note policy above.
 
 ### Organization
 
@@ -125,4 +144,4 @@ Chapter candidate files are research queues, not competing master glossaries. Be
 
 Locked terminology must not be silently changed in translation or editing. Any later change requires a recorded QA decision and synchronized updates to every affected glossary and translation occurrence.
 
-First-mention and later-mention treatment remains undecided and must be approved separately; this Stage 5A guide does not establish English prose style.
+General first-mention and later-mention treatment remains undecided and must be approved separately. Item-specific note decisions already recorded in a locked glossary entry, including the Chapter 1 `Namihei Odaira` discrepancy note, remain binding. This Stage 5A guide does not otherwise establish English prose style.
