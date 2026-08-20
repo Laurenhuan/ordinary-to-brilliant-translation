@@ -13,11 +13,13 @@ A structured Chinese-to-English book translation project supporting source prese
 
 ## Project status
 
-Current phase: Stage 3B completed — MinerU Pilot 02 Passed.
+Current phase: Stage 4A — Full-book Source Ingestion completed; targeted manual review remains open.
 
-Pilot 01 and Pilot 02 have both passed. Pilot 02 validated the approved cleaning rules on an 11-page holdout sample using Markdown, JSON, DOCX, and human PDF visual review as complementary evidence layers. All eight Pilot 02 manual review items are resolved.
+Pilot 01 and Pilot 02 have both passed. The full-book MinerU source was supplied in two batches covering input PDF pages 1–200 and 201–243. All 243 JSON pages, 59 images, front matter, Chapters 1–28, and the afterword are mapped. The raw batches remain separate and immutable.
 
-Next planned phase: Stage 4 — Full-book Source Ingestion. Stage 4 has not started, and the project has not entered translation.
+Chapter 1 Fast Track: **Canonical Source — Frozen for Translation v1**. Pilot 01 and the full-book parse match exactly after normalization, and the two chapter-opening images are byte-identical. Chapter 1 Translation Preparation may begin next; English正文 translation has not started.
+
+The rest of the book is structurally split but is not frozen. Open human decisions are concentrated in `qa/full_book_manual_review.md`, primarily footnotes, blank-page candidates, parser-leakage candidates, and afterword/rear-matter scope.
 
 ## Repository structure
 
@@ -36,12 +38,14 @@ Next planned phase: Stage 4 — Full-book Source Ingestion. Stage 4 has not star
 
 Raw source is never overwritten. Changes to structure, page artifacts, image paths, footnotes, or OCR uncertainty markers are written to a separate cleaned source file. Suspected OCR errors, proper nouns, dates, numbers, amounts, and factual claims must be marked and manually verified before correction.
 
+Full-book source uses stable page, paragraph, heading, image, and footnote IDs for source-to-translation alignment. Once translation begins, these IDs must not be silently renumbered.
+
 Translation versions are represented by Git history and the drafts, reviewed, and final directories. Do not create filenames such as final2, final_final, 最新版, or 最终修改版.
 
 ## Rights and authorization
 
 This repository contains materials used in an authorized Chinese-to-English book translation project conducted under academic supervision.
 
-Public availability of this repository does not by itself grant additional rights to reproduce, redistribute, adapt, or commercially use the original work or its translation.
+Repository access or visibility does not by itself grant additional rights to reproduce, redistribute, adapt, or commercially use the original work or its translation. The repository must not be made public merely because source ingestion is complete.
 
 No public-domain status, open-source book license, Creative Commons license, or other third-party copyright permission is asserted by this repository. Any license or more detailed rights statement must come from the project lead or supervising teacher.

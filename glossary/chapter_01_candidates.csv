@@ -1,0 +1,42 @@
+source_term,type,context_or_segment,page_reference,suggested_action,verification_status,note
+李秉哲,person,CH01-P003; CH01-P004; recurring,FB-P014–FB-P017,Verify preferred English name and romanization from project-approved authority,pending,Do not infer a final English form from model memory
+郑周永,person,CH01-P003; CH01-P007; recurring,FB-P014–FB-P017,Verify preferred English name and romanization from project-approved authority,pending,Do not infer a final English form from model memory
+盛田昭夫,person,CH01-P002; CH01-P010,FB-P014–FB-P015,Verify authoritative English/Japanese romanization,pending,Repeated in the authorial chapter-opening design
+小源浪平,person,CH01-P002; CH01-P010,FB-P014–FB-P015,First verify the Chinese source glyph visually; then verify romanization,pending visual source verification,Suspected proper-name OCR issue is preserved and not corrected
+李缵宇,person,CH01-P006,FB-P015,Verify source glyph and romanization,pending,Footnote occurs in the same sentence but is unrelated to the name
+李洪锡,person,CH01-P006,FB-P015,Verify source glyph and romanization,pending,
+金玉均,person,CH01-P019,FB-P016,Verify authoritative historical-name romanization,pending,
+李鸿章,person,CH01-P019,FB-P016,Verify established English form under project convention,pending,
+索尼,organization,CH01-P001; CH01-P010,FB-P014–FB-P015,Verify official English organization name,pending,
+日立集团,organization,CH01-P002; CH01-P010,FB-P014–FB-P015,Verify official English group name,pending,
+东和旅馆,organization,CH01-P019,FB-P016,Verify whether this is a hotel name and identify a defensible English form,pending,Do not treat as a generic place without checking
+早稻田大学,school,CH01-P006; CH01-P012,FB-P015,Verify official English university name,pending,
+文山亭书院,school,CH01-P014,FB-P015,Verify institution type and romanization,pending,
+松田小学,school,CH01-P007,FB-P015,Verify school name and place-specific romanization,pending,
+日本,place,CH01-P001; recurring,FB-P014–FB-P015,Apply project geographic-name convention,pending,
+庆尚南道,place,CH01-P006,FB-P015,Verify official/current romanization and historical-context treatment,pending,Footnote FB-F002 explains the administrative unit
+宜宁,place,CH01-P006,FB-P015,Verify official place-name romanization,pending,
+江原道,place,CH01-P007,FB-P015,Verify official/current romanization and historical-context treatment,pending,
+通川郡,place,CH01-P007,FB-P015,Verify place-name romanization and historical jurisdiction,pending,
+朝鲜,place,CH01-P018–CH01-P019,FB-P016,Choose context-appropriate historical geographic wording,pending,Do not fact-correct the source
+上海,place,CH01-P019,FB-P016,Apply project geographic-name convention,pending,
+清云洞,place,CH01-P022,FB-P016,Verify official place-name romanization,pending,
+《千字文》,classical text,CH01-P014; CH01-P023–CH01-P024,FB-P015–FB-P017,Verify established English title and italicization convention,pending,
+《资治通鉴》,classical text,CH01-P014–CH01-P020; CH01-P023,FB-P015–FB-P016,Verify established English title and first-use gloss strategy,pending,
+《论语》,classical text,CH01-P014; CH01-P024–CH01-P025,FB-P015–FB-P017,Verify established English title and concept terminology,pending,
+《小学》,classical text,CH01-P015; CH01-P018; CH01-P023,FB-P015–FB-P016,Disambiguate the classical text from the generic word for primary school,pending,Context-sensitive term
+《大学》,classical text,CH01-P015–CH01-P016; CH01-P018; CH01-P023,FB-P015–FB-P016,Verify established English title and disambiguation,pending,Context-sensitive term
+《通鉴节要》,classical text,CH01-P018,FB-P016,Research established title or use verified romanization,pending,
+《通鉴纲目》,classical text,CH01-P018,FB-P016,Research established title or use verified romanization,pending,
+朝鲜时代,historical term,CH01-P018,FB-P016,Define the project period-name convention,pending,
+朝鲜末期,historical term,CH01-P019,FB-P016,Define the project period-name convention,pending,Footnote FB-F003 gives a broad date range
+甲申政变,historical term,CH01-P019,FB-P016,Verify established English historical-event name,pending,
+鸿儒,title/role,CH01-P006,FB-P015,Choose a context-sensitive descriptive rendering,pending,Avoid treating it as a formal office without evidence
+地主,title/role,CH01-P005–CH01-P006,FB-P015,Set a consistent socioeconomic-role rendering,pending,
+石,unit,CH01-P005,FB-P015,Verify unit treatment and whether to retain/transliterate/explain,pending,Numbers must remain unchanged
+私塾,cultural concept,CH01-P006–CH01-P016; recurring,FB-P015–FB-P016,Choose a consistent culturally accurate rendering and first-use explanation,pending,
+仁、和、乐,cultural concept,CH01-P025–CH01-P026,FB-P017,Verify classical-concept capitalization and gloss strategy,pending,Preserve the three-part relationship
+一勤天下无难事,cultural concept,CH01-P022,FB-P016,Verify quotation source status and translation strategy,pending,Do not present a model-created translation as established
+有志者事竟成,cultural concept,CH01-P022,FB-P016,Verify established translation or prepare a project rendering,pending,
+致知在格物,cultural concept,CH01-P022,FB-P016,Verify classical source and terminology before translation,pending,
+商界三大神话,other,CH01-P001–CH01-P002; CH01-P010,FB-P014–FB-P015,Determine whether this is an authorial label requiring quotation marks or explanation,pending,Repeated prose is intentionally preserved
