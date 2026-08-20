@@ -1,0 +1,50 @@
+﻿footnote_id,part,local_page_idx,input_pdf_page,source_page_id,json_block_index,json_bbox,marker_candidates,footnote_body,mapping_status
+FB-F001,part_001_200,8,9,FB-P009,15,117:780:286:795,①,① 1 元人民币约折合 120 韩元。,candidate — manual review required
+FB-F002,part_001_200,14,15,FB-P015,13,113:769:393:787,①,① 韩国的“道”相当于中国“省”一级的行政单位。,candidate — manual review required
+FB-F003,part_001_200,15,16,FB-P016,12,120:775:254:791,①,① 19世纪末20世纪初。,candidate — manual review required
+FB-F004,part_001_200,19,20,FB-P020,14,124:773:249:788,①,① 现位于中国吉林省。,candidate — manual review required
+FB-F005,part_001_200,20,21,FB-P021,13,127:768:483:784,①,① 位于现朝鲜民主主义人民共和国咸镜北道东北部，为一港口城市。,candidate — manual review required
+FB-F006,part_001_200,21,22,FB-P022,16,124:780:226:795,①,① 位于咸镜北道。,candidate — manual review required
+FB-F007,part_001_200,27,28,FB-P028,14,123:760:342:776,②,① 日本侵略韩国时，在韩国的统治机构。,candidate — manual review required
+FB-F008,part_001_200,27,28,FB-P028,15,124:776:399:793,②,② 面，韩国的行政单位，属于市、郡下一级的单位。,candidate — manual review required
+FB-F009,part_001_200,29,30,FB-P030,11,98:722:512:770,①,① 坪，韩国耕地的计量单位，韩国耕地的计量单位，1坪= \frac{400}{121} 米 ^{2} ，1983年停止使用。,candidate — manual review required
+FB-F010,part_001_200,30,31,FB-P031,13,122:773:296:788,①,① “国家保卫非常对策委员会”。,candidate — manual review required
+FB-F011,part_001_200,34,35,FB-P035,11,134:780:386:795,①,① 韩国的鸟岭以南地区，主要是庆尚南道地区。,candidate — manual review required
+FB-F012,part_001_200,38,39,FB-P039,8,127:766:489:782,①|②,① 石是韩国谷物和液体的容量单位，1石=47.6加仑，1加仑=4升。,candidate — manual review required
+FB-F013,part_001_200,38,39,FB-P039,9,129:784:209:800,①|②,② 首尔地名。,candidate — manual review required
+FB-F014,part_001_200,42,43,FB-P043,8,119:742:257:757,①|②|③,① 以纺织业为主的集团。,candidate — manual review required
+FB-F015,part_001_200,42,43,FB-P043,9,119:758:280:775,①|②|③,② 城市名，位于朝鲜咸镜道。,candidate — manual review required
+FB-F016,part_001_200,42,43,FB-P043,10,120:775:280:792,①|②|③,③ 城市名，位于朝鲜黄海道。,candidate — manual review required
+FB-F017,part_001_200,93,94,FB-P094,16,101:719:517:787,①,① 1961 年，5·16 军事政变之后，国家重建最高委员会议长为张都焕，朴正熙本人担任副议长一职，但掌握实权。直至 1961 年 7 月 3 日，他见政局已稳，迫使张都焕辞去议长，由他继任。1962 年 3 月 20 日，朴正熙任代总统，1963 年 10 月 15 日，任总统。,candidate — manual review required
+FB-F018,part_001_200,95,96,FB-P096,15,116:772:276:787,①,① 昌原，位于韩国庆尚南道。,candidate — manual review required
+FB-F019,part_001_200,96,97,FB-P097,12,128:771:383:787,①,① 全经联，韩国“全国经济人联合会”的简称。,candidate — manual review required
+FB-F020,part_001_200,99,100,FB-P100,10,124:775:368:792,unresolved,① 京纺，韩国“京城纺织株式会社”的简称。,candidate — manual review required
+FB-F021,part_001_200,110,111,FB-P111,10,128:761:254:777,①|②,① 九老洞，首尔地名。,candidate — manual review required
+FB-F022,part_001_200,110,111,FB-P111,11,129:778:232:794,①|②,② 公共企业机构。,candidate — manual review required
+FB-F023,part_001_200,112,113,FB-P113,10,120:777:222:793,①,① 越南的城市名。,candidate — manual review required
+FB-F024,part_001_200,114,115,FB-P115,10,128:773:334:788,①,① 兴南，韩国城市名，位于咸境南道。,candidate — manual review required
+FB-F025,part_001_200,121,122,FB-P122,9,114:775:285:793,①,① 丹阳郡，位于韩国忠清北道。,candidate — manual review required
+FB-F026,part_001_200,122,123,FB-P123,8,139:777:195:793,①,① 音译。,candidate — manual review required
+FB-F027,part_001_200,129,130,FB-P130,9,116:781:473:797,①,① 面，韩国的行政划分。市、郡的下一级单位，一个面管辖几个里。,candidate — manual review required
+FB-F028,part_001_200,132,133,FB-P133,9,131:780:254:795,①,① KBS，韩国电视台。,candidate — manual review required
+FB-F029,part_001_200,136,137,FB-P137,9,128:779:405:794,①,① 尼亚尔霍斯的妻子和奥纳西斯的妻子是一对姐妹。,candidate — manual review required
+FB-F030,part_001_200,150,151,FB-P151,11,121:775:289:790,①,① 现韩国龙仁的“爱宝乐园”。,candidate — manual review required
+FB-F031,part_001_200,153,154,FB-P154,8,123:760:180:775,①|②,① 音译。,candidate — manual review required
+FB-F032,part_001_200,153,154,FB-P154,9,123:775:367:792,①|②,② 蚕室体育场，1988年首尔奥运会的主赛场。,candidate — manual review required
+FB-F033,part_001_200,154,155,FB-P155,9,120:758:199:774,①|②,① 韩文音译。,candidate — manual review required
+FB-F034,part_001_200,154,155,FB-P155,10,120:775:303:791,①|②,② 现为韩国最大的专业家具公司。,candidate — manual review required
+FB-F035,part_001_200,157,158,FB-P158,12,124:769:320:787,①,① 里亚尔，沙特阿拉伯的货币名称。,candidate — manual review required
+FB-F036,part_001_200,169,170,FB-P170,13,132:774:398:789,①,① 2003 年，陈大济出任韩国首任信息通信部部长。,candidate — manual review required
+FB-F037,part_001_200,173,174,FB-P174,11,128:765:501:783,①,① “王会长”韩国人对郑周永的称呼，意思为“所有企业的会长之王”。,candidate — manual review required
+FB-F038,part_001_200,188,189,FB-P189,10,124:768:249:783,①,① 地名，在韩国蔚山。,candidate — manual review required
+FB-F039,part_001_200,189,190,FB-P190,12,125:777:308:793,①,① 均为地名，位于韩国全罗北道。,candidate — manual review required
+FB-F040,part_001_200,192,193,FB-P193,9,124:778:308:794,①,① 韩国儿童节是每年的5月5日。,candidate — manual review required
+FB-F041,part_001_200,193,194,FB-P194,8,124:763:296:780,①|②,① 城市名，位于韩国的江原道。,candidate — manual review required
+FB-F042,part_001_200,193,194,FB-P194,9,125:782:193:798,①|②,② 哲学家。,candidate — manual review required
+FB-F043,part_001_200,194,195,FB-P195,11,127:760:265:775,①|②,① 教保，韩国的集团名。,candidate — manual review required
+FB-F044,part_001_200,194,195,FB-P195,12,127:777:310:793,①|②,② 伽倻琴，韩国的一种传统乐器。,candidate — manual review required
+FB-F045,part_001_200,195,196,FB-P196,8,121:774:277:789,①,① 湖岩，李秉哲号“湖岩”。,candidate — manual review required
+FB-F046,part_201_243,6,207,FB-P207,12,120:775:304:790,①,① 明星牌属于现代集团的廉价车。,candidate — manual review required
+FB-F047,part_201_243,13,214,FB-P214,7,116:781:196:796,①,① 保险公司。,candidate — manual review required
+FB-F048,part_201_243,18,219,FB-P219,8,123:766:236:781,①,① 韩国的一种米酒。,candidate — manual review required
+FB-F049,part_201_243,39,240,FB-P240,12,123:780:271:795,①,① 首尔南边的一个小城市。,candidate — manual review required
