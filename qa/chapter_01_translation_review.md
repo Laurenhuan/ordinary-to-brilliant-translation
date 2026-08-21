@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 6A.2 — Chapter 1 Full Translation Batch 2
+Stage: 6A.3 — Chapter 1 Full Translation Batch 3
 
-Status: Production draft complete through CH01-P018; pilot-approved passages inherited; new Batch 2 passages pending human review
+Status: Production translation drafted through CH01-P027; pilot-approved passages inherited; new production passages pending human review
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -21,13 +21,13 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
-- Translation started: Yes — production draft CH01-P001–CH01-P018 only
+- Translation started: Yes — production draft CH01-P001–CH01-P027
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
 - Segment C review state: Draft v0.2 — human review round 3 incorporated; remains in `drafts/`
 - Chapter 1 terminology: 41 locked; 0 unresolved
-- Production scope authorized through Stage 6A.2: CH01-P001–CH01-P018 only
-- Remaining production scope CH01-P019–CH01-P027 authorized: No
+- Production scope authorized through Stage 6A.3: CH01-P001–CH01-P027
+- Remaining production scope: None; the complete production draft still requires review before any move to `reviewed/` or `final/`
 
 ## Translation decision log
 
@@ -66,6 +66,20 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-038 | CH01-P016 | Migrated the approved Segment B Draft v0.2 translation without retranslation and preserved the FB-P016 page boundary. | None. | inherited_pilot_approved |
 | TR-039 | CH01-P017 | Migrated the approved Segment B Draft v0.2 concise rendering without retranslation. | None. | inherited_pilot_approved |
 | TR-040 | CH01-P018 | Migrated the approved Segment B Draft v0.2 translation without retranslation, preserving locked classical titles and the Joseon-period rule. | None. | inherited_pilot_approved |
+
+## Full translation Batch 3 review items
+
+| Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
+|---|---|---|---|---|
+| TR-041 | CH01-P019 | Applied locked `Kim Ok-gyun`, `Gapsin Coup`, `Li Hongzhang`, `Donghwa Inn`, `Shanghai`, `late Joseon period`, and *Zizhi Tongjian*. Preserved FB-F003 under the same footnote ID and translated its source wording without factual correction. | Human review should confirm the naturalness and fidelity of the appositive description `the gifted man who launched the Gapsin Coup`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-042 | CH01-P020 | Rendered the distinction between an ordinary history book and the work's records of imperial conduct and historical perspectives in two natural English sentences. | Human review should confirm `the conduct of China's emperors across successive dynasties` and `a wealth of historical perspectives`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-043 | CH01-P021 | Preserved the source's quoted metaphor `modern “kingdom”` and its conclusion about the depth of Chung Ju-yung's learning. | Human review should confirm `management principles` and the naturalness of `how deep the foundations ... ran`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-044 | CH01-P022 | Applied locked `Cheongun-dong`, the project quotation `With diligence, no task is impossible`, the intentional conventional proverb substitution `Where there is a will, there is a way`, and the exact approved rendering `the investigation of things and the extension of knowledge`. | Human review should confirm `Whenever crises mounted` and the final evaluation `devoid of learning or cultivation`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-045 | CH01-P023 | Applied all locked classical titles and reused the approved phrase `human relations and the ways of the world`; preserved all three of the author's evaluative claims without softening or factual expansion. | Human review should confirm the progression from `alone is enough` through `a single careful reading` to the modern-university comparison. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-046 | CH01-P024 | Applied locked `Lee Byung-chull`, later-use `seodang`, *The Thousand-Character Classic*, and *The Analects*. Preserved the FB-P016 to FB-P017 boundary inside the translated paragraph at the corresponding textual position. | Human review should confirm the rendering of `引经据典` as `quoted the classics` and the sentence rhythm across the hidden page-boundary marker. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-047 | CH01-P025 | Migrated the approved Segment C Draft v0.2 translation without retranslation, preserving italicization, first-use Confucian terminology, and human review round 3 wording. | None. | inherited_pilot_approved |
+| TR-048 | CH01-P026 | Migrated the approved Segment C Draft v0.2 translation without retranslation, preserving later-use terminology and human review round 3 wording. | None. | inherited_pilot_approved |
+| TR-049 | CH01-P027 | Preserved the author's deliberate return to the two men's differences rather than merging or compressing this closing thematic statement with earlier repeated material. | Human review should confirm `the cultural foundation they drew from the ancient classics of the East` and the closing rhythm. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
 
 ## Segment A draft review items
 
@@ -209,4 +223,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft now covers CH01-P001–CH01-P018: Batch 1 and newly translated CH01-P008–CH01-P013 await human review, while CH01-P004–CH01-P007 and CH01-P014–CH01-P018 inherit pilot approval. CH01-P019–CH01-P027 remain `not_started`. No text may move to `reviewed/` or `final/`, and production translation must not expand beyond Batch 2 without separate authorization.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft now contains translations for all 27 source paragraphs. CH01-P004–CH01-P007, CH01-P014–CH01-P018, and CH01-P025–CH01-P026 inherit pilot approval; the other production passages remain pending human review. The author's intentional thematic repetition has been preserved. No text has moved to `reviewed/` or `final/`, and completion of the production draft does not constitute final approval.

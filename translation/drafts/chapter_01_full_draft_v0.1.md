@@ -1,8 +1,8 @@
 # Chapter 1 Full Translation Draft v0.1
 
-Stage: 6A.2 — Translate Chapter 1 Batch 2
+Stage: 6A.3 — Translate Chapter 1 Batch 3
 
-Status: Batches 1 and 2 drafted — pilot-approved passages inherited; new production passages pending human review
+Status: Production translation drafted through CH01-P027 — pilot-approved passages inherited; new production passages pending human review
 
 Chapter: 1
 
@@ -29,13 +29,13 @@ Pilot closure record: `docs/chapter_01_pilot_closure_report.md`
 - This file is the Chapter 1 production-draft container.
 - Stage 6A.1 drafted CH01-P001–CH01-P003 for human review.
 - Stage 6A.2 migrates pilot-approved CH01-P004–CH01-P007 and CH01-P014–CH01-P018 without retranslation, and newly translates CH01-P008–CH01-P013.
-- CH01-P019–CH01-P027 remain `not_started`.
-- Every future translation must remain mapped to its stable `CH01-Pxxx` ID.
+- Stage 6A.3 newly translates CH01-P019–CH01-P024 and CH01-P027, and migrates pilot-approved CH01-P025–CH01-P026 without retranslation.
+- Every translation remains mapped to its stable `CH01-Pxxx` ID.
 - Source-page references must be populated from the frozen source and its approved page mapping.
 - Locked glossary forms and context-sensitive rules are binding.
 - The canonical source must not be edited from this draft.
 - Translation must proceed in separately authorized, reviewable batches.
-- Nothing in this file is reviewed or final.
+- Pilot-inherited passages retain their approval history; the production file as a whole remains a draft and is not final.
 
 ## Translation container
 
@@ -233,72 +233,92 @@ Review status: `inherited_pilot_approved_segment_b_v0.2`
 
 ### CH01-P019
 
-Source page:
+Source page: FB-P016
 
 Translation:
 
-Review status: `not_started`
+Before Kim Ok-gyun—a renowned calligrapher of the late Joseon period[^FB-F003] and the gifted man who launched the Gapsin Coup—negotiated with Li Hongzhang at Donghwa Inn in Shanghai in 1894, the book beside his bed was *Zizhi Tongjian*.
+
+[^FB-F003]: The late nineteenth and early twentieth centuries.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P020
 
-Source page:
+Source page: FB-P016
 
 Translation:
 
-Review status: `not_started`
+*Zizhi Tongjian* is more than a history book. It also records the conduct of China's emperors across successive dynasties and offers a wealth of historical perspectives.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P021
 
-Source page:
+Source page: FB-P016
 
 Translation:
 
-Review status: `not_started`
+In other words, all the management principles used to build a modern “kingdom” can be found within it. This shows how deep the foundations of Chung Ju-yung's learning ran.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P022
 
-Source page:
+Source page: FB-P016
 
 Translation:
 
-Review status: `not_started`
+On the first floor of his Cheongun-dong home, Chung Ju-yung hung his favorite maxim: “With diligence, no task is impossible.” Whenever crises mounted, he would recall and quote sayings such as “Where there is a will, there is a way” and “the investigation of things and the extension of knowledge.” This is not something a person devoid of learning or cultivation could have done.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P023
 
-Source page:
+Source page: FB-P016
 
 Translation:
 
-Review status: `not_started`
+In fact, *The Thousand-Character Classic* alone is enough to grasp the principles of how to conduct oneself and deal with others. A single careful reading provides an understanding of nearly everything about human relations and the ways of the world. Add *Elementary Learning*, *The Great Learning*, and *Zizhi Tongjian*, and that would already meet the requirements of a modern university education.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P024
 
-Source page:
+Source page: FB-P016–FB-P017
 
 Translation:
 
-Review status: `not_started`
+Lee Byung-chull also frequently quoted the classics. While still at a seodang, he had already become capable of reading <!-- Source page boundary: FB-P017 | input-pdf-page=17 | printed-page=4 -->*The Thousand-Character Classic* in full—and even *The Analects*.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P025
 
-Source page:
+Source page: FB-P017
 
 Translation:
 
-Review status: `not_started`
+*The Analects* presents a spiritual ideal centered on humaneness (ren), harmony (he), and joy (le).
+
+Review status: `inherited_pilot_approved_segment_c_v0.2`
 
 ### CH01-P026
 
-Source page:
+Source page: FB-P017
 
 Translation:
 
-Review status: `not_started`
+To lead a large workforce and build a major enterprise, the principles of humaneness and harmony are indispensable. Equally indispensable is the idea of joy: working with pleasure, taking on challenges in one's own endeavors, and recognizing one's achievements.
+
+Review status: `inherited_pilot_approved_segment_c_v0.2`
 
 ### CH01-P027
 
-Source page:
+Source page: FB-P017
 
 Translation:
 
-Review status: `not_started`
+Yet apart from the cultural foundation they drew from the ancient classics of the East, the two men were entirely different.
+
+Review status: `draft_v0.1_pending_human_review`
