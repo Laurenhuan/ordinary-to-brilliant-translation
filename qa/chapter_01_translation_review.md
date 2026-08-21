@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.5 — Segment B Translation Draft
+Stage: 5B.6 — Segment B Review Revision
 
-Status: Segment A Draft v0.2 approved for style baseline; Segment B Draft v0.1 prepared for human review
+Status: Segment A Draft v0.2 approved for style baseline; Segment B Draft v0.2 incorporates human review round 2
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -21,7 +21,7 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Selection approved by: Project lead — Stage 5B.1 human decision
 - Translation started: Yes — Segments A and B only
 - Segment A style baseline: Approved — Draft v0.2
-- Segment B review state: Draft v0.1 — pending human review
+- Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -47,11 +47,27 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
 | Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
 |---|---|---|---|---|
-| TR-010 | CH01-P014 | Applied locked `Lee Byung-chull`, `Munsanjeong, a seodang`, and the classical titles. Included `founded by his grandfather` because the source sentence states that fact. Added the approved first-use gloss *Comprehensive Mirror in Aid of Governance* after *Zizhi Tongjian*. | Confirm that the appositive rhythm and first-use title gloss are appropriately concise. | draft_v0.1_review_pending |
-| TR-011 | CH01-P015 | Used later-reference `seodang`; preserved the distinction between the title *Elementary Learning* and the ordinary primary-school level; rendered `五言诗、七言诗` descriptively as `five-character and seven-character verse`. | Review `had little new to learn at the primary-school level` for fidelity to the source's evaluative claim. | draft_v0.1_review_pending |
-| TR-012 | CH01-P016 | Rendered `汉文` as `classical Chinese works` in its historical education context and retained the source's claim about modern four-year university graduates. The separate project candidate for exact `汉学` is `classical Chinese learning`; neither term is rendered as `Sinology` here. | Human review should confirm the distinction between `汉文` and `汉学` and the naturalness of the long sentence. | draft_v0.1_review_pending |
-| TR-013 | CH01-P017 | Used a concise connective formulation, `By that measure`, while preserving the conclusion that Chung Ju-yung's learning could not be considered slight. | Confirm tone and degree of emphasis. | draft_v0.1_review_pending |
-| TR-014 | CH01-P018 | Applied all locked classical titles and `scholars of the Joseon period`; preserved the 1,300-year figure and the reference to successive imperial houses. | Review `human relations and the ways of the world` for `人情事理`; no terminology lock is proposed by this draft. | draft_v0.1_review_pending |
+| TR-010 | CH01-P014 | Applied locked `Lee Byung-chull`, `Munsanjeong, a seodang`, and the classical titles. Included `founded by his grandfather` because the source sentence states that fact. Retained the approved first-use gloss *Comprehensive Mirror in Aid of Governance* after *Zizhi Tongjian*. | None; human review approved the current rendering unchanged. | approved_round_2 |
+| TR-011 | CH01-P015 | Used later-reference `seodang`; preserved the distinction between the title *Elementary Learning* and the ordinary primary-school level; rendered `五言诗、七言诗` descriptively as `five-character and seven-character verse`. Revised the final sentence to `There was little left for him to learn at the primary-school level.` | None; the required fidelity revision has been applied without adding interpretation. | revision_applied_v0.2 |
+| TR-012 | CH01-P016 | Rendered `汉文` as `classical Chinese works` in its historical education context and retained the source's claim about modern four-year university graduates. The separate project candidate for exact `汉学` is `classical Chinese learning`; neither term is rendered as `Sinology` here. | None; human review approved the current rendering unchanged. | approved_round_2 |
+| TR-013 | CH01-P017 | Used a concise connective formulation, `By that measure`, while preserving the conclusion that Chung Ju-yung's learning could not be considered slight. | None; human review approved the current concise rendering. | approved_round_2 |
+| TR-014 | CH01-P018 | Applied all locked classical titles and `scholars of the Joseon period`; preserved the 1,300-year figure and the reference to successive imperial houses. | None; human review approved `human relations and the ways of the world` and the Joseon-period treatment. | approved_round_2 |
+
+## Translation Review Round 2
+
+Round ID: TR-R2
+
+Review basis: Human review of Segment B Draft v0.1
+
+Outcome: Approved with one required minor revision, incorporated into Draft v0.2; terminology decisions unchanged.
+
+| Review item | Segment | Human review decision | v0.2 treatment | Status |
+|---|---|---|---|---|
+| TR-R2-001 | CH01-P014 | Approve `Munsanjeong, a seodang`, the source-supported grandfather information, and the first-use *Zizhi Tongjian* title gloss. | Retained unchanged. | approved |
+| TR-R2-002 | CH01-P015 | Replace `As a result of this education, he had little new to learn at the primary-school level.` with wording closer to the source's evaluative meaning. | Revised to `There was little left for him to learn at the primary-school level.` | applied |
+| TR-R2-003 | CH01-P016 | Approve `classical Chinese works` for `汉文`; do not use `Sinology`. | Retained unchanged. | approved |
+| TR-R2-004 | CH01-P017 | Approve the current concise rendering. | Retained unchanged. | approved |
+| TR-R2-005 | CH01-P018 | Approve `human relations and the ways of the world` and retain the Joseon-period rule. | Retained unchanged. | approved |
 
 ## Translation Review Round 1
 
@@ -90,12 +106,13 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 | Review ID | Source segment | Draft location | Review category | Comment | Proposed treatment | Human decision | Status |
 |---|---|---|---|---|---|---|---|
 | TR-R1 | CH01-P004–CH01-P007 | Segment A Draft v0.2 | review round 1 revision | Human review confirms that the biography tone and natural English restructuring are acceptable. | Use Segment A Draft v0.2 as the biography style baseline while preserving facts, locked terms, cultural-term decisions, and paragraph traceability. | Approved | closed |
+| TR-R2 | CH01-P014–CH01-P018 | Segment B Draft v0.2 | review round 2 revision | Human review approved Draft v0.1 with one required minor revision to CH01-P015. | Retain the approved passages, apply the P015 sentence revision, and keep Segment B in `drafts/`. | Approved with revision | closed |
 
 ## Unresolved terminology affecting Chapter 1
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
 
-Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.1 does not intersect any remaining unresolved Chapter 1 candidate.
+Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 does not intersect any remaining unresolved Chapter 1 candidate.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
@@ -121,4 +138,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locke
 
 ## Stage gate
 
-Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.1 is prepared for human review; Segment C remains not started. No text may move to `reviewed/`, expand into Segment C, or expand into full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
+Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 incorporates human review round 2 and the required CH01-P015 revision; it remains in `drafts/`. Segment C remains not started. No text may move to `reviewed/`, expand into Segment C, or expand into full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.

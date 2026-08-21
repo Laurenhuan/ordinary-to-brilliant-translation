@@ -1,10 +1,10 @@
 # Chapter 1 Translation Style Pilot v1
 
-Version: Segment A Draft v0.2; Segment B Draft v0.1
+Version: Segment A Draft v0.2; Segment B Draft v0.2
 
-Status: Segment A approved as the biography style baseline; Segment B Draft v0.1 prepared for review; Segment C not started
+Status: Segment A approved as the biography style baseline; Segment B Draft v0.2 incorporates human review round 2; Segment C not started
 
-Stage: 5B.5 — Segment B Translation Draft
+Stage: 5B.6 — Segment B Review Revision
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -21,7 +21,7 @@ Related controls:
 ## Approved pilot scope
 
 - Segment A — CH01-P004 through CH01-P007: Draft v0.2 approved as the biography style baseline.
-- Segment B — CH01-P014 through CH01-P018: Draft v0.1 prepared for human review.
+- Segment B — CH01-P014 through CH01-P018: Draft v0.2 approved with the required minor revision incorporated.
 - Segment C — CH01-P025 through CH01-P026: Not started.
 
 Only Segments A and B are translated in this version. This file must not expand into Segment C or a full-chapter draft during the style pilot.
@@ -107,9 +107,9 @@ Review status: Approved for style baseline
 
 ## Segment B
 
-Version: Draft v0.1
+Version: Draft v0.2
 
-Status: Translation drafted; human review pending.
+Status: Human review round 2 incorporated; approved with the required minor revision; remains a draft.
 
 Purpose: Cultural translation test.
 
@@ -132,7 +132,7 @@ Translation:
 
 Beginning at age five, Lee Byung-chull studied *The Thousand-Character Classic* at Munsanjeong, a seodang founded by his grandfather. Over the next five years, he studied works including *Zizhi Tongjian* (*Comprehensive Mirror in Aid of Governance*) and *The Analects*.
 
-Review status: Draft v0.1 — pending human review
+Review status: Approved — human review round 2
 
 ### CH01-P015
 
@@ -144,9 +144,9 @@ Source:
 
 Translation:
 
-Chung Ju-yung's grandfather also taught at a seodang. Beginning at age six, Chung studied at his grandfather's seodang for three years, reading *Elementary Learning*, *The Great Learning*, *Zizhi Tongjian*, and five-character and seven-character verse, among other works. As a result of this education, he had little new to learn at the primary-school level.
+Chung Ju-yung's grandfather also taught at a seodang. Beginning at age six, Chung studied at his grandfather's seodang for three years, reading *Elementary Learning*, *The Great Learning*, *Zizhi Tongjian*, and five-character and seven-character verse, among other works. There was little left for him to learn at the primary-school level.
 
-Review status: Draft v0.1 — pending human review
+Review status: Required revision applied — human review round 2
 
 <!-- FB-P016 | input-pdf-page=16 | printed-page=3 -->
 
@@ -162,7 +162,7 @@ Translation:
 
 It is worth emphasizing that although Chung Ju-yung spent only three short years at a seodang, the classical Chinese works he studied—including *The Great Learning*, *Zizhi Tongjian*, and five-character and seven-character verse—are texts that even today's graduates of four-year universities would be unable to read and translate.
 
-Review status: Draft v0.1 — pending human review
+Review status: Approved — human review round 2
 
 ### CH01-P017
 
@@ -176,7 +176,7 @@ Translation:
 
 By that measure, Chung Ju-yung's learning could hardly be called limited.
 
-Review status: Draft v0.1 — pending human review
+Review status: Approved — human review round 2
 
 ### CH01-P018
 
@@ -190,7 +190,7 @@ Translation:
 
 Leaving aside the question of how extensive that learning was, *Elementary Learning* and *The Great Learning* alone cover much of what one needs to know about human relations and the ways of the world. *Zizhi Tongjian* chronicles the history of China's successive imperial houses over a span of 1,300 years. Scholars of the Joseon period regarded it, together with *Tongjian Jieyao* and *Zizhi Tongjian Gangmu*, as essential reading.
 
-Review status: Draft v0.1 — pending human review
+Review status: Approved — human review round 2
 
 ## Segment C
 
@@ -204,4 +204,4 @@ Status: Not started. No source text or English translation has been inserted.
 - Image anchors: None occur within Segments A or B.
 - Unresolved terminology: C1-T035 and C1-T014 remain as visible QA markers in Segment A. Segment B introduces no new unresolved-term marker.
 - Frozen source modification: None.
-- Review state: Segment A Draft v0.2 approved as style baseline; Segment B Draft v0.1 pending human review; not final.
+- Review state: Segment A Draft v0.2 approved as style baseline; Segment B Draft v0.2 approved after the required minor revision; both remain drafts and are not final.
