@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.2 — Translation Pilot Draft Preparation
+Stage: 5B.3 — Segment A Review Revision
 
-Status: Segment A Draft v0.1 prepared; review pending
+Status: Segment A Draft v0.2 prepared; human review round 1 incorporated; confirmation pending
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -35,10 +35,27 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
 | Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
 |---|---|---|---|---|
-| TR-005 | CH01-P004 | Applied locked `Lee Byung-chull`; rendered `大富之家` as `a very wealthy family`; preserved the 1910–1987 date range. | None identified in Draft v0.1. | pending_review |
-| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; preserved the quantities 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | pending_review |
-| TR-007 | CH01-P006 | Applied locked names, places, `eminent Confucian scholar`, `landowner / landowning family`, the first-use `seodang` explanation, `Japan`, and `Waseda University`; preserved and translated FB-F002. | None identified in Draft v0.1. | pending_review |
-| TR-008 | CH01-P007 | Applied locked `Chung Ju-yung`, `Tongcheon County`, `Gangwon Province`, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | pending_review |
+| TR-005 | CH01-P004 | Applied locked `Lee Byung-chull`; revised `a very wealthy family` to the less intensified `a wealthy family`; preserved the 1910–1987 date range. | None identified in Draft v0.2. | revision_applied_v0.2 |
+| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | revision_applied_v0.2 |
+| TR-007 | CH01-P006 | Recast the opening as `the family of Lee Chan-woo, a landowner`; improved sentence rhythm while preserving every locked name, place, cultural term, and FB-F002. | None identified in Draft v0.2. | revision_applied_v0.2 |
+| TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | revision_applied_v0.2 |
+
+## Translation Review Round 1
+
+Round ID: TR-R1
+
+Review basis: Human review of Segment A Draft v0.1
+
+Outcome: Incorporated into Draft v0.2; terminology decisions unchanged; confirmation pending.
+
+| Review item | Segment | Human review decision | v0.2 treatment | Status |
+|---|---|---|---|---|
+| TR-R1-001 | CH01-P004 | Avoid unnecessary intensifiers. | Changed `very wealthy family` to `wealthy family`. | applied |
+| TR-R1-002 | CH01-P005–CH01-P007 | Prefer natural biography phrasing and improve sentence rhythm without adding facts. | Restructured English sentences while preserving all source information. | applied |
+| TR-R1-003 | CH01-P006–CH01-P007 | Preserve `seodang`; do not replace it with `private school`. | Kept the approved first-use explanation in P006 and `seodang` in P007. | applied |
+| TR-R1-004 | CH01-P004–CH01-P007 | Keep all locked personal and place names unchanged. | Verified all listed locked forms remain unchanged. | applied |
+| TR-R1-005 | CH01-P005; CH01-P007 | Keep C1-T035 and C1-T014 unresolved with QA markers. | Retained both visible QA markers without selecting English forms. | applied |
+| TR-R1-006 | Segment B; Segment C | Do not translate outside Segment A. | No source text or English translation added for Segments B or C. | applied |
 
 ## Reviewer comments
 
@@ -46,13 +63,13 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 
 | Review ID | Source segment | Draft location | Review category | Comment | Proposed treatment | Human decision | Status |
 |---|---|---|---|---|---|---|---|
-| TR-005–TR-008 | CH01-P004–CH01-P007 | Segment A Draft v0.1 | initial translation review | Awaiting reviewer comments on fidelity, narrative style, terminology, and QA-marker handling. | — | Pending | pending_review |
+| TR-R1 | CH01-P004–CH01-P007 | Segment A Draft v0.2 | review round 1 revision | Human review instructions have been incorporated; v0.2 awaits confirmation. | Confirm the revised biography style without changing terminology decisions. | Approved for revision | revision_applied |
 
 ## Unresolved terminology affecting Chapter 1
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
 
-Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment B will later intersect C1-T013 and C1-T020. None of their unresolved statuses is changed by Draft v0.1.
+Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment B will later intersect C1-T013 and C1-T020. None of their unresolved statuses is changed by Draft v0.2.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
@@ -80,4 +97,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment
 
 ## Stage gate
 
-Segment A Draft v0.1 is prepared and awaiting review. Segments B and C remain not started. No text may advance to `reviewed/` or expand into full-chapter translation until separately authorized.
+Segment A Draft v0.2 incorporates human review round 1 and awaits confirmation. Segments B and C remain not started. No text may advance to `reviewed/` or expand into full-chapter translation until separately authorized.

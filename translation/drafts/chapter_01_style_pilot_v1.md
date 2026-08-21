@@ -1,10 +1,10 @@
 # Chapter 1 Translation Style Pilot v1
 
-Version: Draft v0.1
+Version: Draft v0.2
 
-Status: Segment A drafted — pending review
+Status: Segment A revised after human review round 1 — pending confirmation
 
-Stage: 5B.2 — Translation Pilot Draft Preparation
+Stage: 5B.3 — Segment A Review Revision
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -20,7 +20,7 @@ Related controls:
 
 ## Approved pilot scope
 
-- Segment A — CH01-P004 through CH01-P007: Draft v0.1 prepared; pending review.
+- Segment A — CH01-P004 through CH01-P007: Draft v0.2 prepared after human review round 1; pending confirmation.
 - Segment B — CH01-P014 through CH01-P018: Not started.
 - Segment C — CH01-P025 through CH01-P026: Not started.
 
@@ -47,7 +47,7 @@ Source:
 
 Translation:
 
-Lee Byung-chull (1910–1987) was born into a very wealthy family.
+Lee Byung-chull (1910–1987) was born into a wealthy family.
 
 Review status: Pending
 
@@ -61,7 +61,7 @@ Source:
 
 Translation:
 
-In a bumper year, the landowning family could harvest 2,000 **[石 — QA C1-T035: English unit rendering unresolved]**; even in a poor year, it could harvest 1,500 **[石 — QA C1-T035]**.
+The landowning family could harvest 2,000 **[石 — QA C1-T035: English unit rendering unresolved]** in a good year and 1,500 **[石 — QA C1-T035]** even in a poor one.
 
 QA marker: **C1-T035 — `石` remains `needs_human_decision`. The source quantities 2,000 and 1,500 are preserved; no transliteration or conversion has been selected.**
 
@@ -81,7 +81,7 @@ Source footnote:
 
 Translation:
 
-He was born into the landowning family of Lee Chan-woo in Uiryeong, Gyeongsangnam-do[^FB-F002], and was the youngest of Lee Chan-woo’s four sons. Lee Byung-chull’s grandfather, Lee Hong-seok, was an eminent Confucian scholar of his day and a wealthy landowner whose family property had been handed down for generations. Born into a landowning family, Lee Byung-chull studied Chinese classics for a time at a traditional Korean village school known as a seodang. He then attended primary and middle school for his formal education before going to Japan to study at Waseda University.
+Lee Byung-chull was born in Uiryeong, Gyeongsangnam-do[^FB-F002], into the family of Lee Chan-woo, a landowner, and was the youngest of four sons. His grandfather, Lee Hong-seok, was an eminent Confucian scholar of his time and a wealthy landowner whose family had held considerable property for generations. Born into a landowning family, Lee Byung-chull studied Chinese classics for a time at a traditional Korean village school known as a seodang before entering primary school and continuing his formal education through middle school. He later studied at Waseda University in Japan.
 
 Translated footnote:
 
@@ -99,7 +99,7 @@ Source:
 
 Translation:
 
-Chung Ju-yung (1915–2001) was born into a poor farming family in Tongcheon County, Gangwon Province. The eldest son in a family of six sons and two daughters, his entire education consisted of the schooling he received from ages six to nine at a seodang and at **[松田小学 — QA C1-T014: English historical school name unresolved]**.
+Chung Ju-yung (1915–2001) was born into a poor farming family in Tongcheon County, Gangwon Province. He was the eldest of six sons and had two sisters. His entire education consisted of the schooling he received from ages six to nine at a seodang and at **[松田小学 — QA C1-T014: English historical school name unresolved]**.
 
 QA marker: **C1-T014 — `松田小学` remains `needs_human_decision`. No choice has been made among Songjeon School, Songjeon Primary School, and Songjeon Elementary School.**
 
@@ -120,4 +120,4 @@ Status: Not started. No source text or English translation has been inserted.
 - Image anchors: None occur within Segment A.
 - Unresolved terminology: C1-T035 and C1-T014 retained as visible QA markers.
 - Frozen source modification: None.
-- Review state: Draft v0.1; not reviewed and not final.
+- Review state: Draft v0.2; human review round 1 incorporated; pending confirmation and not final.
