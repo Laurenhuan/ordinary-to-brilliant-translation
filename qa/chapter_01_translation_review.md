@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 6A.1 — Chapter 1 Full Translation Batch 1
+Stage: 6A.2 — Chapter 1 Full Translation Batch 2
 
-Status: Pilot closed; Chapter 1 terminology fully locked; CH01-P001–CH01-P003 drafted for human review
+Status: Production draft complete through CH01-P018; pilot-approved passages inherited; new Batch 2 passages pending human review
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -21,13 +21,13 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
-- Translation started: Yes — approved pilot segments plus production Batch 1 (CH01-P001–CH01-P003) only
+- Translation started: Yes — production draft CH01-P001–CH01-P018 only
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
 - Segment C review state: Draft v0.2 — human review round 3 incorporated; remains in `drafts/`
 - Chapter 1 terminology: 41 locked; 0 unresolved
-- Production scope authorized: CH01-P001–CH01-P003 only
-- Remaining full-chapter translation authorized: No
+- Production scope authorized through Stage 6A.2: CH01-P001–CH01-P018 only
+- Remaining production scope CH01-P019–CH01-P027 authorized: No
 
 ## Translation decision log
 
@@ -46,6 +46,26 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-023 | CH01-P001 | Rendered the biographical contrast in natural English and ended P001 with a colon because the source sentence continues across image anchor FB-I005 into P002. The anchor remains recorded between the two paragraph IDs. | Human review should confirm that the cross-paragraph reconstruction preserves the source relationship and that the colon provides an appropriate transition. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
 | TR-024 | CH01-P002 | Applied locked `Sony`, `Akio Morita`, `the three great myths of Korean business`, and the approved contextual form `Hitachi founder Namihei Odaira`. Rendered `经营学的博士` as `held a doctorate in business administration` and added the required neutral first-occurrence editor note for the printed-name discrepancy. | Human review should confirm the degree wording, the authorial-label syntax, and the note's neutral tone. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
 | TR-025 | CH01-P003 | Used natural biography narration to contrast Lee Byung-chull's material security with Chung Ju-yung's food scarcity while preserving the morning, noon, and evening sequence. Rendered `野菜粥` descriptively as `porridge made with wild greens`; no glossary entry was created. | Human review should confirm `could manage a meal in the morning` and `porridge made with wild greens` for fidelity and naturalness. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+
+## Full translation Batch 2 review items
+
+| Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
+|---|---|---|---|---|
+| TR-026 | CH01-P004 | Migrated the approved Segment A Draft v0.2 translation without retranslation. | None. | inherited_pilot_approved |
+| TR-027 | CH01-P005 | Migrated the approved Segment A Draft v0.2 translation with the Stage 5C.1 locked `seok` first-use form already incorporated. | None. | inherited_pilot_approved |
+| TR-028 | CH01-P006 | Migrated the approved Segment A Draft v0.2 translation and preserved FB-F002 under the same footnote ID. | None. | inherited_pilot_approved |
+| TR-029 | CH01-P007 | Migrated the approved Segment A Draft v0.2 translation with locked `Songjeon Elementary School` already incorporated. | None. | inherited_pilot_approved |
+| TR-030 | CH01-P008 | Rendered the causal link between poverty and Chung Ju-yung's four departures from home as `run away from home four times in search of a livelihood`. | Human review should confirm the force of `run away from home` and `in search of a livelihood`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-031 | CH01-P009 | Preserved the intentional repeated statement using the same English sentence as CH01-P001. | Human review should confirm preservation of the source's designed repetition. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-032 | CH01-P010 | Preserved the intentional repeated comparison from CH01-P001–CH01-P002 as one complete paragraph, applying all locked names and `the three great myths of Korean business`. The first-occurrence Namihei Odaira note is not repeated. | Human review should confirm the sentence rhythm and consistent rendering of the repeated passage. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-033 | CH01-P011 | Preserved the intentional repeated passage using the same English wording as CH01-P003. | Human review should confirm preservation of the source's designed repetition. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-034 | CH01-P012 | Contrasted Lee Byung-chull's allowance with Chung Ju-yung's repeated departures and farm labor, rendering `上班族五个月的薪水` as `five months' earnings for a salaried worker`. | Human review should confirm the allowance comparison and the phrasing `ceaseless farm labor in the sweltering summer heat`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-035 | CH01-P013 | Applied the approved later-reference form `seodang` and preserved the paragraph's transition from contrast to common ground. | Human review should confirm the conditional opening `If the two men had anything in common`. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-036 | CH01-P014 | Migrated the approved Segment B Draft v0.2 translation without retranslation, including the approved first-use *Zizhi Tongjian* gloss. | None. | inherited_pilot_approved |
+| TR-037 | CH01-P015 | Migrated the approved Segment B Draft v0.2 translation with its human-reviewed final sentence intact. | None. | inherited_pilot_approved |
+| TR-038 | CH01-P016 | Migrated the approved Segment B Draft v0.2 translation without retranslation and preserved the FB-P016 page boundary. | None. | inherited_pilot_approved |
+| TR-039 | CH01-P017 | Migrated the approved Segment B Draft v0.2 concise rendering without retranslation. | None. | inherited_pilot_approved |
+| TR-040 | CH01-P018 | Migrated the approved Segment B Draft v0.2 translation without retranslation, preserving locked classical titles and the Joseon-period rule. | None. | inherited_pilot_approved |
 
 ## Segment A draft review items
 
@@ -189,4 +209,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. Production Batch 1 (CH01-P001–CH01-P003) is drafted in `chapter_01_full_draft_v0.1.md` and awaits human review. CH01-P004–CH01-P027 remain `not_started` in the production draft. No text may move to `reviewed/` or `final/`, and production translation must not expand beyond Batch 1 without separate authorization.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft now covers CH01-P001–CH01-P018: Batch 1 and newly translated CH01-P008–CH01-P013 await human review, while CH01-P004–CH01-P007 and CH01-P014–CH01-P018 inherit pilot approval. CH01-P019–CH01-P027 remain `not_started`. No text may move to `reviewed/` or `final/`, and production translation must not expand beyond Batch 2 without separate authorization.
