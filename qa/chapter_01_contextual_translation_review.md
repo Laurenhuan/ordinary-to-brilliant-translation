@@ -1,16 +1,16 @@
 # Chapter 1 Contextual Translation Review
 
-Stage: 5A.4 preparation; updated through Stage 5A.6 Human Approval Consolidation
+Stage: 5A.7 — Resolve Remaining Terminology Required for Segment B
 
-Scope: contextual translation decision history. It now distinguishes the decisions locked by Stage 5A.6 from items that still require human approval. It contains no Chapter 1 prose translation, and the frozen Chinese source remains unchanged.
+Scope: contextual translation decision history. Stage 5A.7 adds focused research for `C1-T013` and `C1-T020` without translating Segment B, locking either candidate, or modifying the frozen Chinese source.
 
-This review contains eight records: six existing Chapter 1 candidates and two project-level corporate-title preparation terms. `会长` and `社长` do not occur in the frozen Chapter 1 source and are therefore not added to the 41-item candidate inventory.
+This review contains nine records: seven existing Chapter 1 candidates and two project-level corporate-title preparation terms. `会长` and `社长` do not occur in the frozen Chapter 1 source and are therefore not added to the 41-item candidate inventory.
 
 ## Decision summary
 
 | Record | Candidate ID | Chinese term | Provisional recommendation | Confidence | Context dependency | Human approval required | Status |
 |---|---|---|---|---|---|---|---|
-| CTX-CH01-001 | C1-T013 | 文山亭书院 | Munsanjeong Seodang | Medium | High | Yes | `needs_human_decision` |
+| CTX-CH01-001 | C1-T013 | 文山亭书院 | Munsanjeong, a seodang | Medium-high for identification; Medium for final wording | High | Yes | `needs_human_decision` |
 | CTX-CH01-002 | C1-T014 | 松田小学 | Songjeon School | Medium | High | Yes | `needs_human_decision` |
 | CTX-CH01-003 | C1-T011 | 东和旅馆 | Donghwa Inn | Low | High | Yes | `needs_human_decision` |
 | CTX-PREP-001 | — | 会长 | chairman | High for corporate sense; Medium for exact title form | High | Yes | `needs_human_decision` |
@@ -18,19 +18,42 @@ This review contains eight records: six existing Chapter 1 candidates and two pr
 | CTX-CH01-004 | C1-T033 | 鸿儒 | eminent Confucian scholar | High | Resolved for Chapter 1 | Completed | `locked` |
 | CTX-CH01-005 | C1-T034 | 地主 | landowner / landowning family | High | Approved context-sensitive pair | Completed | `locked` |
 | CTX-CH01-006 | C1-T035 | 石 | seok, with a first-use gloss | High for unit type; Medium for gloss wording | High | Yes | `needs_human_decision` |
+| CTX-CH01-007 | C1-T020 | 朝鲜 | contextual: Joseon period / Joseon Dynasty / Korea / Korean | High for the distinction; Medium for unreviewed occurrences | High | Yes | `needs_human_decision` |
 
 ## CTX-CH01-001 — 文山亭书院
 
 - **Chinese term:** 文山亭书院
 - **Type:** school / Korean historical educational institution
 - **Chapter segment:** CH01-P014 (FB-P015)
-- **Historical context:** The source describes study at an institution opened by the subject's grandfather. Academy of Korean Studies references treat `seodang` as a local private educational institution and use `seodang (village school)` in English explanatory material.
-- **Candidate translation:** Munsanjeong Seodang (provisional)
-- **Alternatives considered:** Munsanjeong Village School; Munsanjeong Seodang School; Munsanjeong Academy
-- **Evidence/source:** https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
-- **Recommendation:** Retain `Seodang` under the approved Korean historical-institution policy. Do not mechanically translate `书院` as `Academy`. Verify and approve the underlying Korean institution name before locking this separate candidate.
-- **Confidence:** Medium for the `seodang` strategy; lower for the exact institution romanization until the Korean form is confirmed.
-- **Context dependency:** The general `seodang` policy is approved; the exact `Munsanjeong` institution name and its Chapter 1 application remain unresolved.
+- **Historical context:** Uiryeong County describes Lee Byung-chull as having studied classical Chinese at `서당 문산정`, which identifies `문산정` as the proper name and `서당` as the institution type. A Korean academic study identifies `文山亭` as a pavilion built late in life by his grandfather Lee Hong-seok. The evidence therefore supports a named place/building used as a `seodang`, rather than a `seowon` or an institution whose established English name ends in `Academy`.
+- **Candidate translation:** Munsanjeong, a seodang (provisional)
+- **Contextual Chapter 1 form:** `Munsanjeong, a seodang founded by his grandfather`
+- **Alternatives considered:** Munsanjeong Seodang; Munsanjeong Village School; Munsanjeong Seodang School; Munsanjeong Academy
+- **Evidence/source:** https://www.uiryeong.go.kr/tour/board/view.uiryeong?boardId=BBS_0000464&dataSid=10674662&menuCd=DOM_000000305002002000&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1 ; https://journal.kci.go.kr/kukmun/archive/articlePdf?artiId=ART002469257 ; https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
+- **Recommendation:** Retain the proper name as `Munsanjeong` and identify its function appositively as a `seodang`. In the full Chapter 1 sequence, the approved first-use explanation of `seodang` occurs earlier, so CH01-P014 need not repeat the full gloss. If Segment B is presented independently, supply the approved explanatory gloss at its first local occurrence. Do not present `Munsanjeong` as an established official English name, and do not use `Academy`.
+- **Confidence:** Medium-high for the Korean name and institution identification; Medium for the final English syntax because no established English form was found.
+- **Context dependency:** High. The final wording depends on whether Segment B is read in full-chapter sequence or as a stand-alone pilot.
+- **Human decision:** Pending
+- **Status:** `needs_human_decision`
+
+## CTX-CH01-007 — 朝鲜
+
+- **Chinese term:** 朝鲜
+- **Type:** place / historical-geographic context term
+- **Chapter segment:** CH01-P018; CH01-P019 (FB-P016); Segment B intersects CH01-P018 only
+- **Historical context:** In CH01-P018, `朝鲜` occurs inside the already locked term `朝鲜时代`, describing the period in which particular scholars treated books as required reading. It does not function there as a free-standing modern country name. Official English materials from the National Museum of Korea and National Palace Museum of Korea use `Joseon period` for temporal and cultural framing, `Joseon Dynasty` for the ruling dynasty and its formal institutions, and `Joseon` alone in selected state, object, or attributive contexts.
+- **Candidate translation:** contextual: Joseon period / Joseon Dynasty / Korea / Korean
+- **Existing locked Segment B form:** `Joseon period` for C1-T030 `朝鲜时代`; preferred phrase: `scholars of the Joseon period`. This decision is unchanged.
+- **Evidence/source:** https://www.museum.go.kr/ENG/contents/E0201080100.do?schM=list&showHallId=757&showroomCode=DM0074 ; https://online.gogung.go.kr/gogungEn/main/contents.do?menuNo=1000019
+- **Recommended context rule:**
+  - Use `Joseon period` for explicit temporal, social, intellectual, or cultural-period framing such as `朝鲜时代`.
+  - Use `Joseon Dynasty` when the ruling house, dynastic government, royal institutions, succession, or the dynasty as a formal historical polity is foregrounded.
+  - Use `Korea` only when the source denotes the country or geographic-cultural whole and the dynastic identity is not the point; do not substitute it for an explicit Joseon-period label.
+  - Use `Korean` for adjectival references to people, language, or culture when period specificity is absent or supplied elsewhere; do not reduce `朝鲜时代的读书人` to generic `Korean scholars` because that loses the historical frame.
+  - Never apply a global one-to-one replacement for standalone `朝鲜`; decide at the sentence level and log ambiguous cases.
+- **Recommendation for Segment B:** Keep the locked C1-T030 wording `scholars of the Joseon period`. Record the broader context rule for human approval without changing that existing decision.
+- **Confidence:** High for the four-way contextual distinction; Medium for future unreviewed occurrences.
+- **Context dependency:** High; grammar, historical period, and whether the reference is political, temporal, geographic, or adjectival control the English form.
 - **Human decision:** Pending
 - **Status:** `needs_human_decision`
 
@@ -137,6 +160,13 @@ This review contains eight records: six existing Chapter 1 candidates and two pr
 - **Human decision:** Pending
 - **Status:** `needs_human_decision`
 
+## Stage 5A.7 Segment B terminology gate
+
+- The two targeted candidates now have research-backed decision records.
+- C1-T013 still requires human approval of the `Munsanjeong, a seodang` policy and its stand-alone/full-chapter first-use treatment.
+- C1-T020 still requires human approval of the four-way context rule. Segment B itself remains covered by the existing locked C1-T030 form `Joseon period`.
+- No Segment B prose has been translated, and neither candidate has been locked.
+
 ## Gate for the next batch
 
 Stage 5A.6 consolidates the human-approved cultural-concept decisions in `qa/chapter_01_cultural_concept_review.md`. `鸿儒` and `地主` are now locked with the approved Chapter 1 rules recorded above.
@@ -146,9 +176,9 @@ Stage 5A.6 consolidates the human-approved cultural-concept decisions in `qa/cha
 | Candidate ID | Chinese term | Type | Decision-record coverage | Current state |
 |---|---|---|---|---|
 | C1-T011 | 东和旅馆 | organization | Stage 5A.4 CTX-CH01-003 | Provisional candidate; historical name mapping requires human decision |
-| C1-T013 | 文山亭书院 | school | Stage 5A.4 CTX-CH01-001 | Provisional candidate; institution romanization and first-use treatment require human decision |
+| C1-T013 | 文山亭书院 | school | Stage 5A.7 CTX-CH01-001 | Proper name and institution type supported; final appositive wording and first-use treatment require human decision |
 | C1-T014 | 松田小学 | school | Stage 5A.4 CTX-CH01-002 | Provisional candidate; historical school category requires human decision |
-| C1-T020 | 朝鲜 | place | Chapter 1 terminology review | Strategy recorded; no candidate selected because historical-geographic context remains unresolved |
+| C1-T020 | 朝鲜 | place | Stage 5A.7 CTX-CH01-007 | Four-way context rule prepared; CH01-P018 keeps locked `Joseon period`; broader rule requires human decision |
 | C1-T033 | 鸿儒 | cultural_concept | Stage 5A.4 CTX-CH01-004 and Stage 5A.6 CULT-CH01-002 | Approved and locked: eminent Confucian scholar |
 | C1-T034 | 地主 | title_role | Stage 5A.4 CTX-CH01-005 and Stage 5A.6 CULT-CH01-003 | Approved and locked: landowner / landowning family by context |
 | C1-T035 | 石 | unit | Stage 5A.4 CTX-CH01-006 | Transliteration and first-use gloss prepared; human decision required |

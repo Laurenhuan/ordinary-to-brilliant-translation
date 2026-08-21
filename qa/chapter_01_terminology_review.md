@@ -1,8 +1,8 @@
 # Chapter 1 Terminology Review
 
-Stage: 5A — Chapter 1 Terminology Verification
+Stage: 5A.7 — Resolve Remaining Terminology Required for Segment B
 
-Scope: terminology and proper-name verification only. No Chapter 1 prose has been translated, and the frozen Chinese source remains unchanged. Only terms explicitly approved by ChatGPT + human are marked `locked`.
+Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-T013` and `C1-T020` for Segment B without translating Segment B or modifying the frozen Chinese source. Only terms explicitly approved by ChatGPT + human are marked `locked`.
 
 ## Review summary
 
@@ -10,6 +10,7 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - Frozen-source segment binding: complete for all candidates
 - Locked after Stage 5A.6 human-approval consolidation: 35
 - Remaining unlocked: 6
+- Segment B candidates prepared in Stage 5A.7: 2; both remain `needs_human_decision`
 - Conflict register: 6 retained IDs; 0 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
@@ -22,6 +23,7 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
 - Stage 5A.4 records provisional, non-locked contextual recommendations for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`; all remain subject to human approval.
 - Stage 5A.6 locks the seven human-approved decisions for `私塾`, `鸿儒`, `地主`, `仁、和、乐`, `致知在格物`, `一勤天下无难事`, and `有志者事竟成`.
+- Stage 5A.7 prepares evidence-backed contextual policies for `文山亭书院` and `朝鲜`; neither is locked and no master glossary entry is changed.
 - Six approved items enter `glossary/glossary.csv`. `一勤天下无难事` is intentionally retained as a locked candidate and QA quotation decision rather than a glossary entity.
 
 ## Workflow status
@@ -285,12 +287,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P018; CH01-P019
 - **Page:** FB-P016
 - **Context:** 被朝鲜时代的读书人列为必读书目。
-- **Candidate English:** —
+- **Candidate English:** contextual: Joseon period / Joseon Dynasty / Korea / Korean
 - **Verified English:** —
-- **Evidence/source:** unverified; no external source recorded yet
-- **Codex recommendation:** Choose context-specific historical wording at sentence level rather than imposing one English equivalent globally.
+- **Evidence/source:** official Korean museum usage: https://www.museum.go.kr/ENG/contents/E0201080100.do?schM=list&showHallId=757&showroomCode=DM0074 ; https://online.gogung.go.kr/gogungEn/main/contents.do?menuNo=1000019
+- **Codex recommendation:** Use `Joseon period` for temporal/cultural framing, `Joseon Dynasty` when the ruling house or formal dynastic polity is foregrounded, `Korea` for a general country/geographic reference without dynastic emphasis, and `Korean` for adjectival people/language/culture references. CH01-P018 remains governed by locked C1-T030: `scholars of the Joseon period`. Human approval is required before adopting the broader rule.
 - **Human decision:** Pending
-- **Decision note:** The term appears in period labels and must not trigger factual correction.
+- **Decision note:** Do not apply a global replacement. The term must be resolved at sentence level without factual correction. The existing locked `Joseon period` decision is unchanged.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
@@ -347,12 +349,12 @@ Scope: terminology and proper-name verification only. No Chapter 1 prose has bee
 - **Segment:** CH01-P014
 - **Page:** FB-P015
 - **Context:** 在祖父开设的文山亭书院学习。
-- **Candidate English:** Munsanjeong Seodang (provisional)
+- **Candidate English:** Munsanjeong, a seodang (provisional)
 - **Verified English:** —
-- **Evidence/source:** retained Korean historical institution term: https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
-- **Codex recommendation:** Retain seodang as the historical institution term and provisionally use Munsanjeong Seodang; verify the underlying Korean name and approve the first-use explanation before locking.
+- **Evidence/source:** official Korean local-government usage plus historical-institution research: https://www.uiryeong.go.kr/tour/board/view.uiryeong?boardId=BBS_0000464&dataSid=10674662&menuCd=DOM_000000305002002000&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1 ; https://journal.kci.go.kr/kukmun/archive/articlePdf?artiId=ART002469257 ; https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
+- **Codex recommendation:** Retain `Munsanjeong` as the proper name and describe it appositively as a `seodang`; proposed CH01-P014 form: `Munsanjeong, a seodang founded by his grandfather`. In full-chapter sequence, do not repeat the earlier first-use seodang gloss; provide it if Segment B stands alone. Human approval is required before locking.
 - **Human decision:** Pending
-- **Decision note:** Do not mechanically render 书院 as Academy. AKS English materials use seodang and explain it as a village school; exact institution romanization remains context-dependent.
+- **Decision note:** Uiryeong County uses `서당 문산정`; academic evidence describes `文山亭` as a pavilion built by Lee Hong-seok. Treat `Munsanjeong` as a project romanization of the proper name and `seodang` as its institutional function, not as an established official English name. Do not use `Academy`.
 - **Conflict flag:** no
 - **Status:** `needs_human_decision`
 
