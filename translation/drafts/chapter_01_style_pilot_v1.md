@@ -1,8 +1,10 @@
-# Chapter 1 Style Pilot v1
+# Chapter 1 Translation Style Pilot v1
 
-Status: Pilot scope approved — translation not started
+Version: Draft v0.1
 
-Stage: 5B — Translation Style Pilot Preparation
+Status: Segment A drafted — pending review
+
+Stage: 5B.2 — Translation Pilot Draft Preparation
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -18,16 +20,15 @@ Related controls:
 
 ## Approved pilot scope
 
-### Pilot Segment A — Biography narrative test
+- Segment A — CH01-P004 through CH01-P007: Draft v0.1 prepared; pending review.
+- Segment B — CH01-P014 through CH01-P018: Not started.
+- Segment C — CH01-P025 through CH01-P026: Not started.
 
-Segment IDs:
+Only Segment A is translated in this version. This file must not expand into a full-chapter draft during the style pilot.
 
-- CH01-P004
-- CH01-P005
-- CH01-P006
-- CH01-P007
+## Segment A
 
-Purpose: Test the English handling of biographical narrative.
+Purpose: Biography narrative test.
 
 Focus:
 
@@ -36,72 +37,87 @@ Focus:
 - family background; and
 - historical narration.
 
-### Pilot Segment B — Cultural translation test
+### CH01-P004
 
-Segment IDs:
+Source page: FB-P015
 
-- CH01-P014
-- CH01-P015
-- CH01-P016
-- CH01-P017
-- CH01-P018
+Source:
 
-Purpose: Test cultural and educational translation choices.
+> 李秉哲（1910—1987）出生于大富之家。
 
-Focus:
+Translation:
 
-- `seodang`;
-- classical texts; and
-- Confucian education.
+Lee Byung-chull (1910–1987) was born into a very wealthy family.
 
-### Pilot Segment C — Philosophical and business-value translation test
+Review status: Pending
 
-Segment IDs:
+### CH01-P005
 
-- CH01-P025
-- CH01-P026
+Source page: FB-P015
 
-Purpose: Test the English handling of philosophical and business-value language.
+Source:
 
-Focus:
+> 那是一个在丰收之年可以收获 2000 石，即使是收成不好的年头也可以收获 1500 石的地主家庭。
 
-- `humaneness (ren)`;
-- `harmony (he)`; and
-- `joy (le)`.
+Translation:
 
-### Boundary controls
+In a bumper year, the landowning family could harvest 2,000 **[石 — QA C1-T035: English unit rendering unresolved]**; even in a poor year, it could harvest 1,500 **[石 — QA C1-T035]**.
 
-- Only the 11 approved source segments above belong to the style pilot.
-- The pilot will compare and approve English narrative style, sentence rhythm, paragraph handling, cultural-term treatment, and note density.
-- This file must not expand into a full-chapter draft during the style pilot.
-- Unresolved terminology must be logged in QA and must not be silently decided in prose.
+QA marker: **C1-T035 — `石` remains `needs_human_decision`. The source quantities 2,000 and 1,500 are preserved; no transliteration or conversion has been selected.**
 
-## Source-traceability requirements
+Review status: Pending
 
-- Preserve every selected source paragraph ID, such as `CH01-P001`.
-- Preserve relevant page anchors, image anchors, and footnote references.
-- Keep source order unless a separately recorded human decision authorizes a change.
-- Do not copy edits back into the frozen Chinese source.
+### CH01-P006
 
-## Pilot translation workspace
+Source page: FB-P015
 
-<!--
-No translation has been inserted.
-When pilot translation is separately authorized, create one subsection per approved source segment using this template:
+Source:
 
-### CH01-P000
+> 他出生于庆尚南道[^FB-F002]宜宁的地主李缵宇家，是李缵宇四个儿子中最小的一个。李秉哲的祖父李洪锡是当时的一位鸿儒，也是世代相传、家财万贯的地主。李秉哲出生于地主之家，在私塾学过一阵汉学后，就进入小学，中学接受正规的教育，后来又到日本的早稻田大学留学。
 
-Source page: FB-P000
+Source footnote:
 
-English draft:
+> [^FB-F002]: 韩国的“道”相当于中国“省”一级的行政单位。
 
-[Translation to be added only in the authorized pilot-translation stage.]
+Translation:
 
-Translator note required: No / Yes — reference QA decision ID
+He was born into the landowning family of Lee Chan-woo in Uiryeong, Gyeongsangnam-do[^FB-F002], and was the youngest of Lee Chan-woo’s four sons. Lee Byung-chull’s grandfather, Lee Hong-seok, was an eminent Confucian scholar of his day and a wealthy landowner whose family property had been handed down for generations. Born into a landowning family, Lee Byung-chull studied Chinese classics for a time at a traditional Korean village school known as a seodang. He then attended primary and middle school for his formal education before going to Japan to study at Waseda University.
 
-Open issues: None / reference qa/chapter_01_translation_review.md
--->
+Translated footnote:
 
-Pilot segment selection: **Approved — Segments A, B, and C (11 source segments)**
+[^FB-F002]: In Korea, a “do” is an administrative division roughly equivalent to a province in China.
 
-Translation status: **Not started**
+Review status: Pending
+
+### CH01-P007
+
+Source page: FB-P015
+
+Source:
+
+> 郑周永（1915—2001）生于江原道通川郡的一个贫农家庭，是家中六男两女中的长子，他接受的全部教育就是自六岁到九岁之间，在私塾和松田小学的学习。
+
+Translation:
+
+Chung Ju-yung (1915–2001) was born into a poor farming family in Tongcheon County, Gangwon Province. The eldest son in a family of six sons and two daughters, his entire education consisted of the schooling he received from ages six to nine at a seodang and at **[松田小学 — QA C1-T014: English historical school name unresolved]**.
+
+QA marker: **C1-T014 — `松田小学` remains `needs_human_decision`. No choice has been made among Songjeon School, Songjeon Primary School, and Songjeon Elementary School.**
+
+Review status: Pending
+
+## Segment B
+
+Status: Not started. No source text or English translation has been inserted.
+
+## Segment C
+
+Status: Not started. No source text or English translation has been inserted.
+
+## Draft controls
+
+- Paragraph mapping: Preserved for CH01-P004 through CH01-P007.
+- Footnote mapping: FB-F002 preserved and translated under the same ID.
+- Image anchors: None occur within Segment A.
+- Unresolved terminology: C1-T035 and C1-T014 retained as visible QA markers.
+- Frozen source modification: None.
+- Review state: Draft v0.1; not reviewed and not final.
