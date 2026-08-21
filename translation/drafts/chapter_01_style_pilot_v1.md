@@ -2,9 +2,9 @@
 
 Version: Segment A Draft v0.2; Segment B Draft v0.2; Segment C Draft v0.2
 
-Status: Segments A and B have passed human review; Segment C Draft v0.2 incorporates human review round 3
+Status: All three pilot segments have passed human review; Chapter 1 terminology closed in Stage 5C.1
 
-Stage: 5B.9 — Apply Segment C Human Decisions
+Stage: 5C.1 — Terminology Closure and Pilot Closure
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -61,9 +61,7 @@ Source:
 
 Translation:
 
-The landowning family could harvest 2,000 **[石 — QA C1-T035: English unit rendering unresolved]** in a good year and 1,500 **[石 — QA C1-T035]** even in a poor one.
-
-QA marker: **C1-T035 — `石` remains `needs_human_decision`. The source quantities 2,000 and 1,500 are preserved; no transliteration or conversion has been selected.**
+The landowning family could harvest 2,000 seok (a traditional Korean grain measure) in a good year and 1,500 seok even in a poor one.
 
 Review status: Approved for style baseline
 
@@ -99,9 +97,7 @@ Source:
 
 Translation:
 
-Chung Ju-yung (1915–2001) was born into a poor farming family in Tongcheon County, Gangwon Province. He was the eldest of six sons and had two sisters. His entire education consisted of the schooling he received from ages six to nine at a seodang and at **[松田小学 — QA C1-T014: English historical school name unresolved]**.
-
-QA marker: **C1-T014 — `松田小学` remains `needs_human_decision`. No choice has been made among Songjeon School, Songjeon Primary School, and Songjeon Elementary School.**
+Chung Ju-yung (1915–2001) was born into a poor farming family in Tongcheon County, Gangwon Province. He was the eldest of six sons and had two sisters. His entire education consisted of the schooling he received from ages six to nine at a seodang and at Songjeon Elementary School.
 
 Review status: Approved for style baseline
 
@@ -241,7 +237,7 @@ Review status: Required revision applied — human review round 3
 - Footnote mapping: FB-F002 preserved and translated under the same ID.
 - Page mapping: FB-P016 boundary preserved before CH01-P016.
 - Image anchors: None occur within Segments A, B, or C.
-- Unresolved terminology: C1-T035 and C1-T014 remain as visible QA markers in Segment A. Segments B and C introduce no new unresolved-term marker.
+- Unresolved terminology: None. Stage 5C.1 replaced the former C1-T035 and C1-T014 QA markers with their human-approved locked forms.
 - Proverb handling: Neither approved proverb occurs in CH01-P025 or CH01-P026; no proverb substitution was inserted.
 - Frozen source modification: None.
-- Review state: Segment A Draft v0.2 is the approved biography style baseline; Segment B Draft v0.2 has passed human review; Segment C Draft v0.2 incorporates human review round 3. All remain drafts and are not final.
+- Review state: Segment A Draft v0.2 is the approved biography style baseline; Segment B Draft v0.2 has passed human review; Segment C Draft v0.2 incorporates human review round 3. All Chapter 1 terminology references in the pilot are resolved; all segments remain drafts and are not final.

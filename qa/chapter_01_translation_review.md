@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.9 — Apply Segment C Human Decisions
+Stage: 5C.1 — Terminology Closure and Pilot Closure
 
-Status: Segments A and B have passed human review; Segment C Draft v0.2 incorporates human review round 3
+Status: All three pilot segments have passed human review; Chapter 1 terminology is fully locked
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -23,6 +23,7 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
 - Segment C review state: Draft v0.2 — human review round 3 incorporated; remains in `drafts/`
+- Chapter 1 terminology: 41 locked; 0 unresolved
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -40,9 +41,9 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
 |---|---|---|---|---|
 | TR-005 | CH01-P004 | Applied locked `Lee Byung-chull`; revised `a very wealthy family` to the less intensified `a wealthy family`; preserved the 1910–1987 date range. | None identified in Draft v0.2. | approved_style_baseline |
-| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | approved_style_baseline |
+| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. Stage 5C.1 applies locked `seok` with its first-use gloss. | None; the former C1-T035 marker is resolved by human decision. | approved_style_baseline_terminology_resolved |
 | TR-007 | CH01-P006 | Recast the opening as `the family of Lee Chan-woo, a landowner`; improved sentence rhythm while preserving every locked name, place, cultural term, and FB-F002. | None identified in Draft v0.2. | approved_style_baseline |
-| TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | approved_style_baseline |
+| TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. Stage 5C.1 applies locked `Songjeon Elementary School`. | None; the former C1-T014 marker is resolved by human decision. | approved_style_baseline_terminology_resolved |
 
 ## Segment B draft review items
 
@@ -149,18 +150,16 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 | TR-R2 | CH01-P014–CH01-P018 | Segment B Draft v0.2 | review round 2 revision | Human review approved Draft v0.1 with one required minor revision to CH01-P015. | Retain the approved passages, apply the P015 sentence revision, and keep Segment B in `drafts/`. | Approved with revision | closed |
 | TR-R3 | CH01-P025–CH01-P026 | Segment C Draft v0.2 | review round 3 revision | Human decisions require two wording revisions while preserving locked terms and all other wording. | Apply the approved P025 and P026 replacements and keep Segment C in `drafts/`. | Approved with revisions | closed |
 
-## Unresolved terminology affecting Chapter 1
+## Chapter 1 terminology closure
 
-The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
+Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are now `locked`; none remains `needs_human_decision`.
 
-Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 and Segment C Draft v0.2 do not intersect any remaining unresolved Chapter 1 candidate.
-
-| Candidate ID | Chinese term | Category | Current issue | Pilot rule |
+| Candidate ID | Chinese term | Locked English | Pilot treatment | Status |
 |---|---|---|---|---|
-| C1-T011 | 东和旅馆 | organization | Historical name/entity mapping remains unresolved. | Do not lock a final English name in the pilot. |
-| C1-T014 | 松田小学 | school | Historical school-category wording remains unresolved. | Do not silently choose among School, Primary School, and Elementary School. |
-| C1-T035 | 石 | unit | `seok` and its first-use gloss remain unapproved. | Preserve the number and source unit; do not convert it. |
-| C1-T041 | 商界三大神话 | other | Authorial-label rendering and quotation/explanation treatment remain unresolved. | Use a visible QA marker if included in the pilot. |
+| C1-T011 | 东和旅馆 | Donghwa Inn | Not present in the selected pilot segments; required for full Chapter 1 translation. | locked |
+| C1-T014 | 松田小学 | Songjeon Elementary School | Former Segment A QA marker replaced with the locked form. | locked |
+| C1-T035 | 石 | seok | Former Segment A QA marker replaced; first use includes `a traditional Korean grain measure`. | locked |
+| C1-T041 | 商界三大神话 | the three great myths of Korean business | Not present in the selected pilot segments; required for full Chapter 1 translation. | locked |
 
 ## Required review checks
 
@@ -174,9 +173,9 @@ Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locke
 - [ ] Image anchors remain in the correct relative position when applicable.
 - [ ] Footnote markers and references remain traceable.
 - [ ] Translator/editor notes appear only where necessary and normally only on first occurrence.
-- [ ] Unresolved terminology is not silently resolved in prose.
+- [x] Unresolved terminology was resolved through recorded human decisions before the pilot markers were replaced.
 - [ ] The frozen Chinese source remains unchanged.
 
 ## Stage gate
 
-Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.2 incorporates human review round 3 and also remains in `drafts/`. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
+Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.2 incorporates human review round 3 and also remains in `drafts/`. Stage 5C.1 resolves all Chapter 1 terminology candidates and removes the two former terminology QA markers from Segment A. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization.

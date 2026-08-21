@@ -1,8 +1,8 @@
 # Chapter 1 Contextual Translation Review
 
-Stage: 5A.7 — Human Approval Consolidation for Segment B Terminology
+Stage: 5C.1 — Chapter 1 Terminology Lock
 
-Scope: contextual translation decision history. Stage 5A.7 now records human approval and locking of `C1-T013` and `C1-T020` without translating Segment B or modifying the frozen Chinese source.
+Scope: contextual translation decision history. Stage 5C.1 records final human approval of the remaining Chapter 1 contextual terminology without translating additional paragraphs or modifying the frozen Chinese source.
 
 This review contains nine records: seven existing Chapter 1 candidates and two project-level corporate-title preparation terms. `会长` and `社长` do not occur in the frozen Chapter 1 source and are therefore not added to the 41-item candidate inventory.
 
@@ -11,13 +11,13 @@ This review contains nine records: seven existing Chapter 1 candidates and two p
 | Record | Candidate ID | Chinese term | Decision / recommendation | Confidence | Context dependency | Human approval required | Status |
 |---|---|---|---|---|---|---|---|
 | CTX-CH01-001 | C1-T013 | 文山亭书院 | Munsanjeong, a seodang | High after human approval | Approved contextual usage | Completed | `locked` |
-| CTX-CH01-002 | C1-T014 | 松田小学 | Songjeon School | Medium | High | Yes | `needs_human_decision` |
-| CTX-CH01-003 | C1-T011 | 东和旅馆 | Donghwa Inn | Low | High | Yes | `needs_human_decision` |
+| CTX-CH01-002 | C1-T014 | 松田小学 | Songjeon Elementary School | High after human approval | Approved Chapter 1 form | Completed | `locked` |
+| CTX-CH01-003 | C1-T011 | 东和旅馆 | Donghwa Inn | High after human approval | Approved historical lodging rendering | Completed | `locked` |
 | CTX-PREP-001 | — | 会长 | chairman | High for corporate sense; Medium for exact title form | High | Yes | `needs_human_decision` |
 | CTX-PREP-002 | — | 社长 | president | High for corporate sense; Medium for exact title form | High | Yes | `needs_human_decision` |
 | CTX-CH01-004 | C1-T033 | 鸿儒 | eminent Confucian scholar | High | Resolved for Chapter 1 | Completed | `locked` |
 | CTX-CH01-005 | C1-T034 | 地主 | landowner / landowning family | High | Approved context-sensitive pair | Completed | `locked` |
-| CTX-CH01-006 | C1-T035 | 石 | seok, with a first-use gloss | High for unit type; Medium for gloss wording | High | Yes | `needs_human_decision` |
+| CTX-CH01-006 | C1-T035 | 石 | seok; first `seok (a traditional Korean grain measure)` | High after human approval | Approved first-use/later-use rule | Completed | `locked` |
 | CTX-CH01-007 | C1-T020 | 朝鲜 | context-sensitive rule | High after human approval | Approved sentence-level selection | Completed | `locked` |
 
 ## CTX-CH01-001 — 文山亭书院
@@ -64,14 +64,14 @@ This review contains nine records: seven existing Chapter 1 candidates and two p
 - **Type:** school / colonial-period historical institution
 - **Chapter segment:** CH01-P007 (FB-P015)
 - **Historical context:** The sentence describes Chung Ju-yung's schooling. The Asan Chung-Ju-yung Museum's English biography uses `Songjeon Elementary School`, but that wording may modernize the historical school category.
-- **Candidate translation:** Songjeon School (provisional)
+- **Locked translation:** Songjeon Elementary School
 - **Alternatives considered:** Songjeon Elementary School; Songjeon Primary School
 - **Evidence/source:** https://www.asan-chungjuyung.com/mobile_eng/sub_02_01_2.html
-- **Recommendation:** Use the category-neutral `Songjeon School` as the provisional project form. Human review must decide whether the official founder biography's `Songjeon Elementary School` should take precedence despite the historical-institution concern.
-- **Confidence:** Medium.
-- **Context dependency:** High; depends on the historical-institution naming policy and whether the English form is intended as a proper name or a descriptive translation.
-- **Human decision:** Pending
-- **Status:** `needs_human_decision`
+- **Recommendation:** Use `Songjeon Elementary School`, the project-approved standard English school-category rendering. Do not use the ambiguous `Songjeon School` form.
+- **Confidence:** High after human approval.
+- **Context dependency:** Resolved for the Chapter 1 occurrence.
+- **Human decision:** Approved
+- **Status:** `locked`
 
 ## CTX-CH01-003 — 东和旅馆
 
@@ -79,14 +79,14 @@ This review contains nine records: seven existing Chapter 1 candidates and two p
 - **Type:** organization / lodging establishment
 - **Chapter segment:** CH01-P019 (FB-P016)
 - **Historical context:** The source places the establishment in 1894 Shanghai. Historical records describe a Japanese inn or ryokan using the form `同和洋行 / Towa Yoko`, which does not map mechanically to the frozen Chinese form `东和旅馆`.
-- **Candidate translation:** Donghwa Inn (provisional reader-facing rendering)
+- **Locked translation:** Donghwa Inn
 - **Alternatives considered:** Towa Yoko; Towa Yoko (Donghwa Inn); Donghwa Hotel
 - **Evidence/source:** https://db.history.go.kr/diachronic/level.do?levelId=sa_026r_0020_0030_0120 ; https://anthony.sogang.ac.kr/transactions/VOL89/FullText.pdf
-- **Recommendation:** Prefer `Inn` over `Hotel` for the historical lodging context, but do not lock the proper name until a human reviewer resolves the relation between `东和旅馆` and the attested `同和洋行 / Towa Yoko` form. Do not change the frozen source.
-- **Confidence:** Low because the entity-name mapping remains unresolved.
-- **Context dependency:** High.
-- **Human decision:** Pending
-- **Status:** `needs_human_decision`
+- **Recommendation:** Use `Donghwa Inn`. Use `Inn` rather than `Hotel` because the source refers to a historical lodging establishment, not a modern hotel. Do not change the frozen source.
+- **Confidence:** High after human approval of the project rendering.
+- **Context dependency:** Resolved for the Chapter 1 occurrence.
+- **Human decision:** Approved
+- **Status:** `locked`
 
 ## CTX-PREP-001 — 会长
 
@@ -152,14 +152,24 @@ This review contains nine records: seven existing Chapter 1 candidates and two p
 - **Type:** unit / traditional Korean grain-volume unit
 - **Chapter segment:** CH01-P005 (FB-P015)
 - **Historical context:** The unit quantifies harvests of 2,000 and 1,500 `石`. Korean reference materials use `seok` as a unit of volume for grain rather than a weight called `stone`.
-- **Candidate translation:** seok, with a first-use gloss such as `a traditional Korean unit of grain volume`
+- **Locked translation:** seok
+- **First occurrence:** `seok (a traditional Korean grain measure)`
+- **Later occurrence:** `seok`
 - **Alternatives considered:** a numerical conversion; bushels; stone; untranslated Chinese `shi`
 - **Evidence/source:** https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2018_eng.pdf ; https://www.oecd-ilibrary.org/a-new-rural-development-paradigm-for-developing-countries-in-the-21st-century_5jm23m8s3htj.pdf?itemId=%2Fcontent%2Fcomponent%2F9789264252271-12-en&mimeType=pdf
-- **Recommendation:** Retain `seok` and explain it briefly on first use. Do not translate it as `stone`. Do not add a precise conversion unless a period-specific conversion policy is researched and approved. Preserve the source numbers exactly.
-- **Confidence:** High for the unit type and transliteration strategy; Medium for the final gloss wording.
-- **Context dependency:** High; value and conversion can vary by historical context.
-- **Human decision:** Pending
-- **Status:** `needs_human_decision`
+- **Recommendation:** Apply the approved first-use/later-use rule. Do not translate `seok` as `stone`, and do not convert it into modern weight units. Preserve the source numbers exactly.
+- **Confidence:** High after human approval.
+- **Context dependency:** The unit form is locked; numerical conversion remains prohibited for Chapter 1.
+- **Human decision:** Approved
+- **Status:** `locked`
+
+## Stage 5C.1 terminology closure
+
+- C1-T011 is locked as `Donghwa Inn`.
+- C1-T014 is locked as `Songjeon Elementary School`.
+- C1-T035 is locked as `seok`, with first occurrence `seok (a traditional Korean grain measure)` and later occurrence `seok`.
+- C1-T041 is locked as `the three great myths of Korean business`; this is an authorial expression and must not be rendered as mythology, miracles, or legends.
+- All 41 Chapter 1 candidates are now locked; none remains `needs_human_decision`.
 
 ## Stage 5A.7 Segment B terminology gate
 
@@ -176,18 +186,18 @@ Stage 5A.6 consolidates the human-approved cultural-concept decisions in `qa/cha
 
 | Candidate ID | Chinese term | Type | Decision-record coverage | Current state |
 |---|---|---|---|---|
-| C1-T011 | 东和旅馆 | organization | Stage 5A.4 CTX-CH01-003 | Provisional candidate; historical name mapping requires human decision |
+| C1-T011 | 东和旅馆 | organization | Stage 5A.4 CTX-CH01-003; Stage 5C.1 approval | Approved and locked: Donghwa Inn |
 | C1-T013 | 文山亭书院 | school | Stage 5A.7 CTX-CH01-001 | Approved and locked: Munsanjeong, a seodang; explanatory facts remain conditional |
-| C1-T014 | 松田小学 | school | Stage 5A.4 CTX-CH01-002 | Provisional candidate; historical school category requires human decision |
+| C1-T014 | 松田小学 | school | Stage 5A.4 CTX-CH01-002; Stage 5C.1 approval | Approved and locked: Songjeon Elementary School |
 | C1-T020 | 朝鲜 | place | Stage 5A.7 CTX-CH01-007 | Approved and locked as a context-sensitive rule; CH01-P018 keeps locked `Joseon period` |
 | C1-T033 | 鸿儒 | cultural_concept | Stage 5A.4 CTX-CH01-004 and Stage 5A.6 CULT-CH01-002 | Approved and locked: eminent Confucian scholar |
 | C1-T034 | 地主 | title_role | Stage 5A.4 CTX-CH01-005 and Stage 5A.6 CULT-CH01-003 | Approved and locked: landowner / landowning family by context |
-| C1-T035 | 石 | unit | Stage 5A.4 CTX-CH01-006 | Transliteration and first-use gloss prepared; human decision required |
+| C1-T035 | 石 | unit | Stage 5A.4 CTX-CH01-006; Stage 5C.1 approval | Approved and locked: seok; first-use gloss required |
 | C1-T036 | 私塾 | cultural_concept | Stage 5A.6 CULT-CH01-001 | Approved and locked with first-use/later-use rule |
 | C1-T037 | 仁、和、乐 | cultural_concept | Stage 5A.6 CULT-CH01-004 | Approved and locked with first-use/later-use rule |
 | C1-T038 | 一勤天下无难事 | proverb_quotation | Stage 5A.6 CULT-CH01-006 | Approved and locked as a QA quotation decision; intentionally not a glossary entity |
 | C1-T039 | 有志者事竟成 | proverb_quotation | Stage 5A.6 CULT-CH01-007 | Approved and locked as an intentional conventional proverb substitution |
 | C1-T040 | 致知在格物 | cultural_concept | Stage 5A.6 CULT-CH01-005 | Approved and locked; English must not be reordered or simplified |
-| C1-T041 | 商界三大神话 | other | Chapter 1 terminology review | Strategy recorded; project rendering and quotation/explanation treatment remain unresolved |
+| C1-T041 | 商界三大神话 | other | Chapter 1 terminology review; Stage 5C.1 approval | Approved and locked: the three great myths of Korean business |
 
-Nine of these 13 candidates are now `locked` after the Stage 5A.7 approvals. The remaining four—`东和旅馆`, `松田小学`, `石`, and `商界三大神话`—remain `needs_human_decision`.
+All 13 candidates in this coverage table are now `locked`. Stage 5C.1 resolved the final four decisions; no Chapter 1 candidate remains `needs_human_decision`.

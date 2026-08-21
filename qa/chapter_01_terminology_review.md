@@ -1,39 +1,40 @@
 # Chapter 1 Terminology Review
 
-Stage: 5A.7 — Human Approval Consolidation for Segment B Terminology
+Stage: 5C.1 — Chapter 1 Terminology Closure
 
-Scope: terminology and proper-name verification only. Stage 5A.7 records human approval and locking of `C1-T013` and `C1-T020` without translating Segment B or modifying the frozen Chinese source. Only terms explicitly approved by ChatGPT + human are marked `locked`.
+Scope: terminology and proper-name verification only. Stage 5C.1 records final human approval and locking of all remaining Chapter 1 candidates without translating additional paragraphs or modifying the frozen Chinese source.
 
 ## Review summary
 
 - Candidate count: 41
 - Frozen-source segment binding: complete for all candidates
-- Locked after Stage 5A.7 human approval: 37
-- Remaining unlocked: 4
-- Segment B candidates approved and locked in Stage 5A.7: 2
+- Locked after Stage 5C.1 human approval: 41
+- Remaining unlocked: 0
+- Candidates approved and locked in Stage 5C.1: 4
 - Conflict register: 6 retained IDs; 0 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
 ## Master glossary and duplicate audit
 
 - glossary/people.csv: 8 locked entries.
-- glossary/organizations.csv: 3 locked entries.
-- glossary/glossary.csv: 25 locked general/place/cultural/historical-institution entries.
+- glossary/organizations.csv: 5 locked entries.
+- glossary/glossary.csv: 27 locked general/place/cultural/historical-institution/unit/authorial-expression entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
-- Stage 5A.4 created provisional contextual records for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`. Later human approvals supersede the provisional states of `文山亭书院`, `鸿儒`, and `地主`; `松田小学`, `东和旅馆`, and `石` remain unresolved.
+- Stage 5A.4 created provisional contextual records for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`. All applicable provisional states have now been superseded by human-approved locked decisions.
 - Stage 5A.6 locks the seven human-approved decisions for `私塾`, `鸿儒`, `地主`, `仁、和、乐`, `致知在格物`, `一勤天下无难事`, and `有志者事竟成`.
 - Stage 5A.7 locks the human-approved `文山亭书院` and `朝鲜` decisions and adds both to `glossary/glossary.csv`.
-- Six approved items enter `glossary/glossary.csv`. `一勤天下无难事` is intentionally retained as a locked candidate and QA quotation decision rather than a glossary entity.
+- Six Stage 5A.6 approved items enter `glossary/glossary.csv`. `一勤天下无难事` is intentionally retained as a locked candidate and QA quotation decision rather than a glossary entity.
+- Stage 5C.1 locks `东和旅馆`, `松田小学`, `石`, and `商界三大神话`, bringing the Chapter 1 candidate inventory to 41 locked and 0 unresolved.
 
 ## Workflow status
 
 - `pending`: 0
 - `researched`: 0
 - `verified`: 0
-- `locked`: 37
+- `locked`: 41
 - `needs_context`: 0
-- `needs_human_decision`: 4
+- `needs_human_decision`: 0
 
 ## Person (8)
 
@@ -195,14 +196,14 @@ Scope: terminology and proper-name verification only. Stage 5A.7 records human a
 - **Segment:** CH01-P019
 - **Page:** FB-P016
 - **Context:** 1894年上海东和旅馆。
-- **Candidate English:** Donghwa Inn (provisional)
-- **Verified English:** —
-- **Evidence/source:** historical source comparison: https://db.history.go.kr/diachronic/level.do?levelId=sa_026r_0020_0030_0120 ; https://anthony.sogang.ac.kr/transactions/VOL89/FullText.pdf
-- **Codex recommendation:** Prefer Donghwa Inn over Donghwa Hotel for a reader-facing historical rendering, but compare it with the historically attested Towa Yoko / 同和洋行 form and resolve the entity-name mapping before approval.
-- **Human decision:** Pending
-- **Decision note:** Historical evidence supports an inn or Japanese ryokan rather than a modern hotel. The frozen Chinese form 东和旅馆 and the attested historical form 同和洋行 / Towa Yoko require human reconciliation; do not alter the source.
-- **Conflict flag:** no — contextual name mapping tracked in the Stage 5A.4 review
-- **Status:** `needs_human_decision`
+- **Candidate English:** Donghwa Inn
+- **Verified English:** Donghwa Inn
+- **Evidence/source:** human-approved historical lodging rendering: Stage 5C.1 human decision; https://db.history.go.kr/diachronic/level.do?levelId=sa_026r_0020_0030_0120 ; https://anthony.sogang.ac.kr/transactions/VOL89/FullText.pdf
+- **Codex recommendation:** Use `Donghwa Inn` for the Chapter 1 historical lodging establishment.
+- **Human decision:** Approved
+- **Decision note:** Use `Inn` rather than `Hotel` because the source refers to a historical lodging establishment, not a modern hotel. Do not change the frozen Chinese source.
+- **Conflict flag:** no — historical name mapping resolved by Stage 5C.1 human decision
+- **Status:** `locked`
 
 ## Place (8)
 
@@ -364,14 +365,14 @@ Scope: terminology and proper-name verification only. Stage 5A.7 records human a
 - **Segment:** CH01-P007
 - **Page:** FB-P015
 - **Context:** 在私塾和松田小学的学习。
-- **Candidate English:** Songjeon School (provisional)
-- **Verified English:** —
-- **Evidence/source:** historical institution naming decision: https://www.asan-chungjuyung.com/mobile_eng/sub_02_01_2.html
-- **Codex recommendation:** Use Songjeon School as the conservative provisional form; human review must decide whether to adopt the official founder biography's Songjeon Elementary School wording for this historical-period institution.
-- **Human decision:** Pending
-- **Decision note:** Songjeon Primary School and Songjeon Elementary School remain alternatives. Do not assume that a modern school-level label exactly represents the colonial-period institution type.
+- **Candidate English:** Songjeon Elementary School
+- **Verified English:** Songjeon Elementary School
+- **Evidence/source:** human-approved historical school rendering: Stage 5C.1 human decision; https://www.asan-chungjuyung.com/mobile_eng/sub_02_01_2.html
+- **Codex recommendation:** Use `Songjeon Elementary School` as the locked Chapter 1 form.
+- **Human decision:** Approved
+- **Decision note:** Use the standard English school-category rendering. Do not use the ambiguous `Songjeon School` form.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ## Historical term (3)
 
@@ -567,14 +568,14 @@ Scope: terminology and proper-name verification only. Stage 5A.7 records human a
 - **Segment:** CH01-P005
 - **Page:** FB-P015
 - **Context:** 收获 2000 石……1500 石。
-- **Candidate English:** seok (provisional; first-use gloss required)
-- **Verified English:** —
-- **Evidence/source:** historical unit transliteration strategy: https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2018_eng.pdf ; https://www.oecd-ilibrary.org/a-new-rural-development-paradigm-for-developing-countries-in-the-21st-century_5jm23m8s3htj.pdf?itemId=%2Fcontent%2Fcomponent%2F9789264252271-12-en&mimeType=pdf
-- **Codex recommendation:** Retain seok and add a brief first-use gloss such as a traditional Korean unit of grain volume; do not translate it as stone or insert a numerical conversion without an approved period-specific policy.
-- **Human decision:** Pending
-- **Decision note:** The volume meaning is well supported, but first-use wording and any conversion remain human decisions. Preserve 2000 and 1500 exactly.
+- **Candidate English:** seok
+- **Verified English:** seok
+- **Evidence/source:** human-approved historical unit transliteration: Stage 5C.1 human decision; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2018_eng.pdf ; https://www.oecd-ilibrary.org/a-new-rural-development-paradigm-for-developing-countries-in-the-21st-century_5jm23m8s3htj.pdf?itemId=%2Fcontent%2Fcomponent%2F9789264252271-12-en&mimeType=pdf
+- **Codex recommendation:** First occurrence: `seok (a traditional Korean grain measure)`. Later occurrences: `seok`. Do not translate it as `stone` or convert it into modern weight units.
+- **Human decision:** Approved
+- **Decision note:** Preserve the historical Korean measurement unit and the source quantities 2,000 and 1,500 exactly.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
 
 ## Cultural concept and proverb/quotation (5)
 
@@ -661,11 +662,18 @@ Scope: terminology and proper-name verification only. Stage 5A.7 records human a
 - **Segment:** CH01-P001; CH01-P010
 - **Page:** FB-P014; FB-P015
 - **Context:** 被称为商界三大神话的索尼创始人。
-- **Candidate English:** —
-- **Verified English:** —
-- **Evidence/source:** project-specific translation decision; no external source recorded yet
-- **Codex recommendation:** Determine whether this authorial label needs quotation marks, a brief explanation, or a direct project rendering.
-- **Human decision:** Pending
-- **Decision note:** Repeated prose is intentional and remains preserved.
+- **Candidate English:** the three great myths of Korean business
+- **Verified English:** the three great myths of Korean business
+- **Evidence/source:** human-approved project-specific translation decision: Stage 5C.1 human decision
+- **Codex recommendation:** Use `the three great myths of Korean business` as the locked authorial-label rendering.
+- **Human decision:** Approved
+- **Decision note:** This authorial expression refers to three widely known business narratives. Do not translate it as mythology, miracles, or legends. Repeated source prose remains preserved.
 - **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Status:** `locked`
+
+## Stage 5C.1 closure
+
+- Final candidate status: 41 `locked`; 0 `needs_human_decision`.
+- Newly locked: C1-T011 `Donghwa Inn`; C1-T014 `Songjeon Elementary School`; C1-T035 `seok`; C1-T041 `the three great myths of Korean business`.
+- No open terminology conflict was introduced.
+- The frozen Chapter 1 source remains unchanged.
