@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B — Translation Style Pilot Preparation
+Stage: 5B.1 — Approve Translation Style Pilot Segments
 
-Status: Review framework created; pilot translation not started
+Status: Pilot scope approved; pilot translation not started
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -12,10 +12,13 @@ Pilot draft: `translation/drafts/chapter_01_style_pilot_v1.md`
 
 Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
-## Pilot scope
+## Approved pilot scope
 
-- Selected segment range: TBD
-- Selection approved by: TBD
+- Pilot Segment A: CH01-P004 through CH01-P007 — biography narrative test; focus on personal names, places, family background, and historical narration.
+- Pilot Segment B: CH01-P014 through CH01-P018 — cultural translation test; focus on `seodang`, classical texts, and Confucian education.
+- Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
+- Total approved source segments: 11
+- Selection approved by: Project lead — Stage 5B.1 human decision
 - Translation started: No
 - Full-chapter translation authorized: No
 
@@ -23,7 +26,10 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
 | Review ID | Segment | Category | Decision or question | Reviewer comment | Human decision | Status |
 |---|---|---|---|---|---|---|
-| TR-001 | Pilot-level | scope | Select a limited source segment range before drafting. | The range should expose representative narrative, terminology, and note-handling issues without becoming a full-chapter translation. | Pending | open |
+| TR-001 | Pilot-level | scope | Approve three limited pilot regions containing 11 source segments. | Scope is limited to Segments A, B, and C; it must not expand into full-chapter translation. | Approved | closed |
+| TR-002 | CH01-P004–CH01-P007 | scope | Pilot Segment A approved for the biography narrative test. | Review personal names, places, family background, and historical narration. | Approved | closed |
+| TR-003 | CH01-P014–CH01-P018 | scope | Pilot Segment B approved for the cultural translation test. | Review `seodang`, classical texts, and Confucian education. | Approved | closed |
+| TR-004 | CH01-P025–CH01-P026 | scope | Pilot Segment C approved for the philosophical/business-value translation test. | Review `humaneness (ren)`, `harmony (he)`, and `joy (le)`. | Approved | closed |
 
 ## Reviewer comments
 
@@ -36,6 +42,8 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 ## Unresolved terminology affecting Chapter 1
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
+
+The approved pilot range intersects C1-T013, C1-T014, C1-T020, and C1-T035. Their unresolved status is not changed by scope approval.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
@@ -63,4 +71,4 @@ The following candidate decisions remain `needs_human_decision`. A pilot segment
 
 ## Stage gate
 
-The framework is ready for a separately authorized pilot translation after the project lead selects the pilot segment range. This file does not authorize full-chapter translation.
+The pilot-scope gate is satisfied for Segments A, B, and C. Translation remains not started and requires a separate instruction to begin. This approval does not authorize full-chapter translation.
