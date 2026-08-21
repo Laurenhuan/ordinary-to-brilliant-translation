@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.4 — Segment A Style Baseline Approval
+Stage: 5B.5 — Segment B Translation Draft
 
-Status: Segment A Draft v0.2 approved for style baseline
+Status: Segment A Draft v0.2 approved for style baseline; Segment B Draft v0.1 prepared for human review
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -19,8 +19,9 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
-- Translation started: Yes — Segment A only
+- Translation started: Yes — Segments A and B only
 - Segment A style baseline: Approved — Draft v0.2
+- Segment B review state: Draft v0.1 — pending human review
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -41,6 +42,16 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | approved_style_baseline |
 | TR-007 | CH01-P006 | Recast the opening as `the family of Lee Chan-woo, a landowner`; improved sentence rhythm while preserving every locked name, place, cultural term, and FB-F002. | None identified in Draft v0.2. | approved_style_baseline |
 | TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | approved_style_baseline |
+
+## Segment B draft review items
+
+| Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
+|---|---|---|---|---|
+| TR-010 | CH01-P014 | Applied locked `Lee Byung-chull`, `Munsanjeong, a seodang`, and the classical titles. Included `founded by his grandfather` because the source sentence states that fact. Added the approved first-use gloss *Comprehensive Mirror in Aid of Governance* after *Zizhi Tongjian*. | Confirm that the appositive rhythm and first-use title gloss are appropriately concise. | draft_v0.1_review_pending |
+| TR-011 | CH01-P015 | Used later-reference `seodang`; preserved the distinction between the title *Elementary Learning* and the ordinary primary-school level; rendered `五言诗、七言诗` descriptively as `five-character and seven-character verse`. | Review `had little new to learn at the primary-school level` for fidelity to the source's evaluative claim. | draft_v0.1_review_pending |
+| TR-012 | CH01-P016 | Rendered `汉文` as `classical Chinese works` in its historical education context and retained the source's claim about modern four-year university graduates. The separate project candidate for exact `汉学` is `classical Chinese learning`; neither term is rendered as `Sinology` here. | Human review should confirm the distinction between `汉文` and `汉学` and the naturalness of the long sentence. | draft_v0.1_review_pending |
+| TR-013 | CH01-P017 | Used a concise connective formulation, `By that measure`, while preserving the conclusion that Chung Ju-yung's learning could not be considered slight. | Confirm tone and degree of emphasis. | draft_v0.1_review_pending |
+| TR-014 | CH01-P018 | Applied all locked classical titles and `scholars of the Joseon period`; preserved the 1,300-year figure and the reference to successive imperial houses. | Review `human relations and the ways of the world` for `人情事理`; no terminology lock is proposed by this draft. | draft_v0.1_review_pending |
 
 ## Translation Review Round 1
 
@@ -84,14 +95,12 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
 
-Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment B will later intersect C1-T013 and C1-T020. None of their unresolved statuses is changed by Draft v0.2.
+Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.1 does not intersect any remaining unresolved Chapter 1 candidate.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
 | C1-T011 | 东和旅馆 | organization | Historical name/entity mapping remains unresolved. | Do not lock a final English name in the pilot. |
-| C1-T013 | 文山亭书院 | school | Exact historical institution name remains unresolved. | The general `seodang` policy does not by itself approve this proper name. |
 | C1-T014 | 松田小学 | school | Historical school-category wording remains unresolved. | Do not silently choose among School, Primary School, and Elementary School. |
-| C1-T020 | 朝鲜 | place | Historical-geographic rendering remains context-dependent. | Log the occurrence for human review. |
 | C1-T035 | 石 | unit | `seok` and its first-use gloss remain unapproved. | Preserve the number and source unit; do not convert it. |
 | C1-T041 | 商界三大神话 | other | Authorial-label rendering and quotation/explanation treatment remain unresolved. | Use a visible QA marker if included in the pilot. |
 
@@ -112,4 +121,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment
 
 ## Stage gate
 
-Segment A Draft v0.2 is approved as the Chapter 1 biography style baseline. Segments B and C remain not started. This approval authorizes reuse of the recorded style rules only; it does not authorize translation of Segments B or C, movement of draft text to `reviewed/`, or expansion into full-chapter translation. Draft QA markers must be resolved and removed before any final translation.
+Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.1 is prepared for human review; Segment C remains not started. No text may move to `reviewed/`, expand into Segment C, or expand into full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
