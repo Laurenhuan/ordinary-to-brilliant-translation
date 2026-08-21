@@ -1,10 +1,10 @@
 # Chapter 1 Translation Style Pilot v1
 
-Version: Segment A Draft v0.2; Segment B Draft v0.2; Segment C Draft v0.1
+Version: Segment A Draft v0.2; Segment B Draft v0.2; Segment C Draft v0.2
 
-Status: Segments A and B have passed human review; Segment C Draft v0.1 prepared for human review
+Status: Segments A and B have passed human review; Segment C Draft v0.2 incorporates human review round 3
 
-Stage: 5B.7 — Segment C Translation Draft
+Stage: 5B.9 — Apply Segment C Human Decisions
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -22,7 +22,7 @@ Related controls:
 
 - Segment A — CH01-P004 through CH01-P007: Draft v0.2 approved as the biography style baseline.
 - Segment B — CH01-P014 through CH01-P018: Draft v0.2 approved with the required minor revision incorporated.
-- Segment C — CH01-P025 through CH01-P026: Draft v0.1 prepared for human review.
+- Segment C — CH01-P025 through CH01-P026: Draft v0.2 incorporates human review round 3.
 
 Only the three approved style-pilot segments are translated in this version. This file must not expand into the remaining Chapter 1 source or a full-chapter draft during the style pilot.
 
@@ -194,9 +194,9 @@ Review status: Approved — human review round 2
 
 ## Segment C
 
-Version: Draft v0.1
+Version: Draft v0.2
 
-Status: Translation drafted; human review pending.
+Status: Human review round 3 incorporated; approved with the required wording revisions; remains a draft.
 
 Purpose: Philosophical/business-value translation test.
 
@@ -217,9 +217,9 @@ Source:
 
 Translation:
 
-*The Analects* presents a spiritual realm of humaneness (ren), harmony (he), and joy (le).
+*The Analects* presents a spiritual ideal centered on humaneness (ren), harmony (he), and joy (le).
 
-Review status: Draft v0.1 — pending human review
+Review status: Required revision applied — human review round 3
 
 ### CH01-P026
 
@@ -231,9 +231,9 @@ Source:
 
 Translation:
 
-To lead a large workforce and build a major enterprise, the principles of humaneness and harmony are indispensable. Equally indispensable is the idea of joy: working with pleasure, embracing challenges in one's own endeavors, and recognizing one's achievements.
+To lead a large workforce and build a major enterprise, the principles of humaneness and harmony are indispensable. Equally indispensable is the idea of joy: working with pleasure, taking on challenges in one's own endeavors, and recognizing one's achievements.
 
-Review status: Draft v0.1 — pending human review
+Review status: Required revision applied — human review round 3
 
 ## Draft controls
 
@@ -244,4 +244,4 @@ Review status: Draft v0.1 — pending human review
 - Unresolved terminology: C1-T035 and C1-T014 remain as visible QA markers in Segment A. Segments B and C introduce no new unresolved-term marker.
 - Proverb handling: Neither approved proverb occurs in CH01-P025 or CH01-P026; no proverb substitution was inserted.
 - Frozen source modification: None.
-- Review state: Segment A Draft v0.2 is the approved biography style baseline; Segment B Draft v0.2 has passed human review; Segment C Draft v0.1 is pending human review. All remain drafts and are not final.
+- Review state: Segment A Draft v0.2 is the approved biography style baseline; Segment B Draft v0.2 has passed human review; Segment C Draft v0.2 incorporates human review round 3. All remain drafts and are not final.

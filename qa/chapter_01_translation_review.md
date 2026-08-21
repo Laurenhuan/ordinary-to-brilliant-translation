@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.7 — Segment C Translation Draft
+Stage: 5B.9 — Apply Segment C Human Decisions
 
-Status: Segments A and B have passed human review; Segment C Draft v0.1 prepared for human review
+Status: Segments A and B have passed human review; Segment C Draft v0.2 incorporates human review round 3
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -22,7 +22,7 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Translation started: Yes — all three approved pilot segments only
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
-- Segment C review state: Draft v0.1 — pending human review; remains in `drafts/`
+- Segment C review state: Draft v0.2 — human review round 3 incorporated; remains in `drafts/`
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -58,23 +58,40 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
 | Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
 |---|---|---|---|---|
-| TR-015 | CH01-P025 | Italicized *The Analects* and applied the locked first-occurrence form `humaneness (ren), harmony (he), and joy (le)`. Rendered `精神境界` as `a spiritual realm` without adding an explanatory gloss. | Review whether `presents a spiritual realm` preserves the philosophical register naturally. No terminology decision is unresolved. | draft_v0.1_review_pending |
-| TR-016 | CH01-P026 | Used the approved later-reference forms `humaneness`, `harmony`, and `joy`; connected them to the source's corporate-leadership context while preserving the three descriptions of joy. | Review `embracing challenges in one's own endeavors` and `recognizing one's achievements` for fidelity and naturalness. No terminology decision is unresolved. | draft_v0.1_review_pending |
+| TR-015 | CH01-P025 | Italicized *The Analects*, retained the locked first-occurrence form `humaneness (ren), harmony (he), and joy (le)`, and revised `精神境界` to `a spiritual ideal centered on` under human review round 3. | None; the required wording revision has been applied without changing the glossary decision. | revision_applied_v0.2 |
+| TR-016 | CH01-P026 | Used the approved later-reference forms `humaneness`, `harmony`, and `joy`; retained the corporate-value framing and revised `embracing challenges` to `taking on challenges` under human review round 3. | None; the required wording revision has been applied and all other wording remains unchanged. | revision_applied_v0.2 |
 
 Proverb/quotation check: Neither `有志者事竟成` nor `一勤天下无难事` occurs in CH01-P025 or CH01-P026. No conventional substitution or project quotation was inserted into Segment C.
 
 ## Segment C human-review preparation
 
-This pass records review questions only. It does not revise the draft, source text, or glossary decisions.
+This section originated as review preparation. Human decisions and the resulting draft revisions are recorded in TR-R3 below; the source text and glossary decisions remain unchanged.
 
 | Review ID | Segment | Review focus | Current draft wording | Human-review question | Review constraint | Human decision | Status |
 |---|---|---|---|---|---|---|---|
-| TR-017 | CH01-P025 | `精神境界` | `a spiritual realm` | Does `spiritual realm` preserve the philosophical register of `精神境界` without sounding overly metaphysical or less precise than the source? | Evaluate wording only; do not alter the locked Confucian-concept forms in this review record. | Pending | pending_human_decision |
-| TR-018 | CH01-P025 | First-occurrence treatment of `仁、和、乐` | `humaneness (ren), harmony (he), and joy (le)` | Is the approved first-occurrence form natural and readable in this sentence while retaining the required Confucian context? | The glossary decision is already locked; any future prose revision must preserve the approved forms. | Pending | pending_human_decision |
-| TR-019 | CH01-P026 | Corporate-value framing of `仁` and `和` | `the principles of humaneness and harmony` | Does `principles of humaneness and harmony` read naturally as values needed to lead employees and build a major enterprise? | Review contextual phrasing only; `humaneness` and `harmony` remain locked later-reference forms. | Pending | pending_human_decision |
-| TR-020 | CH01-P026 | `对于自我事业的挑战` | `embracing challenges in one's own endeavors` | Does this wording preserve the source's relationship between challenge and one's own undertaking without adding a stronger idea of self-development? | Do not add explanatory facts or silently redefine the underlying abstract idea. | Pending | pending_human_decision |
-| TR-021 | CH01-P026 | `对于成就的肯定` | `recognizing one's achievements` | Does this wording preserve the source's sense of affirming or recognizing achievement without adding pride, satisfaction, or another unsupported emotion? | Keep the review limited to fidelity and natural English. | Pending | pending_human_decision |
-| TR-022 | CH01-P026 | Overall business-value context | `To lead a large workforce ... the idea of joy ...` | Does the full two-sentence rendering read as natural English business-value prose while preserving all three source descriptions of `乐`? | Evaluate rhythm and coherence only; do not remove facts, expand the concept, or change locked terminology. | Pending | pending_human_decision |
+| TR-017 | CH01-P025 | `精神境界` | `a spiritual ideal centered on` | Does the approved revision preserve the philosophical register of `精神境界` naturally? | The locked Confucian-concept forms remain unchanged. | Revise as specified | closed_revision_applied |
+| TR-018 | CH01-P025 | First-occurrence treatment of `仁、和、乐` | `humaneness (ren), harmony (he), and joy (le)` | Is the approved first-occurrence form natural and readable in this sentence while retaining the required Confucian context? | The glossary decision is locked and remains unchanged. | Keep unchanged | closed_approved |
+| TR-019 | CH01-P026 | Corporate-value framing of `仁` and `和` | `the principles of humaneness and harmony` | Does this wording read naturally as values needed to lead employees and build a major enterprise? | `humaneness` and `harmony` remain locked later-reference forms. | Keep unchanged | closed_approved |
+| TR-020 | CH01-P026 | `对于自我事业的挑战` | `taking on challenges in one's own endeavors` | Does the approved revision preserve the source's relationship between challenge and one's own undertaking? | No explanatory facts or conceptual expansion were added. | Revise as specified | closed_revision_applied |
+| TR-021 | CH01-P026 | `对于成就的肯定` | `recognizing one's achievements` | Does this wording preserve the source's sense of affirming or recognizing achievement? | The wording remains unchanged under the human decision. | Keep unchanged | closed_approved |
+| TR-022 | CH01-P026 | Overall business-value context | `To lead a large workforce ... the idea of joy ...` | Does the revised two-sentence rendering read as natural English business-value prose while preserving all three source descriptions of `乐`? | All wording except the approved TR-020 phrase remains unchanged. | Approve with specified revision | closed_approved |
+
+## Translation Review Round 3
+
+Round ID: TR-R3
+
+Review basis: Human decisions on TR-017 through TR-022 for Segment C Draft v0.1
+
+Outcome: Incorporated into Segment C Draft v0.2. Two wording revisions were applied; locked terminology and all other translation wording remain unchanged.
+
+| Review item | Segment | Human decision | v0.2 treatment | Status |
+|---|---|---|---|---|
+| TR-R3-001 | CH01-P025 | Replace `a spiritual realm` with `a spiritual ideal centered on`. | Revised the sentence to `*The Analects* presents a spiritual ideal centered on humaneness (ren), harmony (he), and joy (le).` | applied |
+| TR-R3-002 | CH01-P025 | Keep the approved first-occurrence forms for `仁、和、乐`. | Retained `humaneness (ren), harmony (he), and joy (le)` unchanged. | approved |
+| TR-R3-003 | CH01-P026 | Keep `the principles of humaneness and harmony`. | Retained unchanged. | approved |
+| TR-R3-004 | CH01-P026 | Replace `embracing challenges in one's own endeavors` with `taking on challenges in one's own endeavors`. | Applied the exact approved replacement. | applied |
+| TR-R3-005 | CH01-P026 | Keep `recognizing one's achievements`. | Retained unchanged. | approved |
+| TR-R3-006 | CH01-P026 | Keep all other business-value wording unchanged. | Verified that no other translation wording changed. | approved |
 
 ## Translation Review Round 2
 
@@ -130,12 +147,13 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 |---|---|---|---|---|---|---|---|
 | TR-R1 | CH01-P004–CH01-P007 | Segment A Draft v0.2 | review round 1 revision | Human review confirms that the biography tone and natural English restructuring are acceptable. | Use Segment A Draft v0.2 as the biography style baseline while preserving facts, locked terms, cultural-term decisions, and paragraph traceability. | Approved | closed |
 | TR-R2 | CH01-P014–CH01-P018 | Segment B Draft v0.2 | review round 2 revision | Human review approved Draft v0.1 with one required minor revision to CH01-P015. | Retain the approved passages, apply the P015 sentence revision, and keep Segment B in `drafts/`. | Approved with revision | closed |
+| TR-R3 | CH01-P025–CH01-P026 | Segment C Draft v0.2 | review round 3 revision | Human decisions require two wording revisions while preserving locked terms and all other wording. | Apply the approved P025 and P026 replacements and keep Segment C in `drafts/`. | Approved with revisions | closed |
 
 ## Unresolved terminology affecting Chapter 1
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
 
-Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 and Segment C Draft v0.1 do not intersect any remaining unresolved Chapter 1 candidate.
+Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 and Segment C Draft v0.2 do not intersect any remaining unresolved Chapter 1 candidate.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
@@ -161,4 +179,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locke
 
 ## Stage gate
 
-Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.1 is prepared for human review and also remains in `drafts/`. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
+Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.2 incorporates human review round 3 and also remains in `drafts/`. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
