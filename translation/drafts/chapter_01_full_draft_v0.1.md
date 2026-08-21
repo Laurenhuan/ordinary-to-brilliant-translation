@@ -1,8 +1,8 @@
 # Chapter 1 Full Translation Draft v0.1
 
-Stage: 6A.0 — Initialize Chapter 1 Full Translation Draft
+Stage: 6A.1 — Translate Chapter 1 Batch 1
 
-Status: Container initialized — translation not started
+Status: Batch 1 drafted — CH01-P001–CH01-P003 pending human review
 
 Chapter: 1
 
@@ -26,8 +26,8 @@ Pilot closure record: `docs/chapter_01_pilot_closure_report.md`
 
 ## Draft controls
 
-- This file is an empty production-draft container.
-- No source paragraph has been translated in Stage 6A.0.
+- This file is the Chapter 1 production-draft container.
+- Stage 6A.1 translates only CH01-P001–CH01-P003; CH01-P004–CH01-P027 remain `not_started`.
 - Every future translation must remain mapped to its stable `CH01-Pxxx` ID.
 - Source-page references must be populated from the frozen source and its approved page mapping.
 - Locked glossary forms and context-sensitive rules are binding.
@@ -37,29 +37,41 @@ Pilot closure record: `docs/chapter_01_pilot_closure_report.md`
 
 ## Translation container
 
+<!-- Source image anchor FB-I004 precedes CH01-P001. -->
+
 ### CH01-P001
 
-Source page:
+Source page: FB-P014
 
 Translation:
 
-Review status: `not_started`
+The two men came from starkly different backgrounds. A similar contrast can be found in Japan:
+
+Review status: `draft_v0.1_pending_human_review`
+
+<!-- Source image anchor FB-I005 remains between CH01-P001 and CH01-P002. The source sentence continues across this anchor. -->
 
 ### CH01-P002
 
-Source page:
+Source page: FB-P014
 
 Translation:
 
-Review status: `not_started`
+Sony founder Akio Morita, one of the figures known as “the three great myths of Korean business,” held a doctorate in business administration. By contrast, Hitachi founder Namihei Odaira[^TN-CH01-001] never even finished primary school, dropping out after the fourth grade.
+
+Review status: `draft_v0.1_pending_human_review`
 
 ### CH01-P003
 
-Source page:
+Source page: FB-P014
 
 Translation:
 
-Review status: `not_started`
+From birth, Lee Byung-chull never had to worry about food or clothing. Chung Ju-yung, by contrast, could manage a meal in the morning but went hungry at noon; at night, he had only a bowl of porridge made with wild greens to stave off hunger before going to sleep.
+
+Review status: `draft_v0.1_pending_human_review`
+
+[^TN-CH01-001]: The Chinese edition prints the name as “小源浪平.” Hitachi's official records identify the founder as 小平浪平 (Namihei Odaira).
 
 ### CH01-P004
 

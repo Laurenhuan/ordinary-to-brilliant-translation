@@ -1,14 +1,16 @@
 # Chapter 1 Translation Review
 
-Stage: 5C.1 — Terminology Closure and Pilot Closure
+Stage: 6A.1 — Chapter 1 Full Translation Batch 1
 
-Status: All three pilot segments have passed human review; Chapter 1 terminology is fully locked
+Status: Pilot closed; Chapter 1 terminology fully locked; CH01-P001–CH01-P003 drafted for human review
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
 Frozen source blob: `90d3a7ad61585acb88c297cd63fafb864fb08693`
 
 Pilot draft: `translation/drafts/chapter_01_style_pilot_v1.md`
+
+Full translation draft: `translation/drafts/chapter_01_full_draft_v0.1.md`
 
 Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
@@ -19,12 +21,13 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
-- Translation started: Yes — all three approved pilot segments only
+- Translation started: Yes — approved pilot segments plus production Batch 1 (CH01-P001–CH01-P003) only
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
 - Segment C review state: Draft v0.2 — human review round 3 incorporated; remains in `drafts/`
 - Chapter 1 terminology: 41 locked; 0 unresolved
-- Full-chapter translation authorized: No
+- Production scope authorized: CH01-P001–CH01-P003 only
+- Remaining full-chapter translation authorized: No
 
 ## Translation decision log
 
@@ -35,6 +38,14 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-003 | CH01-P014–CH01-P018 | scope | Pilot Segment B approved for the cultural translation test. | Review `seodang`, classical texts, and Confucian education. | Approved | closed |
 | TR-004 | CH01-P025–CH01-P026 | scope | Pilot Segment C approved for the philosophical/business-value translation test. | Review `humaneness (ren)`, `harmony (he)`, and `joy (le)`. | Approved | closed |
 | TR-009 | CH01-P004–CH01-P007 | style baseline | Approve Segment A Draft v0.2 as the Chapter 1 biography style reference. | Natural biography narration and sentence restructuring are approved; facts, locked terminology, cultural-term decisions, and paragraph traceability remain binding. Draft QA markers must not appear in final translation. | Approved | closed |
+
+## Full translation Batch 1 review items
+
+| Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
+|---|---|---|---|---|
+| TR-023 | CH01-P001 | Rendered the biographical contrast in natural English and ended P001 with a colon because the source sentence continues across image anchor FB-I005 into P002. The anchor remains recorded between the two paragraph IDs. | Human review should confirm that the cross-paragraph reconstruction preserves the source relationship and that the colon provides an appropriate transition. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-024 | CH01-P002 | Applied locked `Sony`, `Akio Morita`, `the three great myths of Korean business`, and the approved contextual form `Hitachi founder Namihei Odaira`. Rendered `经营学的博士` as `held a doctorate in business administration` and added the required neutral first-occurrence editor note for the printed-name discrepancy. | Human review should confirm the degree wording, the authorial-label syntax, and the note's neutral tone. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+| TR-025 | CH01-P003 | Used natural biography narration to contrast Lee Byung-chull's material security with Chung Ju-yung's food scarcity while preserving the morning, noon, and evening sequence. Rendered `野菜粥` descriptively as `porridge made with wild greens`; no glossary entry was created. | Human review should confirm `could manage a meal in the morning` and `porridge made with wild greens` for fidelity and naturalness. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
 
 ## Segment A draft review items
 
@@ -178,4 +189,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.2 incorporates human review round 3 and also remains in `drafts/`. Stage 5C.1 resolves all Chapter 1 terminology candidates and removes the two former terminology QA markers from Segment A. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. Production Batch 1 (CH01-P001–CH01-P003) is drafted in `chapter_01_full_draft_v0.1.md` and awaits human review. CH01-P004–CH01-P027 remain `not_started` in the production draft. No text may move to `reviewed/` or `final/`, and production translation must not expand beyond Batch 1 without separate authorization.
