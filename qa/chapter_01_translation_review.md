@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.6 — Segment B Review Revision
+Stage: 5B.7 — Segment C Translation Draft
 
-Status: Segment A Draft v0.2 approved for style baseline; Segment B Draft v0.2 incorporates human review round 2
+Status: Segments A and B have passed human review; Segment C Draft v0.1 prepared for human review
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -19,9 +19,10 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Pilot Segment C: CH01-P025 through CH01-P026 — philosophical/business-value translation test; focus on `humaneness (ren)`, `harmony (he)`, and `joy (le)`.
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
-- Translation started: Yes — Segments A and B only
+- Translation started: Yes — all three approved pilot segments only
 - Segment A style baseline: Approved — Draft v0.2
 - Segment B review state: Draft v0.2 — approved with the required minor revision incorporated; remains in `drafts/`
+- Segment C review state: Draft v0.1 — pending human review; remains in `drafts/`
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -52,6 +53,15 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-012 | CH01-P016 | Rendered `汉文` as `classical Chinese works` in its historical education context and retained the source's claim about modern four-year university graduates. The separate project candidate for exact `汉学` is `classical Chinese learning`; neither term is rendered as `Sinology` here. | None; human review approved the current rendering unchanged. | approved_round_2 |
 | TR-013 | CH01-P017 | Used a concise connective formulation, `By that measure`, while preserving the conclusion that Chung Ju-yung's learning could not be considered slight. | None; human review approved the current concise rendering. | approved_round_2 |
 | TR-014 | CH01-P018 | Applied all locked classical titles and `scholars of the Joseon period`; preserved the 1,300-year figure and the reference to successive imperial houses. | None; human review approved `human relations and the ways of the world` and the Joseon-period treatment. | approved_round_2 |
+
+## Segment C draft review items
+
+| Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
+|---|---|---|---|---|
+| TR-015 | CH01-P025 | Italicized *The Analects* and applied the locked first-occurrence form `humaneness (ren), harmony (he), and joy (le)`. Rendered `精神境界` as `a spiritual realm` without adding an explanatory gloss. | Review whether `presents a spiritual realm` preserves the philosophical register naturally. No terminology decision is unresolved. | draft_v0.1_review_pending |
+| TR-016 | CH01-P026 | Used the approved later-reference forms `humaneness`, `harmony`, and `joy`; connected them to the source's corporate-leadership context while preserving the three descriptions of joy. | Review `embracing challenges in one's own endeavors` and `recognizing one's achievements` for fidelity and naturalness. No terminology decision is unresolved. | draft_v0.1_review_pending |
+
+Proverb/quotation check: Neither `有志者事竟成` nor `一勤天下无难事` occurs in CH01-P025 or CH01-P026. No conventional substitution or project quotation was inserted into Segment C.
 
 ## Translation Review Round 2
 
@@ -112,7 +122,7 @@ Record comments with a stable review ID. Refer to the relevant source paragraph 
 
 The following candidate decisions remain `needs_human_decision`. A pilot segment containing one of them must retain a visible QA marker rather than silently choosing a final English form.
 
-Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 does not intersect any remaining unresolved Chapter 1 candidate.
+Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locked before Segment B drafting and have been applied without QA markers. Segment B Draft v0.2 and Segment C Draft v0.1 do not intersect any remaining unresolved Chapter 1 candidate.
 
 | Candidate ID | Chinese term | Category | Current issue | Pilot rule |
 |---|---|---|---|---|
@@ -138,4 +148,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. C1-T013 and C1-T020 were locke
 
 ## Stage gate
 
-Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 incorporates human review round 2 and the required CH01-P015 revision; it remains in `drafts/`. Segment C remains not started. No text may move to `reviewed/`, expand into Segment C, or expand into full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.
+Segment A Draft v0.2 remains the approved Chapter 1 biography style baseline. Segment B Draft v0.2 has passed human review and remains in `drafts/`. Segment C Draft v0.1 is prepared for human review and also remains in `drafts/`. No text may move to `reviewed/` or expand into the remaining Chapter 1 source or a full-chapter translation without separate authorization. Draft QA markers must be resolved and removed before any final translation.

@@ -1,10 +1,10 @@
 # Chapter 1 Translation Style Pilot v1
 
-Version: Segment A Draft v0.2; Segment B Draft v0.2
+Version: Segment A Draft v0.2; Segment B Draft v0.2; Segment C Draft v0.1
 
-Status: Segment A approved as the biography style baseline; Segment B Draft v0.2 incorporates human review round 2; Segment C not started
+Status: Segments A and B have passed human review; Segment C Draft v0.1 prepared for human review
 
-Stage: 5B.6 — Segment B Review Revision
+Stage: 5B.7 — Segment C Translation Draft
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -22,9 +22,9 @@ Related controls:
 
 - Segment A — CH01-P004 through CH01-P007: Draft v0.2 approved as the biography style baseline.
 - Segment B — CH01-P014 through CH01-P018: Draft v0.2 approved with the required minor revision incorporated.
-- Segment C — CH01-P025 through CH01-P026: Not started.
+- Segment C — CH01-P025 through CH01-P026: Draft v0.1 prepared for human review.
 
-Only Segments A and B are translated in this version. This file must not expand into Segment C or a full-chapter draft during the style pilot.
+Only the three approved style-pilot segments are translated in this version. This file must not expand into the remaining Chapter 1 source or a full-chapter draft during the style pilot.
 
 ## Segment A
 
@@ -194,14 +194,54 @@ Review status: Approved — human review round 2
 
 ## Segment C
 
-Status: Not started. No source text or English translation has been inserted.
+Version: Draft v0.1
+
+Status: Translation drafted; human review pending.
+
+Purpose: Philosophical/business-value translation test.
+
+Focus:
+
+- Confucian concepts;
+- corporate values;
+- abstract ideas; and
+- proverb/quotation handling.
+
+### CH01-P025
+
+Source page: FB-P017
+
+Source:
+
+> 《论语》的世界讲的是“仁、和、乐”的精神境界。
+
+Translation:
+
+*The Analects* presents a spiritual realm of humaneness (ren), harmony (he), and joy (le).
+
+Review status: Draft v0.1 — pending human review
+
+### CH01-P026
+
+Source page: FB-P017
+
+Source:
+
+> 为了领导众多的职员建立大企业，“仁”、“和”这样的思想就必不可少。愉快地工作、对于自我事业的挑战、对于成就的肯定的“乐”的思想也不可或缺。
+
+Translation:
+
+To lead a large workforce and build a major enterprise, the principles of humaneness and harmony are indispensable. Equally indispensable is the idea of joy: working with pleasure, embracing challenges in one's own endeavors, and recognizing one's achievements.
+
+Review status: Draft v0.1 — pending human review
 
 ## Draft controls
 
-- Paragraph mapping: Preserved for CH01-P004 through CH01-P007 and CH01-P014 through CH01-P018.
+- Paragraph mapping: Preserved for CH01-P004 through CH01-P007, CH01-P014 through CH01-P018, and CH01-P025 through CH01-P026.
 - Footnote mapping: FB-F002 preserved and translated under the same ID.
 - Page mapping: FB-P016 boundary preserved before CH01-P016.
-- Image anchors: None occur within Segments A or B.
-- Unresolved terminology: C1-T035 and C1-T014 remain as visible QA markers in Segment A. Segment B introduces no new unresolved-term marker.
+- Image anchors: None occur within Segments A, B, or C.
+- Unresolved terminology: C1-T035 and C1-T014 remain as visible QA markers in Segment A. Segments B and C introduce no new unresolved-term marker.
+- Proverb handling: Neither approved proverb occurs in CH01-P025 or CH01-P026; no proverb substitution was inserted.
 - Frozen source modification: None.
-- Review state: Segment A Draft v0.2 approved as style baseline; Segment B Draft v0.2 approved after the required minor revision; both remain drafts and are not final.
+- Review state: Segment A Draft v0.2 is the approved biography style baseline; Segment B Draft v0.2 has passed human review; Segment C Draft v0.1 is pending human review. All remain drafts and are not final.
