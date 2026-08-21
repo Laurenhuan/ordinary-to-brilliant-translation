@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 6B.1 — Chapter 1 Full Human Review Preparation
+Stage: 6B.2 Phase 1 — Human Decision Recording
 
-Status: Human-review preparation complete — proposed revisions recorded but not applied; production text remains in `drafts/`
+Status: Human decisions recorded for TR-050–TR-063 — no revision applied; awaiting explicit Phase 2 authorization
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -97,9 +97,11 @@ Review mode: Diagnostic only. The following checks compare the completed product
 
 Any revision approved below must retain these structural results. Improving sentence-level English does not authorize removing or reducing authorial repetition.
 
-### Publication-quality English issues awaiting human approval
+### Publication-quality English issues — Stage 6B.1 diagnostic snapshot
 
-| Review ID | Paragraph ID | Dimension | Issue | Proposed revision | Human decision | Status |
+The `Pending` values below preserve the state of the original Stage 6B.1 diagnostic report. The authoritative human decisions are recorded separately in the Stage 6B.2 Phase 1 decision record that follows this snapshot.
+
+| Review ID | Paragraph ID | Dimension | Issue | Proposed revision | Decision at Stage 6B.1 | Status at Stage 6B.1 |
 |---|---|---|---|---|---|---|
 | TR-050 | CH01-TITLE | publication completeness | The English chapter title is still recorded as `Not yet translated`, so the production draft lacks a reader-facing title. | Consider `The Son of a Great Landowner and the Son of a Poor Farmer`. Confirm the title separately before inserting it. | Pending | pending_human_decision |
 | TR-051 | CH01-P002; CH01-P010 | clarity / repeated phrasing | `one of the figures known as “the three great myths of Korean business”` preserves the locked phrase but is cumbersome and leaves the relationship between the person and the authorial label unclear. The two intentionally repeated occurrences should use the same approved solution. | Consider `Sony founder Akio Morita, one of the figures associated with “the three great myths of Korean business,” ...` in both occurrences. Keep the locked phrase unchanged and retain both passages. | Pending | pending_human_decision |
@@ -132,11 +134,112 @@ Terminology conclusion: all 41 Chapter 1 candidates remain locked, no locked Eng
 
 ### Review gate
 
-- Proposed revision items awaiting human decision: 14 (`TR-050`–`TR-063`).
+- Stage 6B.1 proposed revision items: 14 (`TR-050`–`TR-063`).
+- Stage 6B.2 Phase 1 decisions recorded: 14.
+- Decision distribution: 11 Accept; 3 Reject; 0 Modify.
 - Draft wording changed during Stage 6B.1: No.
 - Frozen source or glossary changed during Stage 6B.1: No.
 - Files moved to `translation/reviewed/` or `translation/final/`: No.
-- Next action: project lead reviews each pending item and approves, rejects, or revises the proposal before any production-draft edit.
+- Phase 2 authorized: No. Await explicit project-lead confirmation before applying any recorded decision.
+
+## Stage 6B.2 Phase 1 human decision record
+
+Authority: Project lead human review of TR-050–TR-063.
+
+Record status: Complete. This section records decisions only. It does not apply, preview, or silently extend any revision.
+
+### TR-050
+
+- Decision: `Accept`
+- Final instruction: Insert the approved English chapter title: `The Son of a Great Landowner and the Son of a Poor Farmer.`
+- Reason: A reader-facing English title is required for publication completeness. The title preserves the original contrast structure.
+
+### TR-051
+
+- Decision: `Accept`
+- Final instruction: Replace `one of the figures known as “the three great myths of Korean business”` with `one of the figures associated with “the three great myths of Korean business”` in CH01-P002 and CH01-P010. Keep the repeated structure and locked phrase unchanged.
+- Reason: The revision improves English clarity while preserving the author's repeated comparison and the locked terminology.
+
+### TR-052
+
+- Decision: `Accept`
+- Final instruction: Replace `could manage a meal in the morning` with `had something to eat in the morning` in CH01-P003 and CH01-P011. Replace `a bowl of porridge made with wild greens to stave off hunger` with `a bowl of wild-greens porridge to fill his stomach before going to sleep.` Apply the same revision to both repeated passages.
+- Reason: The current wording is understandable but unnatural in English. The revision improves biography-style narration while preserving the original contrast and intentional repetition.
+
+### TR-053
+
+- Decision: `Accept`
+- Final instruction: Replace CH01-P008 with `Born into poverty, Chung Ju-yung ran away from home four times in search of a livelihood.`
+- Reason: The revised structure is more natural English and preserves the causal relationship without making it mechanically explicit.
+
+### TR-054
+
+- Decision: `Reject`
+- Final instruction: Retain `graduates of four-year universities.`
+- Reason: The current wording accurately preserves the source meaning of four-year university graduates. The proposed revision is stylistic rather than necessary.
+
+### TR-055
+
+- Decision: `Reject`
+- Final instruction: Retain `China's successive imperial houses over a span of 1,300 years.`
+- Reason: The current sentence is clear enough and faithfully preserves the source structure and historical emphasis. The proposed revision is a stylistic preference.
+
+### TR-056
+
+- Decision: `Accept`
+- Final instruction: Replace CH01-P019 with `Before Kim Ok-gyun—a renowned calligrapher of the late Joseon period and a gifted figure who launched the Gapsin Coup—negotiated with Li Hongzhang at Donghwa Inn in Shanghai in 1894, he kept *Zizhi Tongjian* beside his bed.` Preserve FB-F003 and all locked names and historical terms.
+- Reason: The revision improves sentence rhythm and avoids an awkward appositive construction while preserving all historical information.
+
+### TR-057
+
+- Decision: `Reject`
+- Final instruction: Retain `offers a wealth of historical perspectives.`
+- Reason: The current expression is acceptable academic English and does not create ambiguity. The proposed change is a stylistic preference.
+
+### TR-058
+
+- Decision: `Accept`
+- Final instruction: Replace the second sentence of CH01-P021 with `This shows the depth of Chung Ju-yung's learning.` Keep the preceding modern “kingdom” metaphor unchanged.
+- Reason: The current phrase follows the Chinese metaphor too closely and is less natural in English.
+
+### TR-059
+
+- Decision: `Accept`
+- Final instruction: Replace CH01-P022 with `On the first floor of his Cheongun-dong home, Chung Ju-yung displayed his favorite maxim: “With diligence, no task is impossible.” Whenever he faced a grave crisis, he would recall and quote sayings such as “Where there is a will, there is a way” and “the investigation of things and the extension of knowledge.” Such allusions and quotations could hardly have come from someone without learning or cultivation.` Preserve all locked quotations exactly.
+- Reason: The revision improves narration flow and removes ambiguity while preserving the author's evaluation of Chung Ju-yung's learning.
+
+### TR-060
+
+- Decision: `Accept`
+- Final instruction: Replace the final sentence of CH01-P023 with `Together with *Elementary Learning*, *The Great Learning*, and *Zizhi Tongjian*, this learning would already meet the requirements of a modern university education.`
+- Reason: The current pronoun reference is unclear. The revision improves referential clarity while preserving the author's escalating comparison.
+
+### TR-061
+
+- Decision: `Accept`
+- Final instruction: Replace CH01-P024 with `While still at a seodang, he had already reached the point where he could read *The Thousand-Character Classic* in full and even *The Analects*.` Preserve the FB-P017 page boundary marker at the corresponding source position.
+- Reason: The revision improves sentence rhythm and readability without changing meaning.
+
+### TR-062
+
+- Decision: `Accept`
+- Final instruction: Replace CH01-P027 with `Yet aside from their shared cultural foundation in the ancient classics of the East, the two men could not have been more different.` Keep CH01-P027 as a separate closing paragraph.
+- Reason: The revision improves the closing rhythm while preserving the author's thematic return and contrast structure.
+
+### TR-063
+
+- Decision: `Accept`
+- Final instruction: Standardize footnote presentation before publication. Remove draft-only labels such as `Translated footnote:` while preserving FB-F002, FB-F003, and all footnote content.
+- Reason: Footnote formatting should be consistent in the publication draft. This change affects presentation only and does not alter translation content.
+
+### Phase 1 control statement
+
+- Every decision from TR-050 through TR-063 is recorded with its final instruction and reason.
+- No translation wording has been changed.
+- No glossary, frozen source, pilot file, image anchor, page mapping, or footnote has been changed.
+- No new terminology decision has been created.
+- No file has moved to `translation/reviewed/` or `translation/final/`.
+- Phase 2 remains blocked until explicit project-lead authorization is received.
 
 ## Segment A draft review items
 
@@ -280,4 +383,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs, and Stage 6B.1 has prepared 14 proposed revision items for human decision without applying them. The author's intentional thematic repetition and all source mappings remain preserved. No text has moved to `reviewed/` or `final/`; the production draft cannot advance until the pending Stage 6B.1 decisions are resolved.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs. Stage 6B.2 Phase 1 records project-lead decisions for all 14 diagnostic items: 11 Accept, 3 Reject, and 0 Modify. No decision has been applied. The author's intentional thematic repetition and all source mappings remain preserved, and no text has moved to `reviewed/` or `final/`. Phase 2 requires separate explicit authorization.
