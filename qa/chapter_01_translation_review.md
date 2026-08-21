@@ -136,7 +136,7 @@ Terminology conclusion: all 41 Chapter 1 candidates remain locked, no locked Eng
 
 - Stage 6B.1 proposed revision items: 14 (`TR-050`–`TR-063`).
 - Stage 6B.2 Phase 1 decisions recorded: 14.
-- Decision distribution: 11 Accept; 3 Reject; 0 Modify.
+- Decision distribution: 10 Accept; 3 Reject; 1 Modify.
 - Draft wording changed during Stage 6B.1: No.
 - Frozen source or glossary changed during Stage 6B.1: No.
 - Files moved to `translation/reviewed/` or `translation/final/`: No.
@@ -216,9 +216,9 @@ Record status: Complete. This section records decisions only. It does not apply,
 
 ### TR-061
 
-- Decision: `Accept`
-- Final instruction: Replace CH01-P024 with `While still at a seodang, he had already reached the point where he could read *The Thousand-Character Classic* in full and even *The Analects*.` Preserve the FB-P017 page boundary marker at the corresponding source position.
-- Reason: The revision improves sentence rhythm and readability without changing meaning.
+- Decision: `Modify`
+- Final instruction: Retain the first sentence of CH01-P024: `Lee Byung-chull also frequently quoted the classics.` Replace only the second sentence with `While still at a seodang, he had already reached the point where he could read *The Thousand-Character Classic* in full and even *The Analects*.` Preserve the FB-P017 page boundary marker at its source-corresponding position.
+- Reason: The previous instruction incorrectly replaced the entire paragraph and would remove the source information about Lee Byung-chull frequently quoting the classics. The revision should improve sentence rhythm while preserving all original information and paragraph structure.
 
 ### TR-062
 
@@ -383,4 +383,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs. Stage 6B.2 Phase 1 records project-lead decisions for all 14 diagnostic items: 11 Accept, 3 Reject, and 0 Modify. No decision has been applied. The author's intentional thematic repetition and all source mappings remain preserved, and no text has moved to `reviewed/` or `final/`. Phase 2 requires separate explicit authorization.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs. Stage 6B.2 Phase 1 records project-lead decisions for all 14 diagnostic items: 10 Accept, 3 Reject, and 1 Modify. No decision has been applied. The author's intentional thematic repetition and all source mappings remain preserved, and no text has moved to `reviewed/` or `final/`. Phase 2 requires separate explicit authorization.
