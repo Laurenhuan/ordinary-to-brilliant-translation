@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 5B.3 — Segment A Review Revision
+Stage: 5B.4 — Segment A Style Baseline Approval
 
-Status: Segment A Draft v0.2 prepared; human review round 1 incorporated; confirmation pending
+Status: Segment A Draft v0.2 approved for style baseline
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -20,6 +20,7 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 - Total approved source segments: 11
 - Selection approved by: Project lead — Stage 5B.1 human decision
 - Translation started: Yes — Segment A only
+- Segment A style baseline: Approved — Draft v0.2
 - Full-chapter translation authorized: No
 
 ## Translation decision log
@@ -30,15 +31,16 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-002 | CH01-P004–CH01-P007 | scope | Pilot Segment A approved for the biography narrative test. | Review personal names, places, family background, and historical narration. | Approved | closed |
 | TR-003 | CH01-P014–CH01-P018 | scope | Pilot Segment B approved for the cultural translation test. | Review `seodang`, classical texts, and Confucian education. | Approved | closed |
 | TR-004 | CH01-P025–CH01-P026 | scope | Pilot Segment C approved for the philosophical/business-value translation test. | Review `humaneness (ren)`, `harmony (he)`, and `joy (le)`. | Approved | closed |
+| TR-009 | CH01-P004–CH01-P007 | style baseline | Approve Segment A Draft v0.2 as the Chapter 1 biography style reference. | Natural biography narration and sentence restructuring are approved; facts, locked terminology, cultural-term decisions, and paragraph traceability remain binding. Draft QA markers must not appear in final translation. | Approved | closed |
 
 ## Segment A draft review items
 
 | Review ID | Segment | Translation decision | Unresolved issue | Reviewer status |
 |---|---|---|---|---|
-| TR-005 | CH01-P004 | Applied locked `Lee Byung-chull`; revised `a very wealthy family` to the less intensified `a wealthy family`; preserved the 1910–1987 date range. | None identified in Draft v0.2. | revision_applied_v0.2 |
-| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | revision_applied_v0.2 |
-| TR-007 | CH01-P006 | Recast the opening as `the family of Lee Chan-woo, a landowner`; improved sentence rhythm while preserving every locked name, place, cultural term, and FB-F002. | None identified in Draft v0.2. | revision_applied_v0.2 |
-| TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | revision_applied_v0.2 |
+| TR-005 | CH01-P004 | Applied locked `Lee Byung-chull`; revised `a very wealthy family` to the less intensified `a wealthy family`; preserved the 1910–1987 date range. | None identified in Draft v0.2. | approved_style_baseline |
+| TR-006 | CH01-P005 | Applied the approved family form `landowning family`; revised the sentence to a smoother biography-style comparison while preserving 2,000 and 1,500. | C1-T035 `石` remains unresolved and is retained as a visible inline QA marker without transliteration or conversion. | approved_style_baseline |
+| TR-007 | CH01-P006 | Recast the opening as `the family of Lee Chan-woo, a landowner`; improved sentence rhythm while preserving every locked name, place, cultural term, and FB-F002. | None identified in Draft v0.2. | approved_style_baseline |
+| TR-008 | CH01-P007 | Split the biographical information into three natural English sentences while preserving the locked name, places, family composition, and later-use `seodang`. | C1-T014 `松田小学` remains unresolved and is retained as a visible inline QA marker; no historical school name has been selected. | approved_style_baseline |
 
 ## Translation Review Round 1
 
@@ -46,7 +48,7 @@ Round ID: TR-R1
 
 Review basis: Human review of Segment A Draft v0.1
 
-Outcome: Incorporated into Draft v0.2; terminology decisions unchanged; confirmation pending.
+Outcome: Incorporated into Draft v0.2 and approved as the Chapter 1 biography style baseline; terminology decisions unchanged.
 
 | Review item | Segment | Human review decision | v0.2 treatment | Status |
 |---|---|---|---|---|
@@ -57,13 +59,26 @@ Outcome: Incorporated into Draft v0.2; terminology decisions unchanged; confirma
 | TR-R1-005 | CH01-P005; CH01-P007 | Keep C1-T035 and C1-T014 unresolved with QA markers. | Retained both visible QA markers without selecting English forms. | applied |
 | TR-R1-006 | Segment B; Segment C | Do not translate outside Segment A. | No source text or English translation added for Segments B or C. | applied |
 
+## Segment A Style Baseline Approval
+
+- Approval record: TR-009
+- Approved scope: `CH01-P004`–`CH01-P007`
+- Approved version: Draft v0.2
+- Status: approved for style baseline
+- Biography tone: Accepted.
+- Naturalization: Sentence restructuring from Chinese order into natural English is approved, provided no factual information is removed or added.
+- Terminology: Established English names and locked terminology must remain consistent; cultural terms must follow glossary decisions.
+- Traceability: Paragraph ID mapping must be retained.
+- Draft control: QA markers may remain during drafting but must be resolved and removed before final translation.
+- Scope boundary: This approval does not authorize translation of Segment B, Segment C, or the full chapter.
+
 ## Reviewer comments
 
 Record comments with a stable review ID. Refer to the relevant source paragraph ID and keep quoted source or draft context to the minimum necessary for identification.
 
 | Review ID | Source segment | Draft location | Review category | Comment | Proposed treatment | Human decision | Status |
 |---|---|---|---|---|---|---|---|
-| TR-R1 | CH01-P004–CH01-P007 | Segment A Draft v0.2 | review round 1 revision | Human review instructions have been incorporated; v0.2 awaits confirmation. | Confirm the revised biography style without changing terminology decisions. | Approved for revision | revision_applied |
+| TR-R1 | CH01-P004–CH01-P007 | Segment A Draft v0.2 | review round 1 revision | Human review confirms that the biography tone and natural English restructuring are acceptable. | Use Segment A Draft v0.2 as the biography style baseline while preserving facts, locked terms, cultural-term decisions, and paragraph traceability. | Approved | closed |
 
 ## Unresolved terminology affecting Chapter 1
 
@@ -97,4 +112,4 @@ Drafted Segment A intersects C1-T014 and C1-T035. Approved but undrafted Segment
 
 ## Stage gate
 
-Segment A Draft v0.2 incorporates human review round 1 and awaits confirmation. Segments B and C remain not started. No text may advance to `reviewed/` or expand into full-chapter translation until separately authorized.
+Segment A Draft v0.2 is approved as the Chapter 1 biography style baseline. Segments B and C remain not started. This approval authorizes reuse of the recorded style rules only; it does not authorize translation of Segments B or C, movement of draft text to `reviewed/`, or expansion into full-chapter translation. Draft QA markers must be resolved and removed before any final translation.

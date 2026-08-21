@@ -1,8 +1,8 @@
 # Chapter 1 Translation Style Guide v1
 
-Stage: 5B — Translation Style Pilot Preparation
+Stage: 5B.4 — Segment A Style Baseline Approval
 
-Status: Initial pilot guide; no Chapter 1 prose translation has started.
+Status: Segment A Draft v0.2 approved as the Chapter 1 biography style baseline; Segments B and C remain not started.
 
 Use this guide together with `docs/STYLE_GUIDE.md`, `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`, the locked master glossaries, and the Chapter 1 QA records. A locked project-specific decision takes priority over a general stylistic preference.
 
@@ -84,6 +84,21 @@ Preserve:
 Do not silently omit, merge, split, reorder, or add source claims. Any necessary structural departure must be logged in `qa/chapter_01_translation_review.md` and approved before it becomes reviewed translation.
 
 The English pilot is a derived working file. It must never overwrite or modify the frozen Chinese source.
+
+## G. Chapter 1 Biography Translation Style Rules
+
+Segment A Draft v0.2 (`CH01-P004`–`CH01-P007`) is the approved biography style reference for future Chapter 1 translation.
+
+- Prefer natural English biography narration over sentence-by-sentence mapping of Chinese syntax.
+- Sentence boundaries and order within a paragraph may be restructured when necessary for idiomatic English, but no factual information may be removed or added. Do not alter chronology, causation, family relationships, or historical and social relationships.
+- Avoid unnecessary intensifiers. Prefer precise, restrained wording when the source does not require emphasis.
+- Preserve historical and social information, including family background, landholding or class position, personal relationships, dates, places, education, and quantities.
+- Maintain established English names and other locked terminology exactly as recorded in the project glossaries. Do not introduce silent spelling, name-order, capitalization, or hyphenation variants.
+- Follow approved glossary decisions for cultural terms, including first-use and later-use forms such as `seodang`.
+- Keep every translated paragraph traceable to its source paragraph ID even when English sentence structure differs from the Chinese.
+- QA markers may remain visible in a draft when terminology is unresolved. Every such marker must be resolved and removed before final translation; QA markers are not reader-facing text.
+
+This approval establishes a style baseline only. It does not resolve pending terminology, approve translation of Segments B or C, or authorize full-chapter translation.
 
 ## Pilot review focus
 
