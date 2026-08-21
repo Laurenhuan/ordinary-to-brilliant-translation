@@ -1,16 +1,16 @@
 # Chapter 1 Terminology Review
 
-Stage: 5A.7 — Resolve Remaining Terminology Required for Segment B
+Stage: 5A.7 — Human Approval Consolidation for Segment B Terminology
 
-Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-T013` and `C1-T020` for Segment B without translating Segment B or modifying the frozen Chinese source. Only terms explicitly approved by ChatGPT + human are marked `locked`.
+Scope: terminology and proper-name verification only. Stage 5A.7 records human approval and locking of `C1-T013` and `C1-T020` without translating Segment B or modifying the frozen Chinese source. Only terms explicitly approved by ChatGPT + human are marked `locked`.
 
 ## Review summary
 
 - Candidate count: 41
 - Frozen-source segment binding: complete for all candidates
-- Locked after Stage 5A.6 human-approval consolidation: 35
-- Remaining unlocked: 6
-- Segment B candidates prepared in Stage 5A.7: 2; both remain `needs_human_decision`
+- Locked after Stage 5A.7 human approval: 37
+- Remaining unlocked: 4
+- Segment B candidates approved and locked in Stage 5A.7: 2
 - Conflict register: 6 retained IDs; 0 open
 - Verification policy: `docs/TERMINOLOGY_VERIFICATION_GUIDE.md`
 
@@ -18,12 +18,12 @@ Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-
 
 - glossary/people.csv: 8 locked entries.
 - glossary/organizations.csv: 3 locked entries.
-- glossary/glossary.csv: 23 locked general/place/cultural entries.
+- glossary/glossary.csv: 25 locked general/place/cultural/historical-institution entries.
 - All 41 Chapter 1 Chinese candidate terms remain unique.
 - The approved contextual rendering `Hitachi founder Namihei Odaira` for CH01-P002/P010 is not a glossary conflict with the locked master form `Hitachi Group`.
-- Stage 5A.4 records provisional, non-locked contextual recommendations for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`; all remain subject to human approval.
+- Stage 5A.4 created provisional contextual records for `文山亭书院`, `松田小学`, `东和旅馆`, `鸿儒`, `地主`, and `石`. Later human approvals supersede the provisional states of `文山亭书院`, `鸿儒`, and `地主`; `松田小学`, `东和旅馆`, and `石` remain unresolved.
 - Stage 5A.6 locks the seven human-approved decisions for `私塾`, `鸿儒`, `地主`, `仁、和、乐`, `致知在格物`, `一勤天下无难事`, and `有志者事竟成`.
-- Stage 5A.7 prepares evidence-backed contextual policies for `文山亭书院` and `朝鲜`; neither is locked and no master glossary entry is changed.
+- Stage 5A.7 locks the human-approved `文山亭书院` and `朝鲜` decisions and adds both to `glossary/glossary.csv`.
 - Six approved items enter `glossary/glossary.csv`. `一勤天下无难事` is intentionally retained as a locked candidate and QA quotation decision rather than a glossary entity.
 
 ## Workflow status
@@ -31,9 +31,9 @@ Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-
 - `pending`: 0
 - `researched`: 0
 - `verified`: 0
-- `locked`: 35
+- `locked`: 37
 - `needs_context`: 0
-- `needs_human_decision`: 6
+- `needs_human_decision`: 4
 
 ## Person (8)
 
@@ -287,14 +287,14 @@ Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-
 - **Segment:** CH01-P018; CH01-P019
 - **Page:** FB-P016
 - **Context:** 被朝鲜时代的读书人列为必读书目。
-- **Candidate English:** contextual: Joseon period / Joseon Dynasty / Korea / Korean
-- **Verified English:** —
-- **Evidence/source:** official Korean museum usage: https://www.museum.go.kr/ENG/contents/E0201080100.do?schM=list&showHallId=757&showroomCode=DM0074 ; https://online.gogung.go.kr/gogungEn/main/contents.do?menuNo=1000019
-- **Codex recommendation:** Use `Joseon period` for temporal/cultural framing, `Joseon Dynasty` when the ruling house or formal dynastic polity is foregrounded, `Korea` for a general country/geographic reference without dynastic emphasis, and `Korean` for adjectival people/language/culture references. CH01-P018 remains governed by locked C1-T030: `scholars of the Joseon period`. Human approval is required before adopting the broader rule.
-- **Human decision:** Pending
-- **Decision note:** Do not apply a global replacement. The term must be resolved at sentence level without factual correction. The existing locked `Joseon period` decision is unchanged.
-- **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Candidate English:** contextual: Joseon period / Joseon Dynasty / Korean people / Korean Peninsula / Korea / Korean
+- **Verified English:** context-sensitive rule approved
+- **Evidence/source:** human-approved context-sensitive rule supported by official Korean museum usage: Stage 5A.7 human approval; https://www.museum.go.kr/ENG/contents/E0201080100.do?schM=list&showHallId=757&showroomCode=DM0074 ; https://online.gogung.go.kr/gogungEn/main/contents.do?menuNo=1000019
+- **Codex recommendation:** Apply only by sentence context: `朝鲜时代` = `Joseon period`; `朝鲜王朝` = `Joseon Dynasty`; `朝鲜人` = `Korean people`; `朝鲜半岛` = `Korean Peninsula`; general country or geographic context = `Korea` or `Korean` according to meaning. Never use blind replacement. CH01-P018 remains governed by locked C1-T030: `scholars of the Joseon period`.
+- **Human decision:** Approved
+- **Decision note:** Human approved the context-sensitive rule. Existing locked `Joseon period` and `late Joseon period` decisions remain unchanged. Every standalone occurrence must be resolved from sentence meaning; no global one-to-one replacement is permitted.
+- **Conflict flag:** no — context-sensitive rule approved
+- **Status:** `locked`
 
 ### C1-T021 — 上海
 
@@ -349,14 +349,14 @@ Scope: terminology and proper-name verification only. Stage 5A.7 researches `C1-
 - **Segment:** CH01-P014
 - **Page:** FB-P015
 - **Context:** 在祖父开设的文山亭书院学习。
-- **Candidate English:** Munsanjeong, a seodang (provisional)
-- **Verified English:** —
-- **Evidence/source:** official Korean local-government usage plus historical-institution research: https://www.uiryeong.go.kr/tour/board/view.uiryeong?boardId=BBS_0000464&dataSid=10674662&menuCd=DOM_000000305002002000&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1 ; https://journal.kci.go.kr/kukmun/archive/articlePdf?artiId=ART002469257 ; https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
-- **Codex recommendation:** Retain `Munsanjeong` as the proper name and describe it appositively as a `seodang`; proposed CH01-P014 form: `Munsanjeong, a seodang founded by his grandfather`. In full-chapter sequence, do not repeat the earlier first-use seodang gloss; provide it if Segment B stands alone. Human approval is required before locking.
-- **Human decision:** Pending
-- **Decision note:** Uiryeong County uses `서당 문산정`; academic evidence describes `文山亭` as a pavilion built by Lee Hong-seok. Treat `Munsanjeong` as a project romanization of the proper name and `seodang` as its institutional function, not as an established official English name. Do not use `Academy`.
-- **Conflict flag:** no
-- **Status:** `needs_human_decision`
+- **Candidate English:** Munsanjeong, a seodang
+- **Verified English:** Munsanjeong, a seodang
+- **Evidence/source:** human-approved project rendering based on official Korean local-government usage and historical research: Stage 5A.7 human approval; https://www.uiryeong.go.kr/tour/board/view.uiryeong?boardId=BBS_0000464&dataSid=10674662&menuCd=DOM_000000305002002000&orderBy=REGISTER_DATE+DESC&paging=ok&startPage=1 ; https://journal.kci.go.kr/kukmun/archive/articlePdf?artiId=ART002469257 ; https://encykorea.aks.ac.kr/Article/E0027680 ; https://www.aks.ac.kr/ikorea/upload/intl/korean/UserFiles/Infokorea_2019_eng.pdf
+- **Codex recommendation:** Use the locked glossary term `Munsanjeong, a seodang`. When the source sentence states that the grandfather founded it, the first occurrence may read `Munsanjeong, a seodang founded by his grandfather`. Do not encode that explanatory fact into the glossary term, and do not use `Academy`. Later references may use `Munsanjeong` or `seodang` according to context.
+- **Human decision:** Approved
+- **Decision note:** Human approved the project rendering and its contextual usage rule. `Munsanjeong` is not described as an established official English name.
+- **Conflict flag:** no — context-sensitive usage approved
+- **Status:** `locked`
 
 ### C1-T014 — 松田小学
 
