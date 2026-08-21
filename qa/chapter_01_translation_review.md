@@ -63,6 +63,19 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 
 Proverb/quotation check: Neither `有志者事竟成` nor `一勤天下无难事` occurs in CH01-P025 or CH01-P026. No conventional substitution or project quotation was inserted into Segment C.
 
+## Segment C human-review preparation
+
+This pass records review questions only. It does not revise the draft, source text, or glossary decisions.
+
+| Review ID | Segment | Review focus | Current draft wording | Human-review question | Review constraint | Human decision | Status |
+|---|---|---|---|---|---|---|---|
+| TR-017 | CH01-P025 | `精神境界` | `a spiritual realm` | Does `spiritual realm` preserve the philosophical register of `精神境界` without sounding overly metaphysical or less precise than the source? | Evaluate wording only; do not alter the locked Confucian-concept forms in this review record. | Pending | pending_human_decision |
+| TR-018 | CH01-P025 | First-occurrence treatment of `仁、和、乐` | `humaneness (ren), harmony (he), and joy (le)` | Is the approved first-occurrence form natural and readable in this sentence while retaining the required Confucian context? | The glossary decision is already locked; any future prose revision must preserve the approved forms. | Pending | pending_human_decision |
+| TR-019 | CH01-P026 | Corporate-value framing of `仁` and `和` | `the principles of humaneness and harmony` | Does `principles of humaneness and harmony` read naturally as values needed to lead employees and build a major enterprise? | Review contextual phrasing only; `humaneness` and `harmony` remain locked later-reference forms. | Pending | pending_human_decision |
+| TR-020 | CH01-P026 | `对于自我事业的挑战` | `embracing challenges in one's own endeavors` | Does this wording preserve the source's relationship between challenge and one's own undertaking without adding a stronger idea of self-development? | Do not add explanatory facts or silently redefine the underlying abstract idea. | Pending | pending_human_decision |
+| TR-021 | CH01-P026 | `对于成就的肯定` | `recognizing one's achievements` | Does this wording preserve the source's sense of affirming or recognizing achievement without adding pride, satisfaction, or another unsupported emotion? | Keep the review limited to fidelity and natural English. | Pending | pending_human_decision |
+| TR-022 | CH01-P026 | Overall business-value context | `To lead a large workforce ... the idea of joy ...` | Does the full two-sentence rendering read as natural English business-value prose while preserving all three source descriptions of `乐`? | Evaluate rhythm and coherence only; do not remove facts, expand the concept, or change locked terminology. | Pending | pending_human_decision |
+
 ## Translation Review Round 2
 
 Round ID: TR-R2
