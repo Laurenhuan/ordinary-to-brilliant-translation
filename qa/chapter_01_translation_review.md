@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 6B.2 Phase 1 — Human Decision Recording
+Stage: 6B.2 Phase 2 — Controlled Human-Approved Revision
 
-Status: Human decisions recorded for TR-050–TR-063 — no revision applied; awaiting explicit Phase 2 authorization
+Status: TR-050–TR-063 decisions applied or retained exactly as directed; production text remains in `drafts/`
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -140,7 +140,7 @@ Terminology conclusion: all 41 Chapter 1 candidates remain locked, no locked Eng
 - Draft wording changed during Stage 6B.1: No.
 - Frozen source or glossary changed during Stage 6B.1: No.
 - Files moved to `translation/reviewed/` or `translation/final/`: No.
-- Phase 2 authorized: No. Await explicit project-lead confirmation before applying any recorded decision.
+- Phase 2 authorized: Yes. Applied only the recorded TR-050–TR-063 instructions.
 
 ## Stage 6B.2 Phase 1 human decision record
 
@@ -232,14 +232,47 @@ Record status: Complete. This section records decisions only. It does not apply,
 - Final instruction: Standardize footnote presentation before publication. Remove draft-only labels such as `Translated footnote:` while preserving FB-F002, FB-F003, and all footnote content.
 - Reason: Footnote formatting should be consistent in the publication draft. This change affects presentation only and does not alter translation content.
 
-### Phase 1 control statement
+### Phase 1 control statement — historical close
 
 - Every decision from TR-050 through TR-063 is recorded with its final instruction and reason.
 - No translation wording has been changed.
 - No glossary, frozen source, pilot file, image anchor, page mapping, or footnote has been changed.
 - No new terminology decision has been created.
 - No file has moved to `translation/reviewed/` or `translation/final/`.
-- Phase 2 remains blocked until explicit project-lead authorization is received.
+- At the close of Phase 1, Phase 2 remained blocked until the explicit authorization later received from the project lead.
+
+## Stage 6B.2 Phase 2 controlled revision record
+
+Authorization: Explicit project-lead authorization to apply only the decisions recorded in Stage 6B.2 Phase 1.
+
+| Review ID | Decision | Controlled application | Phase 2 status |
+|---|---|---|---|
+| TR-050 | Accept | Inserted the approved English chapter title in the production draft metadata. | applied |
+| TR-051 | Accept | Replaced `known as` with `associated with` in CH01-P002 and CH01-P010; retained both repeated passages and the locked phrase. | applied |
+| TR-052 | Accept | Applied the approved morning-meal and wild-greens-porridge wording identically in CH01-P003 and CH01-P011. | applied |
+| TR-053 | Accept | Replaced CH01-P008 with the approved sentence. | applied |
+| TR-054 | Reject | Retained `graduates of four-year universities` in CH01-P016 without change. | closed_rejected_no_change |
+| TR-055 | Reject | Retained `China's successive imperial houses over a span of 1,300 years` in CH01-P018 without change. | closed_rejected_no_change |
+| TR-056 | Accept | Replaced the CH01-P019 sentence as approved and preserved FB-F003 at the late-Joseon-period reference. | applied |
+| TR-057 | Reject | Retained `offers a wealth of historical perspectives` in CH01-P020 without change. | closed_rejected_no_change |
+| TR-058 | Accept | Replaced only the second sentence of CH01-P021; retained the modern “kingdom” sentence. | applied |
+| TR-059 | Accept | Replaced CH01-P022 with the approved paragraph and preserved all locked quotations. | applied |
+| TR-060 | Accept | Replaced only the final sentence of CH01-P023 with the approved wording. | applied |
+| TR-061 | Modify | Retained the first sentence of CH01-P024, replaced only its second sentence, and preserved FB-P017 at the source-corresponding position. | applied_as_modified |
+| TR-062 | Accept | Replaced CH01-P027 with the approved closing sentence and kept it as a separate paragraph. | applied |
+| TR-063 | Accept | Removed the draft-only `Translated footnote:` label; preserved FB-F002, FB-F003, and both footnote texts. | applied |
+
+### Phase 2 controls
+
+- Accepted decisions applied: 10.
+- Modified decisions applied: 1.
+- Rejected proposals retained without change: 3.
+- Additional stylistic, grammatical, editorial, or terminology changes: None.
+- Paragraph IDs and order: Preserved.
+- Intentional repetition in CH01-P009–CH01-P011: Preserved; approved paired revisions were applied consistently.
+- Image anchors, page-boundary markers, footnote IDs, and source traceability: Preserved.
+- Frozen source, glossaries, and pilot files: Unchanged.
+- Files moved to `translation/reviewed/` or `translation/final/`: None.
 
 ## Segment A draft review items
 
@@ -383,4 +416,4 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs. Stage 6B.2 Phase 1 records project-lead decisions for all 14 diagnostic items: 10 Accept, 3 Reject, and 1 Modify. No decision has been applied. The author's intentional thematic repetition and all source mappings remain preserved, and no text has moved to `reviewed/` or `final/`. Phase 2 requires separate explicit authorization.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs. Under explicit Stage 6B.2 Phase 2 authorization, the 10 accepted decisions and one modified decision have been applied, while the three rejected proposals remain unchanged. No additional revision was introduced. The author's intentional thematic repetition, all paragraph mappings, image anchors, page boundaries, footnote IDs, and source traceability remain preserved. No text has moved to `reviewed/` or `final/`.

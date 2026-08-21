@@ -1,14 +1,14 @@
 # Chapter 1 Full Translation Draft v0.1
 
-Stage: 6A.3 — Translate Chapter 1 Batch 3
+Stage: 6B.2 Phase 2 — Controlled Human-Approved Revision
 
-Status: Production translation drafted through CH01-P027 — pilot-approved passages inherited; new production passages pending human review
+Status: TR-050–TR-063 decisions applied or retained as directed — remains a production draft
 
 Chapter: 1
 
 Chinese chapter title: 大地主的儿子和贫农的儿子
 
-English chapter title: Not yet translated
+English chapter title: The Son of a Great Landowner and the Son of a Poor Farmer.
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -30,6 +30,7 @@ Pilot closure record: `docs/chapter_01_pilot_closure_report.md`
 - Stage 6A.1 drafted CH01-P001–CH01-P003 for human review.
 - Stage 6A.2 migrates pilot-approved CH01-P004–CH01-P007 and CH01-P014–CH01-P018 without retranslation, and newly translates CH01-P008–CH01-P013.
 - Stage 6A.3 newly translates CH01-P019–CH01-P024 and CH01-P027, and migrates pilot-approved CH01-P025–CH01-P026 without retranslation.
+- Stage 6B.2 Phase 2 applies only the project-lead decisions recorded for TR-050–TR-063; rejected proposals remain unchanged.
 - Every translation remains mapped to its stable `CH01-Pxxx` ID.
 - Source-page references must be populated from the frozen source and its approved page mapping.
 - Locked glossary forms and context-sensitive rules are binding.
@@ -59,9 +60,9 @@ Source page: FB-P014
 
 Translation:
 
-Sony founder Akio Morita, one of the figures known as “the three great myths of Korean business,” held a doctorate in business administration. By contrast, Hitachi founder Namihei Odaira[^TN-CH01-001] never even finished primary school, dropping out after the fourth grade.
+Sony founder Akio Morita, one of the figures associated with “the three great myths of Korean business,” held a doctorate in business administration. By contrast, Hitachi founder Namihei Odaira[^TN-CH01-001] never even finished primary school, dropping out after the fourth grade.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P003
 
@@ -69,9 +70,9 @@ Source page: FB-P014
 
 Translation:
 
-From birth, Lee Byung-chull never had to worry about food or clothing. Chung Ju-yung, by contrast, could manage a meal in the morning but went hungry at noon; at night, he had only a bowl of porridge made with wild greens to stave off hunger before going to sleep.
+From birth, Lee Byung-chull never had to worry about food or clothing. Chung Ju-yung, by contrast, had something to eat in the morning but went hungry at noon; at night, he had only a bowl of wild-greens porridge to fill his stomach before going to sleep.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 [^TN-CH01-001]: The Chinese edition prints the name as “小源浪平.” Hitachi's official records identify the founder as 小平浪平 (Namihei Odaira).
 
@@ -103,8 +104,6 @@ Translation:
 
 Lee Byung-chull was born in Uiryeong, Gyeongsangnam-do[^FB-F002], into the family of Lee Chan-woo, a landowner, and was the youngest of four sons. His grandfather, Lee Hong-seok, was an eminent Confucian scholar of his time and a wealthy landowner whose family had held considerable property for generations. Born into a landowning family, Lee Byung-chull studied Chinese classics for a time at a traditional Korean village school known as a seodang before entering primary school and continuing his formal education through middle school. He later studied at Waseda University in Japan.
 
-Translated footnote:
-
 [^FB-F002]: In Korea, a “do” is an administrative division roughly equivalent to a province in China.
 
 Review status: `inherited_pilot_approved_segment_a_v0.2`
@@ -125,9 +124,9 @@ Source page: FB-P015
 
 Translation:
 
-Chung Ju-yung was born into poverty, which led him to run away from home four times in search of a livelihood.
+Born into poverty, Chung Ju-yung ran away from home four times in search of a livelihood.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P009
 
@@ -145,9 +144,9 @@ Source page: FB-P015
 
 Translation:
 
-In Japan, a similar contrast can be found. Sony founder Akio Morita, one of the figures known as “the three great myths of Korean business,” held a doctorate in business administration, while Hitachi founder Namihei Odaira never even finished primary school, dropping out after the fourth grade.
+In Japan, a similar contrast can be found. Sony founder Akio Morita, one of the figures associated with “the three great myths of Korean business,” held a doctorate in business administration, while Hitachi founder Namihei Odaira never even finished primary school, dropping out after the fourth grade.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P011
 
@@ -155,9 +154,9 @@ Source page: FB-P015
 
 Translation:
 
-From birth, Lee Byung-chull never had to worry about food or clothing. Chung Ju-yung, by contrast, could manage a meal in the morning but went hungry at noon; at night, he had only a bowl of porridge made with wild greens to stave off hunger before going to sleep.
+From birth, Lee Byung-chull never had to worry about food or clothing. Chung Ju-yung, by contrast, had something to eat in the morning but went hungry at noon; at night, he had only a bowl of wild-greens porridge to fill his stomach before going to sleep.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P012
 
@@ -237,11 +236,11 @@ Source page: FB-P016
 
 Translation:
 
-Before Kim Ok-gyun—a renowned calligrapher of the late Joseon period[^FB-F003] and the gifted man who launched the Gapsin Coup—negotiated with Li Hongzhang at Donghwa Inn in Shanghai in 1894, the book beside his bed was *Zizhi Tongjian*.
+Before Kim Ok-gyun—a renowned calligrapher of the late Joseon period[^FB-F003] and a gifted figure who launched the Gapsin Coup—negotiated with Li Hongzhang at Donghwa Inn in Shanghai in 1894, he kept *Zizhi Tongjian* beside his bed.
 
 [^FB-F003]: The late nineteenth and early twentieth centuries.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P020
 
@@ -251,7 +250,7 @@ Translation:
 
 *Zizhi Tongjian* is more than a history book. It also records the conduct of China's emperors across successive dynasties and offers a wealth of historical perspectives.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_review_no_change`
 
 ### CH01-P021
 
@@ -259,9 +258,9 @@ Source page: FB-P016
 
 Translation:
 
-In other words, all the management principles used to build a modern “kingdom” can be found within it. This shows how deep the foundations of Chung Ju-yung's learning ran.
+In other words, all the management principles used to build a modern “kingdom” can be found within it. This shows the depth of Chung Ju-yung's learning.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P022
 
@@ -269,9 +268,9 @@ Source page: FB-P016
 
 Translation:
 
-On the first floor of his Cheongun-dong home, Chung Ju-yung hung his favorite maxim: “With diligence, no task is impossible.” Whenever crises mounted, he would recall and quote sayings such as “Where there is a will, there is a way” and “the investigation of things and the extension of knowledge.” This is not something a person devoid of learning or cultivation could have done.
+On the first floor of his Cheongun-dong home, Chung Ju-yung displayed his favorite maxim: “With diligence, no task is impossible.” Whenever he faced a grave crisis, he would recall and quote sayings such as “Where there is a will, there is a way” and “the investigation of things and the extension of knowledge.” Such allusions and quotations could hardly have come from someone without learning or cultivation.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P023
 
@@ -279,9 +278,9 @@ Source page: FB-P016
 
 Translation:
 
-In fact, *The Thousand-Character Classic* alone is enough to grasp the principles of how to conduct oneself and deal with others. A single careful reading provides an understanding of nearly everything about human relations and the ways of the world. Add *Elementary Learning*, *The Great Learning*, and *Zizhi Tongjian*, and that would already meet the requirements of a modern university education.
+In fact, *The Thousand-Character Classic* alone is enough to grasp the principles of how to conduct oneself and deal with others. A single careful reading provides an understanding of nearly everything about human relations and the ways of the world. Together with *Elementary Learning*, *The Great Learning*, and *Zizhi Tongjian*, this learning would already meet the requirements of a modern university education.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P024
 
@@ -289,9 +288,9 @@ Source page: FB-P016–FB-P017
 
 Translation:
 
-Lee Byung-chull also frequently quoted the classics. While still at a seodang, he had already become capable of reading <!-- Source page boundary: FB-P017 | input-pdf-page=17 | printed-page=4 -->*The Thousand-Character Classic* in full—and even *The Analects*.
+Lee Byung-chull also frequently quoted the classics. While still at a seodang, he had already reached the point where he could read <!-- Source page boundary: FB-P017 | input-pdf-page=17 | printed-page=4 -->*The Thousand-Character Classic* in full and even *The Analects*.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
 
 ### CH01-P025
 
@@ -319,6 +318,6 @@ Source page: FB-P017
 
 Translation:
 
-Yet apart from the cultural foundation they drew from the ancient classics of the East, the two men were entirely different.
+Yet aside from their shared cultural foundation in the ancient classics of the East, the two men could not have been more different.
 
-Review status: `draft_v0.1_pending_human_review`
+Review status: `stage_6b.2_human_revision_applied`
