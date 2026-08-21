@@ -1,8 +1,8 @@
 # Chapter 1 Translation Review
 
-Stage: 6A.3 — Chapter 1 Full Translation Batch 3
+Stage: 6B.1 — Chapter 1 Full Human Review Preparation
 
-Status: Production translation drafted through CH01-P027; pilot-approved passages inherited; new production passages pending human review
+Status: Human-review preparation complete — proposed revisions recorded but not applied; production text remains in `drafts/`
 
 Canonical source: `source/chapters/01_chapter_01.md`
 
@@ -80,6 +80,63 @@ Style guide: `docs/TRANSLATION_STYLE_GUIDE.md`
 | TR-047 | CH01-P025 | Migrated the approved Segment C Draft v0.2 translation without retranslation, preserving italicization, first-use Confucian terminology, and human review round 3 wording. | None. | inherited_pilot_approved |
 | TR-048 | CH01-P026 | Migrated the approved Segment C Draft v0.2 translation without retranslation, preserving later-use terminology and human review round 3 wording. | None. | inherited_pilot_approved |
 | TR-049 | CH01-P027 | Preserved the author's deliberate return to the two men's differences rather than merging or compressing this closing thematic statement with earlier repeated material. | Human review should confirm `the cultural foundation they drew from the ancient classics of the East` and the closing rhythm. No terminology decision is unresolved. | draft_v0.1_pending_human_review |
+
+## Stage 6B.1 full human-review preparation
+
+Review mode: Diagnostic only. The following checks compare the completed production draft with the frozen source, the approved Chapter 1 style baseline, and all 41 locked terminology decisions. None of the proposed revisions below has been applied to the draft.
+
+### Author-structure preservation
+
+| Check | Source/draft evidence | Result |
+|---|---|---|
+| Opening framing | CH01-P001–CH01-P003 remain separate and retain the opening contrast, Japanese comparison, image anchor, and biographical framing. | preserved |
+| Intentional repeated prose | CH01-P009–CH01-P011 repeat CH01-P001–CH01-P003, after which CH01-P012 and later paragraphs expand the chapter's themes with additional detail. P009 and P011 retain the same English wording as their corresponding opening statements; P010 retains the same information and locked terminology. | preserved; do not deduplicate |
+| Paragraph structure | All 27 `CH01-Pxxx` records remain present, ordered, separately mapped, and populated. No paragraph has been merged, compressed, omitted, or reordered. | preserved |
+| Closing thematic return | CH01-P027 remains a separate closing statement returning to the contrast between the two men after their shared cultural foundation is discussed. | preserved; do not merge with earlier contrast paragraphs |
+| Source apparatus | FB-I004, FB-I005, FB-P016, the within-paragraph FB-P017 boundary, FB-F002, FB-F003, and TN-CH01-001 remain traceable. | preserved |
+
+Any revision approved below must retain these structural results. Improving sentence-level English does not authorize removing or reducing authorial repetition.
+
+### Publication-quality English issues awaiting human approval
+
+| Review ID | Paragraph ID | Dimension | Issue | Proposed revision | Human decision | Status |
+|---|---|---|---|---|---|---|
+| TR-050 | CH01-TITLE | publication completeness | The English chapter title is still recorded as `Not yet translated`, so the production draft lacks a reader-facing title. | Consider `The Son of a Great Landowner and the Son of a Poor Farmer`. Confirm the title separately before inserting it. | Pending | pending_human_decision |
+| TR-051 | CH01-P002; CH01-P010 | clarity / repeated phrasing | `one of the figures known as “the three great myths of Korean business”` preserves the locked phrase but is cumbersome and leaves the relationship between the person and the authorial label unclear. The two intentionally repeated occurrences should use the same approved solution. | Consider `Sony founder Akio Morita, one of the figures associated with “the three great myths of Korean business,” ...` in both occurrences. Keep the locked phrase unchanged and retain both passages. | Pending | pending_human_decision |
+| TR-052 | CH01-P003; CH01-P011 | idiomatic biography prose / repeated phrasing | `could manage a meal in the morning` is understandable but not fully natural English. Because P011 intentionally repeats P003, any approved revision must be applied consistently to both without deduplicating them. | Consider `Chung Ju-yung, by contrast, had something to eat in the morning but went hungry at noon; at night, he had only a bowl of wild-greens porridge to fill his stomach before going to sleep.` | Pending | pending_human_decision |
+| TR-053 | CH01-P008 | sentence rhythm | `was born into poverty, which led him to run away` is close to the Chinese clause structure and makes the causal link sound mechanically attached. | Consider `Born into poverty, Chung Ju-yung ran away from home four times in search of a livelihood.` | Pending | pending_human_decision |
+| TR-054 | CH01-P016 | idiomatic academic description | `graduates of four-year universities` is understandable but not idiomatic; the source's four-year undergraduate detail should still be retained. | Consider `even today's graduates of four-year university programs would be unable to read or translate` within the existing sentence. | Pending | pending_human_decision |
+| TR-055 | CH01-P018 | historical clarity | `China's successive imperial houses over a span of 1,300 years` is dense and slightly unclear about what the 1,300-year span modifies. | Consider `*Zizhi Tongjian* chronicles 1,300 years of history under China's successive imperial houses.` Keep the source's number and do not introduce factual correction. | Pending | pending_human_decision |
+| TR-056 | CH01-P019 | historical-description clarity / sentence rhythm | `the gifted man who launched the Gapsin Coup` is awkward in apposition, and `the book beside his bed was` produces a heavy sentence ending. | Consider `Before Kim Ok-gyun—a renowned calligrapher of the late Joseon period[^FB-F003] and a gifted figure who launched the Gapsin Coup—negotiated with Li Hongzhang at Donghwa Inn in Shanghai in 1894, he kept *Zizhi Tongjian* beside his bed.` Preserve FB-F003 and all locked names unchanged. | Pending | pending_human_decision |
+| TR-057 | CH01-P020 | natural abstract phrasing | `offers a wealth of historical perspectives` is grammatical but abstract and slightly stilted in this context. | Consider `It also records the conduct of China's emperors across successive dynasties and offers rich perspectives on history.` | Pending | pending_human_decision |
+| TR-058 | CH01-P021 | overly literal phrasing | `how deep the foundations of Chung Ju-yung's learning ran` follows the source metaphor too closely and is unnatural in English. | Consider `This shows the depth of Chung Ju-yung's learning.` Keep the preceding modern “kingdom” metaphor unchanged. | Pending | pending_human_decision |
+| TR-059 | CH01-P022 | natural narration / evaluative clarity | `hung his favorite maxim` and `This is not something a person ... could have done` are understandable but awkward. The latter also has an unclear pronoun reference. | Consider `On the first floor of his Cheongun-dong home, Chung Ju-yung displayed his favorite maxim: “With diligence, no task is impossible.” Whenever he faced a grave crisis, he would recall and quote sayings such as “Where there is a will, there is a way” and “the investigation of things and the extension of knowledge.” Such allusions and quotations could hardly have come from someone without learning or cultivation.` Keep all three locked quotations exactly as approved. | Pending | pending_human_decision |
+| TR-060 | CH01-P023 | referential clarity | In `Add ... and that would already meet the requirements`, the pronoun `that` has no precise antecedent and the educational comparison reads abruptly. | Consider `Together with *Elementary Learning*, *The Great Learning*, and *Zizhi Tongjian*, this learning would already meet the requirements of a modern university education.` Retain the author's escalating claim. | Pending | pending_human_decision |
+| TR-061 | CH01-P024 | overly literal phrasing | `had already become capable of reading ... in full—and even` is stiff and interrupts the sentence rhythm around the preserved page boundary. | Consider `While still at a seodang, he had already reached the point where he could read *The Thousand-Character Classic* in full and even *The Analects*.` Preserve the FB-P017 marker at its source-corresponding position when applying any approved revision. | Pending | pending_human_decision |
+| TR-062 | CH01-P027 | closing rhythm | The closing sentence preserves the required thematic return, but `the cultural foundation they drew from` is cumbersome for publication-quality English. | Consider `Yet aside from their shared cultural foundation in the ancient classics of the East, the two men could not have been more different.` Keep CH01-P027 separate and do not compress it into earlier repeated material. | Pending | pending_human_decision |
+| TR-063 | CH01-P006; CH01-P019 | editorial consistency | Footnote presentation is inconsistent: FB-F002 is preceded by the draft-only label `Translated footnote:`, while FB-F003 appears directly after its paragraph. This does not affect wording but should be standardized before publication. | Use one consistent footnote presentation in the reviewed draft, preserve both footnote IDs and wording, and remove only non-reader-facing labels after human approval. | Pending | pending_human_decision |
+
+### Terminology consistency audit
+
+| Area | Audit result | Conflict status |
+|---|---|---|
+| Personal names | `Lee Byung-chull`, `Chung Ju-yung`, `Akio Morita`, `Namihei Odaira`, `Lee Chan-woo`, `Lee Hong-seok`, `Kim Ok-gyun`, and `Li Hongzhang` match the locked records. The first Namihei Odaira occurrence retains the required neutral note; the repeated occurrence does not duplicate it. | none |
+| Organizations and institutions | `Sony`, contextual `Hitachi founder Namihei Odaira`, `Waseda University`, `Donghwa Inn`, `Songjeon Elementary School`, and `Munsanjeong, a seodang` follow their approved rules. | none |
+| Places and historical terms | `Gyeongsangnam-do`, `Uiryeong`, `Gangwon Province`, `Tongcheon County`, `Shanghai`, `Cheongun-dong`, `Joseon period`, `late Joseon period`, and `Gapsin Coup` match the locked context-sensitive decisions. | none |
+| Classical titles | All locked titles use the approved English or romanized forms and are italicized. The first *Zizhi Tongjian* occurrence includes its approved gloss; later occurrences use the short title. | none |
+| Cultural concepts and unit | First-use/later-use rules for `seodang`, `seok`, and `humaneness (ren), harmony (he), and joy (le)` are preserved. | none |
+| Proverbs and philosophical phrase | `With diligence, no task is impossible.`, `Where there is a will, there is a way.`, and `the investigation of things and the extension of knowledge` remain in their approved forms. | none |
+| New reusable terminology | The completed production draft introduces no unrecorded reusable term requiring a new glossary entry. | none |
+
+Terminology conclusion: all 41 Chapter 1 candidates remain locked, no locked English form has been silently changed, and no new terminology conflict has been introduced. The publication-quality proposals above must not be interpreted as authority to alter locked wording.
+
+### Review gate
+
+- Proposed revision items awaiting human decision: 14 (`TR-050`–`TR-063`).
+- Draft wording changed during Stage 6B.1: No.
+- Frozen source or glossary changed during Stage 6B.1: No.
+- Files moved to `translation/reviewed/` or `translation/final/`: No.
+- Next action: project lead reviews each pending item and approves, rejects, or revises the proposal before any production-draft edit.
 
 ## Segment A draft review items
 
@@ -208,19 +265,19 @@ Stage 5C.1 resolves the final four Chapter 1 candidates. All 41 candidates are n
 
 ## Required review checks
 
-- [ ] Every translated passage is mapped to its source paragraph ID.
-- [ ] No source paragraph in the approved pilot range is omitted.
-- [ ] Proper names follow locked glossary forms.
-- [ ] Classical book titles follow the approved title and italicization rules.
-- [ ] Cultural concepts follow approved first-use/later-use rules.
-- [ ] Proverbs and quotation substitutions match their recorded decisions.
-- [ ] Numbers, dates, and source units are preserved accurately.
-- [ ] Image anchors remain in the correct relative position when applicable.
-- [ ] Footnote markers and references remain traceable.
-- [ ] Translator/editor notes appear only where necessary and normally only on first occurrence.
+- [x] Every translated passage is mapped to its source paragraph ID.
+- [x] No source paragraph in Chapter 1 is omitted.
+- [x] Proper names follow locked glossary forms.
+- [x] Classical book titles follow the approved title and italicization rules.
+- [x] Cultural concepts follow approved first-use/later-use rules.
+- [x] Proverbs and quotation substitutions match their recorded decisions.
+- [x] Numbers, dates, and source units are preserved accurately.
+- [x] Image anchors remain in the correct relative position when applicable.
+- [x] Footnote markers and references remain traceable.
+- [x] Translator/editor notes appear only where necessary and normally only on first occurrence.
 - [x] Unresolved terminology was resolved through recorded human decisions before the pilot markers were replaced.
-- [ ] The frozen Chinese source remains unchanged.
+- [x] The frozen Chinese source remains unchanged.
 
 ## Stage gate
 
-The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft now contains translations for all 27 source paragraphs. CH01-P004–CH01-P007, CH01-P014–CH01-P018, and CH01-P025–CH01-P026 inherit pilot approval; the other production passages remain pending human review. The author's intentional thematic repetition has been preserved. No text has moved to `reviewed/` or `final/`, and completion of the production draft does not constitute final approval.
+The three style-pilot segments remain the approved references in `drafts/`, and all Chapter 1 terminology candidates are locked. The production draft contains translations for all 27 source paragraphs, and Stage 6B.1 has prepared 14 proposed revision items for human decision without applying them. The author's intentional thematic repetition and all source mappings remain preserved. No text has moved to `reviewed/` or `final/`; the production draft cannot advance until the pending Stage 6B.1 decisions are resolved.
