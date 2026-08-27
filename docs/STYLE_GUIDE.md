@@ -95,3 +95,41 @@ This is the initial house style for the English translation of 《从平凡走�
 - Record unresolved choices in qa/questions.csv with enough context for another reviewer to decide.
 - When an exception is approved, document the reason and apply it consistently to comparable passages.
 - Do not rely on memory for project-wide decisions; update this guide or the relevant glossary.
+
+## 10. Historical and factual discrepancies
+
+Status: **Approved — Project-wide**
+
+This rule applies to every chapter. The translation must preserve the source author's statements and must not silently correct historical claims.
+
+When reliable external evidence reveals a discrepancy:
+
+1. Preserve the source identity, date, or statement in the main translation.
+2. Add a neutral translator/editor note explaining the discrepancy and distinguishing the source statement from the verified historical information.
+3. Do not rewrite the author's narrative or substitute the externally verified account for what the source says.
+4. Keep the note traceable to the relevant terminology or QA decision and its reliable evidence.
+
+Do not use editorial language that assigns responsibility for a discrepancy unless that responsibility is itself established by reliable evidence. A verified English name or glossary form does not authorize changing the source's dates, identity claims, chronology, or other factual assertions in the main translation.
+
+## 11. Entity Identity Conflict Policy
+
+Status: **Approved — Project-wide**
+
+When reliable external evidence reveals an entity identity conflict in the source text, including:
+
+- a correct person name paired with an incorrect biography or life history;
+- an incorrect person name paired with the correct company, event, or narrative context;
+- incorrect dates attached to a person;
+- founder/company attribution confusion;
+- enterprise-history conflation; or
+- historical-figure identity mixing;
+
+the translation must follow these rules:
+
+1. Preserve the source author's printed identity and narrative in the main translation.
+2. Do not silently replace the source entity with the externally verified entity.
+3. Add a neutral translator/editor note explaining the identity used in the source, the verified historical identity, and the nature of the discrepancy.
+4. Do not assign blame to the author, translator, publisher, or source unless responsibility is independently verified.
+5. Use the note to clarify the discrepancy, not to correct or rewrite the source text.
+
+The final translation must allow readers to distinguish what the original source states from what reliable historical evidence indicates. This policy applies to all current and future chapters.

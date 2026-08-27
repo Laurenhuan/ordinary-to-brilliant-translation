@@ -92,12 +92,14 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 小小的年纪便干起艰辛的农活儿，乡下的生活日复一日。早上吃小米饭，中午就只能饿肚子，晚上只有靠野菜粥充饥。
 
 <!-- CH02-P025 -->
-到了春天，原来吃草根和树根的农民为了找活路，需要背井离乡到“满洲国”北间岛①去谋生。
+到了春天，原来吃草根和树根的农民为了找活路，需要背井离乡到“满洲国”北间岛[^FB-F004]去谋生。
 
 <!-- CH02-P026 -->
 郑周永十分讨厌农活儿。因为农活儿即使累死累活地干，
 
-<!-- FB-F004 | source-page=FB-P020 | marker=① | status=manual-review-required -->
+<!-- FB-F004 | source-page=FB-P020 | marker=① | status=approved-source-freeze -->
+
+[^FB-F004]: 现位于中国吉林省。
 
 <!-- FB-P021 | input-pdf-page=21 | printed-page=8 -->
 
@@ -111,7 +113,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 郑周永也想像《泥土》中的主人公一样，成为律师。为了想要到首尔出人头地，他决定离家出走。
 
 <!-- CH02-P030 -->
-第一次出走是往清津 $^{①}$ 方向。
+第一次出走是往清津[^FB-F005]方向。
 
 <!-- CH02-P031 -->
 他曾经在报纸上阅读到过清津正在大规模兴建制铁厂和港口的消息。在他头脑中有这样一个信念：只要拥有体力和自信，就没有办不成的事情。
@@ -137,7 +139,9 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 <!-- CH02-P038 -->
 用现在的眼光来看，接连三次离家出走的郑周永，很像是一个问题少年，不过他并不是问题少年。为什么这么说呢？因为他偷出来卖牛的钱丝毫没有胡花乱用。
 
-<!-- FB-F005 | source-page=FB-P021 | marker=① | status=manual-review-required -->
+<!-- FB-F005 | source-page=FB-P021 | marker=① | status=approved-source-freeze -->
+
+[^FB-F005]: 位于现朝鲜民主主义人民共和国咸镜北道东北部，为一港口城市。
 
 <!-- FB-P022 | input-pdf-page=22 | printed-page=9 -->
 
@@ -163,7 +167,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 郑周永曾做过回顾。
 
 <!-- CH02-P046 -->
-他在铁路工地干活被父亲找到后，步行300里的路程回家，在路上，曾途经安边 $^{①}$ 附近的一个果园。在那里，他父亲买了几个苹果，准备给奶奶带回去。可是，那几个苹果并不新鲜，看起来也不好看，是那种非常便宜的腐烂苹果。
+他在铁路工地干活被父亲找到后，步行300里的路程回家，在路上，曾途经安边[^FB-F006]附近的一个果园。在那里，他父亲买了几个苹果，准备给奶奶带回去。可是，那几个苹果并不新鲜，看起来也不好看，是那种非常便宜的腐烂苹果。
 
 <!-- CH02-P047 -->
 几个烂了的苹果。
@@ -180,7 +184,9 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 <!-- CH02-P051 -->
 如果是一个了解他小时候离家出走历史的人，就可以知道他把父亲的一头牛变成了500头牛，赶着回到故乡的行为，是
 
-<!-- FB-F006 | source-page=FB-P022 | marker=① | status=manual-review-required -->
+<!-- FB-F006 | source-page=FB-P022 | marker=① | status=approved-source-freeze -->
+
+[^FB-F006]: 位于咸镜北道。
 
 <!-- FB-P023 | input-pdf-page=23 | printed-page=10 -->
 
@@ -262,11 +268,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 让人感到奇怪的是：比起高学历者创业，低学历者创业的现象更多。
 
 <!-- CH02-P077 -->
-美国福特公司的创始人亨利·福特（1863—1947），也只读到小学毕业。福特的父亲也是希望福特务农，能够帮帮自
-
-<!-- FB-P025 | input-pdf-page=25 | printed-page=12 -->
-
-## 己，而福特却离家出走到机械工厂做了实习工。
+美国福特公司的创始人亨利·福特（1863—1947），也只读到小学毕业。福特的父亲也是希望福特务农，能够帮帮自<!-- FB-P025 | input-pdf-page=25 | printed-page=12 -->己，而福特却离家出走到机械工厂做了实习工。
 
 <!-- CH02-P078 -->
 福特的父亲也是找到儿子，要他和自己一起回家，可是福特却坚持走自己的路，到底特律的造船公司工作。结果父亲向儿子做了让步。这和郑周永的情况非常相似。
