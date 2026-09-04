@@ -60,9 +60,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 他在新堂洞经营庆一商会，忙得没有一点空闲，即便如此，他还在原有的顾客以外，联系到了很多顾客，甚至包括培花女子高中，弘济洞的首尔女子商务学校等，成为一名成功的米商。
 
 <!-- CH03-P015 -->
-然而，厄运却找上了他。1937年，日本在中国发动“卢沟桥事变”，两国开始了全面的战争。总督府 $^{①}$ 颁布了“战时体制令”。总督府颁布的“谷米统制”对郑周永造成了很大影响。因为要进行粮食配给制度，所以全韩国的米店全都关门了。而那时，郑周永成功地经营庆一商会不过经历了两年而已。郑周永那时候受到的打击不小。他苦心经营了两年的米店被迫关门，但是他第一次用自己的行动证明了只要诚实劳动就能够成功的道理。
-
-<!-- FB-P028 | input-pdf-page=28 | printed-page=15 -->
+然而，厄运却找上了他。1937年，日本在中国发动“卢<!-- FB-P028 | input-pdf-page=28 | printed-page=15 -->沟桥事变”，两国开始了全面的战争。总督府[^FB-F007]颁布了“战时体制令”。总督府颁布的“谷米统制”对郑周永造成了很大影响。因为要进行粮食配给制度，所以全韩国的米店全都关门了。而那时，郑周永成功地经营庆一商会不过经历了两年而已。郑周永那时候受到的打击不小。他苦心经营了两年的米店被迫关门，但是他第一次用自己的行动证明了只要诚实劳动就能够成功的道理。
 
 <!-- CH03-P016 -->
 郑周永和李秉哲都差一点在二十几岁的时候获得商业上的成功，但都由于外部的原因事业上遭到失败。这一点很是相似。
@@ -80,7 +78,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 虽然李秉哲在他的自传中写到，作为创业资本，那些土地根本不算什么。而实际情况并非如此。
 
 <!-- CH03-P021 -->
-因为在当时，拥有产粮300石土地的地主在一个面②里也不一定有一两个。
+因为在当时，拥有产粮300石土地的地主在一个面[^FB-F008]里也不一定有一两个。
 
 <!-- CH03-P022 -->
 李秉哲获得这笔财产的那一年，郑周永正在福兴商会米店里面当送货员，有生以来第一次有了稳定的工作。
@@ -97,8 +95,13 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 <!-- CH03-P026 -->
 当时的马山是一个水源清澈、气候温暖的港口城市。庆尚
 
-<!-- FB-F007 | source-page=FB-P028 | marker=② | status=manual-review-required -->
-<!-- FB-F008 | source-page=FB-P028 | marker=② | status=manual-review-required -->
+<!-- FB-F007 | source-page=FB-P028 | marker=① | paragraph=CH03-P015 | status=approved-source-freeze -->
+
+[^FB-F007]: 日本侵略韩国时，在韩国的统治机构。
+
+<!-- FB-F008 | source-page=FB-P028 | marker=② | paragraph=CH03-P021 | status=approved-source-freeze -->
+
+[^FB-F008]: 面，韩国的行政单位，属于市、郡下一级的单位。
 
 <!-- FB-P029 | input-pdf-page=29 | printed-page=16 -->
 
@@ -138,7 +141,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 李秉哲开始把闲暇的时间花在吃喝上。当时在马山共有八九家饭馆，李秉哲是每一家的常客。出入如此频繁，以致在那里工作的八九十名歌妓全都认识他。
 
 <!-- CH03-P038 -->
-李秉哲又开始谋划创建第三份产业。他决定购买土地。金海附近的农田很多都在出售。那是因为日本帝国主义的掠夺政策日渐强化，农民被迫出卖自己的土地。李秉哲对金海平原上的可耕水田和正在出售的水田进行了一番调查。当时日本人天野的40万坪 $^{①}$ 的水田正在出售。
+李秉哲又开始谋划创建第三份产业。他决定购买土地。金海附近的农田很多都在出售。那是因为日本帝国主义的掠夺政策日渐强化，农民被迫出卖自己的土地。李秉哲对金海平原上的可耕水田和正在出售的水田进行了一番调查。当时日本人天野的40万坪[^FB-F009]的水田正在出售。
 
 <!-- CH03-P039 -->
 同当时水田的产出收入相比，银行的贷款利息算是低的了，如果主要到银行贷款购地的话，就等于坐着赚钱了。
@@ -155,7 +158,9 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 <!-- CH03-P043 -->
 李秉哲在他 20 多岁的时候就成了庆尚南道一带最大的地主。
 
-<!-- FB-F009 | source-page=FB-P030 | marker=① | status=manual-review-required -->
+<!-- FB-F009 | source-page=FB-P030 | marker=① | paragraph=CH03-P038 | status=approved-source-freeze -->
+
+[^FB-F009]: 坪，韩国耕地的计量单位，韩国耕地的计量单位，1坪= \frac{400}{121} 米 ^{2} ，1983年停止使用。
 
 <!-- FB-P031 | input-pdf-page=31 | printed-page=18 -->
 
@@ -181,7 +186,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 政治变革对于郑周永的事业有过两次巨大的影响。
 
 <!-- CH03-P051 -->
-第一次就是因为中日战争导致他的米店关门。第二次是1980年根据全斗焕新军部“国保委①”要求进行的企业调整，即：化学重工业的合并调整。其实，1980年的结构调整不过是大宇汽车和现代重工业之间的交换，算不上影响到现代集团整体的政治变革。郑周永由于政治变革而抛弃了全部事业，主要还是因中日战争把庆一商会关门这一次。
+第一次就是因为中日战争导致他的米店关门。第二次是1980年根据全斗焕新军部“国保委[^FB-F010]”要求进行的企业调整，即：化学重工业的合并调整。其实，1980年的结构调整不过是大宇汽车和现代重工业之间的交换，算不上影响到现代集团整体的政治变革。郑周永由于政治变革而抛弃了全部事业，主要还是因中日战争把庆一商会关门这一次。
 
 <!-- CH03-P052 -->
 日本帝国主义的非常措施一实施，水田的行情急转直下。完全依靠向银行贷款投资土地的李秉哲意识到无法凭借自己一人的力量支撑局面。他把之前购人的所有水田低于市价卖了出去，加工厂和运输公司也都转让给了别人。用这笔钱还上了购买200万坪水田时向殖产银行贷的款。之后，他只剩下了2万元现金和10万坪水田。
@@ -195,7 +200,9 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 <!-- CH03-P055 -->
 说的是如果有三件好事发生，就会有三件坏事随之而来。
 
-<!-- FB-F010 | source-page=FB-P031 | marker=① | status=manual-review-required -->
+<!-- FB-F010 | source-page=FB-P031 | marker=① | paragraph=CH03-P051 | status=approved-source-freeze -->
+
+[^FB-F010]: “国家保卫非常对策委员会”。
 
 <!-- FB-P032 | input-pdf-page=32 | printed-page=19 -->
 
