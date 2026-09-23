@@ -1,0 +1,209 @@
+# Acting First and Responding Later
+
+Outside working hours, Chairman Lee Byung-chull rarely met with his subordinates, whereas Chairman Chung Ju-yung often mixed freely with his employees.
+
+Chung said, “I am not a successful entrepreneur, only a wealthy laborer.”
+
+He cared little for outward form and valued practical action instead. In his eyes, employees were not subordinates but children.
+
+Lee Byung-chull, by contrast, attached great importance to Confucian tradition. He believed that superiors and subordinates should strictly observe the proper order between senior and junior.
+
+Chairman Lee once asked Hirotaro Higuchi[^TN-CH09-001] of Asahi Breweries, one of the giants of Japanese business, about the essentials of corporate management.
+
+Asahi Breweries now has sales exceeding one trillion yen and recently displaced Kirin Brewery as the company with Japan's largest beer-market share.
+
+Chairman Higuchi, now retired, told Lee that the crucial task was choosing the right manager—a professional corporate executive. He regarded this as the core of business management.
+
+Lee had, of course, already been doing this before Higuchi shared his insight. Cho Hong-je, whom he appointed vice chairman of Samsung Moolsan, and Lee Chang-eop, who safeguarded 300 million won for him, were examples.
+
+As the business continued to expand, however, Samsung grew beyond the point where one or two managers could oversee everything.
+
+To select talent, Lee conducted the first open recruitment campaign in Korean history.
+
+By coincidence, Samsung and Hyundai began cultivating professional managers at almost the same time: Samsung in 1957 and Hyundai one year later, in 1958.
+
+A distinctive competition began in postwar Korea in 1957. Major national projects were springing up everywhere, and as their number increased, so did demand for employees.
+
+When Lee recruited employees for Samsung, he broke with the prevalent practice of favoring relatives and connections and instead selected people on merit.
+
+His thought was, “I will select Samsung's people myself.” Only talented people could enable a company to grow, and Lee consistently followed the management principle of “talent first.”
+
+Exacting in his selection of people, Lee personally conducted interviews from the first open recruitment onward. He directly oversaw every subsequent Samsung interview as well.
+
+Samsung's first open recruitment examination was held on January 30, 1957, in the auditorium of Seoul National University's College of Commerce in Jongam-dong, Seongbuk District, Seoul. In bitter cold of minus fifteen degrees Celsius, more than five hundred candidates from across the country took the examination while rubbing their frozen hands. The subjects were English, their professional fields, and general knowledge.
+
+Because this was the first selection examination to disregard school background and region of origin, large numbers of confident applicants gathered from throughout the country.
+
+Two weeks after the written examination, interviews were held on the fifth floor of the Bando Hotel, where Samsung Moolsan's headquarters was located. There were two rounds. The first chiefly tested academic and professional knowledge; in the second, Samsung Chairman Lee Byung-chull interviewed the applicants personally.
+
+Lee asked questions such as:
+
+“Are you married?”
+
+“Where is your hometown?”
+
+“How many brothers and sisters do you have?”
+
+All this information was already set out in detail in the applicants' forms, yet Lee asked about it again.
+
+These simple questions had no hidden meaning. Rather, they allowed him to observe how applicants spoke and how they carried themselves when entering and leaving, details that revealed their character.
+
+Lee's ideal applicants were unassuming, presentable, and ordinary-looking.
+
+The results surprised many people. Some who had been asked numerous questions and felt certain they had passed were rejected, while others who had answered only one question emerged with the joy of success.
+
+Those ultimately hired included thirteen graduates of Seoul National University's College of Engineering, seven from its College of Commerce, three from its College of Liberal Arts, and one from its College of Law, together with two graduates each from Yonsei University and Korea University.
+
+Among them were Kyung Joo-hyun, who later became one of Samsung's top executives, and Song Se-chang, who later headed the chairman's secretariat.
+
+After intense competition, twenty-eight of the more than five hundred applicants were hired. Lee first assigned three to Cheil Sugar and two to Samsung Moolsan. The remaining twenty-three were sent to the Cheil Wool Textile factory for a month-long internship, a process designed to let them experience Samsung's corporate environment.
+
+In the spinning, weaving, dyeing, pressing, and “fabric beautification” work-
+
+shops, these new Samsung employees learned entirely unfamiliar machinery and terminology and greatly deepened their understanding of production.
+
+Every day, the new employees learned on the shop floor and submitted reports. This was a way of familiarizing them rapidly with the business.
+
+After completing their internship at Cheil Wool Textile, Lee sent them to Cheil Sugar for three months of additional on-site training.
+
+They learned by loading and unloading sacks in the raw-sugar warehouse and carrying heavy bags of sugar.
+
+The reason was the exceptionally high expectations placed on the company's first openly recruited employees.
+
+Lee frequently offered them personal guidance and advice: “You must create Samsung's future”; “You need to correct that bad temper”; and “You must study harder.”
+
+To these employees, Lee seemed less like a superior than a father.
+
+Lee devoted such effort to employee education from the very first open recruitment because of his “talent first” philosophy. He understood that every talented person could bring tremendous growth to the company.
+
+Samsung has now firmly established open recruitment. At the time, however, many people used connections to place their children at the company, and numerous petitioners approached Lee. Requests from senior government officials were especially difficult to refuse. Lee agreed to them all.
+
+There was one condition: employees hired through open recruitment and those admitted through connections would differ in promotion prospects and salary.
+
+Openly recruited employees received priority in promotions and raises over those hired through connections.
+
+A graduate of a regular university could be promoted to grade three after six months, whereas an employee hired through connections had to wait a year. Their pay also differed. Eventually, fewer and fewer people entered through connections.
+
+This was Lee Byung-chull's distinctive way of managing.
+
+Lee's “talent first” management philosophy was fully inherited by his son, Lee Kun-hee.
+
+Lee Kun-hee often said that one talented person could support two or three hundred thousand people.
+
+The “talent first” philosophy was inseparable from cultivating people. Samsung never begrudged investment in its personnel, as shown by its expenditure on employee education and benefits.
+
+Samsung spent twice as much on educating each employee as Japanese companies, three times as much as American companies, and four times as much as European companies. It could invest so heavily because it regarded developing people as a long-term investment.
+
+Samsung spent so much on training because employees joining companies in developed countries were taught and mentored by experienced colleagues. Korean companies, by contrast, had such short histories that they lacked people able to pass business knowledge on to new employees.
+
+Lee's emphasis on people attracted excellent talent and thereby produced high-quality products.
+
+Lee Byung-chull's philosophy of employing people can be summarized in one sentence:
+
+“Do not employ those you doubt; do not doubt those you employ.”
+
+This was one of Lee's favorite sayings.
+
+In 1982, Samsung established Korea's first comprehensive training center in Yongin, Gyeonggi Province, and began long-term, systematic employee training.
+
+Today, no Korean company can rival Samsung in personnel management, from recruitment through hiring, selection, education, training, retraining, and evaluation.
+
+Samsung invests 80 million won per person each year in talent development,[^TN-CH09-002] spending a total of 160 billion won to give more than two thousand employees opportunities to study throughout the world. This shows the importance it places on people. Lee spared no effort in cultivating and trusting talent.
+
+For a time, Lee was deeply interested in collecting and appreciating records. In 1965 and again in 1970, he assigned employees to conduct market research on establishing a record company.
+
+The reports submitted by the chairman's secretariat, however, reached a negative conclu-
+
+sion: the research indicated that a record company would not generate much profit.
+
+Lee was deeply disappointed. Although intensely proud, he accepted his subordinates' opinion because he fully trusted their judgment.
+
+Hyundai introduced open recruitment in 1958, one year later than Samsung.[^TN-CH09-003]
+
+It reportedly recruited only ten technical and managerial employees at the time. They are now elderly and have all left their positions.
+
+Chung Ju-yung was also extremely careful in selecting people. In his view, talent was resource-poor Korea's only wealth. Both technological innovation and industrial automation depended on the power of capable people.
+
+It was well known that Chung sought talent with the persistence of “three visits to the thatched cottage” and selected people as carefully as if choosing a son-in-law.
+
+Once he had chosen someone, he granted that person the greatest possible authority—and the greatest responsibility.
+
+Representative figures who joined Hyundai Group through open recruitment included Shim Hyun-young, who entered in 1963 and later served as chief executive of Incheon Iron and Steel; Lee Myung-bak, who joined Hyundai Construction in 1965; Eum Yong-gi, who joined in 1966 and became president of Hyundai Wood Industries; Park Se-yong, who joined in 1967 and later served as chief executive of Incheon Iron and Steel and Hyundai Merchant Marine; Kim Yoon-kyu, chairman of Hyundai Asan, who was active in inter-Korean cooperation; Lee Byeong-gyu, president of Hyundai Department Store; and Kim Jae-su, vice president of the Corporate Restructuring Headquarters.
+
+These openly recruited Hyundai Group employees did not call Chung “Chairman.” They called him “Father.”
+
+This global enterprise with more than two hundred thousand employees was like a single family, all using the same form of address for its patriarch.
+
+Chung consistently followed the principle that theirs was “not an adversarial relationship, but the affection of people living under the same roof.” He treated every employee not as the owner of a company but as the elder brother of a large family. He wrestled with employees and drank with them through the night, demonstrations of his familial closeness to them. Having performed heavy manual labor himself, he understood their hardships.
+
+In this respect, Hyundai and Samsung were entirely different.
+
+Samsung Group board meetings chaired by Lee Byung-chull were once called “imperial audiences.”
+
+In other words, if Hyundai was pervaded by the atmosphere of father and son, Samsung reflected the relationship between an emperor and his ministers.
+
+Chairman Lee was a man of few words. Even when someone performed exceptionally well, he would say no more than “Not bad.” Chairman Chung adopted a more direct and active approach.
+
+In 1995, when Hyundai Group launched Hyundai Satellite Television, Chung hosted all its employees at a dinner in the Yeongbin Hall in Seongbuk District.
+
+He gave them one instruction:
+
+“Work hard, everyone, and make lots of money!”
+
+As an entrepreneur, he expressed his thinking with complete directness.
+
+For an entrepreneur, creating the greatest possible profit is the ultimate goal, and he stated this proposition without qualification.
+
+Chairman Chung had a distinctive way of criticizing subordinates.
+
+If the subordinate was a managing director, Chung would suddenly address him as a director or department head. At first, the subordinate might think he had simply made a mistake. After a while, however, it became clear that this was a criticism of inadequate ability.
+
+It meant: “Although you hold the position of managing director, your creativity is only at the level of a director or department head.”
+
+What Chairman Chung disliked most was an employee who made a mistake but refused to admit it. If someone summoned to see him acknowledged the error and promised to do better next time, there would be no serious consequences. But anyone who persisted in making excuses received a fierce reprimand.
+
+Outside working hours, Chairman Lee Byung-chull rarely met with his subordinates, whereas Chairman Chung Ju-yung often mixed freely with his employees.
+
+Chung said, “I am not a successful entrepreneur, only a wealthy laborer.”
+
+He cared little for outward form and valued practical action instead. In his eyes, employees were not subordinates but children. This was closely related to his upbringing as the eldest of six sons and two daughters. He always had to look after his younger siblings, and in practice he helped his brothers enter Hyundai Group or gave them companies to manage.
+
+Lee Byung-chull, by contrast, was the youngest child in his family and grew up surrounded by affection. He also attached great importance to Confucian tradition and believed that superiors and subordinates should strictly observe the proper order between senior and junior.
+
+During President Park Chung Hee's authoritarian rule, Lee became known for refusing to pay the president a New Year's visit. His reason was that he was seven years older than Park. In other words, although Park held the exalted office of president, he was seven years Lee's junior, so Lee could not go to offer New Year's greetings. One might speculate that he no longer trusted Park after the Korea Fertilizer incident, but the more important reason appears to have been the deeply Confucian outlook in Lee's mind.
+
+Chung Ju-yung did not care about outward form. At government offices, he treated officials younger than himself with the utmost respect, even if they were mere clerks. He was well known for this.
+
+This can be understood as an entrepreneur's wish to avoid unnecessary harm to his business, but also as Chung showing others the respect their positions deserved because of his own experience.
+
+Chung strongly disliked the phrase “leading people in their work.” Although he owned the company, he saw colleagues as people working together. Paying their wages did not entitle him to say that he led them.
+
+He often visited the homes of rank-and-file workers and personally observed their lives in rented rooms. Chung himself had once eaten only two meals a day and gone hungry at night with nothing but thin porridge. He had performed heavy manual labor at Incheon docks, the Korea University construction site, the Toyoda Malt-Sugar Factory, and railway works. He therefore understood workers' hardships better than anyone.
+
+Lee Byung-chull was likewise an entrepreneur who devoted exceptional care to his employees' lives.
+
+Today, Samsung is a company without a labor union.
+
+In private conversations, Samsung employees express a high degree of job satisfaction and regard it as an excellent company.
+
+Chairman Lee, however, never visited rank-and-file workers' homes, ate with them, or talked with them. This was closely connected with his personality.
+
+Chairman Lee Kun-hee disliked appearing before crowds, and Chairman Lee Byung-chull likewise strongly disliked speaking before large groups.
+
+Chairman Chung, by contrast, could stand before several thousand employees and sing his signature song, *Really*.
+
+Chung liked simplicity and candor in employees because these qualities reflected his own character.
+
+When he was younger, he enjoyed wrestling and playing volleyball with employees and never missed an orientation for new hires. He once even broke a rib while wrestling with younger workers.
+
+In his eyes, valuing employees was the best way to produce competitive goods.
+
+Lee Byung-chull was an entrepreneur who held “talent first” as his highest creed and had the courage to put his ideas into practice.
+
+Both Chung Ju-yung and Lee Byung-chull placed great value on their employees and cared for them deeply; only their methods differed.
+
+[^TN-CH09-001]: The source uses inconsistent Chinese forms for this name. Historical records from Asahi identify the executive as Hirotaro Higuchi; the translation uses that verified name.
+
+[^TN-CH09-002]: The printed source gives the per-person amount as “8000千万韩元,” a malformed figure. The translation renders this as 80 million won per person, consistent with the source's stated total of 160 billion won for more than 2,000 employees.
+
+[^TN-CH09-003]: The printed source reads 三春 here; the translation renders the evident intended company name as Samsung.

@@ -100,16 +100,17 @@ This is the initial house style for the English translation of 《从平凡走�
 
 Status: **Approved — Project-wide**
 
-This rule applies to every chapter. The translation must preserve the source author's statements and must not silently correct historical claims.
+This rule applies to every chapter. The canonical Chinese source must always preserve the visually verified printed wording, including typographical, malformed, factual, historical, and entity errors. OCR or extraction errors are corrected only to match the printed page and normally require no reader note.
 
 When reliable external evidence reveals a discrepancy:
 
-1. Preserve the source identity, date, or statement in the main translation.
-2. Add a neutral translator/editor note explaining the discrepancy and distinguishing the source statement from the verified historical information.
-3. Do not rewrite the author's narrative or substitute the externally verified account for what the source says.
-4. Keep the note traceable to the relevant terminology or QA decision and its reliable evidence.
+1. Do not alter the canonical Chinese source.
+2. After explicit Project Lead or human approval, the English translation may render the verified correction or evident intended meaning instead of reproducing the printed error literally.
+3. The correction must never be silent: add a translator/editor note stating what the printed source says and, where relevant, the verified information or approved translation treatment.
+4. Do not correct uncertain cases speculatively.
+5. Keep the correction and note traceable to the relevant terminology or QA decision and its reliable evidence.
 
-Do not use editorial language that assigns responsibility for a discrepancy unless that responsibility is itself established by reliable evidence. A verified English name or glossary form does not authorize changing the source's dates, identity claims, chronology, or other factual assertions in the main translation.
+For a verified printed typo or malformed phrase, the English may express the apparent intended meaning after approval; add a note whenever the discrepancy is materially useful to readers or explicitly required. For a verified factual, historical, or entity error, the English may use the verified correct information after approval, and a neutral discrepancy note is mandatory. Do not use editorial language that assigns responsibility unless responsibility is independently established.
 
 ## 11. Entity Identity Conflict Policy
 
@@ -124,12 +125,13 @@ When reliable external evidence reveals an entity identity conflict in the sourc
 - enterprise-history conflation; or
 - historical-figure identity mixing;
 
-the translation must follow these rules:
+the project must follow these rules:
 
-1. Preserve the source author's printed identity and narrative in the main translation.
-2. Do not silently replace the source entity with the externally verified entity.
-3. Add a neutral translator/editor note explaining the identity used in the source, the verified historical identity, and the nature of the discrepancy.
-4. Do not assign blame to the author, translator, publisher, or source unless responsibility is independently verified.
-5. Use the note to clarify the discrepancy, not to correct or rewrite the source text.
+1. Preserve the printed identity and narrative unchanged in the canonical Chinese source.
+2. Do not silently replace or correct an entity in English. Any translation-side correction requires explicit Project Lead or human approval.
+3. When approved, the English may use the verified entity or information rather than reproduce the source error literally.
+4. Add a mandatory neutral translator/editor note explaining the identity used in the printed source, the verified historical identity, and the nature of the discrepancy.
+5. Do not assign blame to the author, translator, publisher, or source unless responsibility is independently verified.
+6. Keep the approved correction and note traceable to the terminology or QA decision and its reliable evidence.
 
-The final translation must allow readers to distinguish what the original source states from what reliable historical evidence indicates. This policy applies to all current and future chapters.
+The final translation and note together must allow readers to distinguish what the printed source states from what reliable historical evidence indicates. This policy applies to all current and future chapters and does not authorize speculative or silent correction.

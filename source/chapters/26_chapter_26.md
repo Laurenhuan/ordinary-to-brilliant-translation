@@ -13,7 +13,7 @@ No translation, prose rewriting, OCR correction, factual correction, or unattend
 ![image](../raw/full_book/part_201_243/images/image_005.jpg)
 
 <!-- CH26-P001 -->
-想法成为行动，行动发展成为习惯，习惯发展成为品性。品性将决定一个人的。
+想法成为行动，行动发展成为习惯，习惯发展成为品性。品性将决定一个人的命运。
 
 <!-- FB-I055 | source-page=FB-P222 | json-block=3 | bbox=413:319:456:381 -->
 ![image](../raw/full_book/part_201_243/images/image_006.jpg)
